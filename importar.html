@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOCOLO — Importar banco</title>
+<style>
+  :root{--bg:#0f1216;--card:#171b21;--ink:#e9edf2;--mut:#9aa4af;--ac:#4f8cff;--ok:#37c86b;--err:#ff5c5c;--line:#2a313a}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,system-ui,sans-serif;padding:20px}
+  .wrap{max-width:640px;margin:0 auto}
+  h1{font-size:20px;margin:0 0 4px}
+  p.sub{color:var(--mut);margin:0 0 18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px}
+  label{display:block;font-size:13px;color:var(--mut);margin:10px 0 4px}
+  input{width:100%;padding:11px 12px;border-radius:9px;border:1px solid var(--line);background:#0e1319;color:var(--ink);font-size:15px}
+  button{width:100%;margin-top:14px;padding:13px;border:0;border-radius:9px;background:var(--ac);color:#fff;font-size:16px;font-weight:600}
+  button:disabled{opacity:.5}
+  .log{white-space:pre-wrap;font:13px/1.5 ui-monospace,monospace;background:#0e1319;border:1px solid var(--line);border-radius:9px;padding:12px;min-height:80px;max-height:320px;overflow:auto}
+  .ok{color:var(--ok)} .err{color:var(--err)}
+  .bar{height:10px;background:#0e1319;border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:10px}
+  .bar>i{display:block;height:100%;width:0;background:var(--ac);transition:width .2s}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Importar banco de questões</h1>
+  <p class="sub">Uso único. Sobe o <b>banco_completo.json</b> para o Supabase. Depois, pode apagar esta página.</p>
+
+  <div class="card">
+    <label>Project URL</label>
+    <input id="url" placeholder="https://xxxxx.supabase.co" autocomplete="off">
+    <label>Chave pública (anon) — nunca a service_role</label>
+    <input id="anon" placeholder="eyJ..." autocomplete="off">
+    <label>E-mail (login admin)</label>
+    <input id="email" type="email" autocomplete="off">
+    <label>Senha</label>
+    <input id="senha" type="password" autocomplete="off">
+    <button id="go">Entrar e importar</button>
+  </div>
+
+  <div class="card">
+    <div class="log" id="log">Aguardando…</div>
+    <div class="bar"><i id="prog"></i></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+const $=id=>document.getElementById(id);
+const log=(m,c)=>{const l=$("log");l.innerHTML+=`\n<span class="${c||''}">${m}</span>`;l.scrollTop=l.scrollHeight;};
+// pré-preenche URL/anon se você já configurou o app neste navegador
+try{const c=JSON.parse(localStorage.getItem("protocolo_cfg")||"null");if(c){$("url").value=c.url||"";$("anon").value=c.anon||"";}}catch(e){}
+
+const COLS=["id","sistema","area","esp","tema","subtema","dif","enun","alts","gab","flag","exp","uw","img","imgalt","armadilha","referencia","palavras_chave","integradora","disciplinas_integradas"];
+function pick(q){
+  const r={}; COLS.forEach(k=>{ if(q[k]!==undefined) r[k]=q[k]; });
+  r.flag=r.flag||""; r.imgalt=r.imgalt||""; r.armadilha=r.armadilha||""; r.referencia=r.referencia||"";
+  r.palavras_chave=r.palavras_chave||[]; r.disciplinas_integradas=r.disciplinas_integradas||[];
+  r.integradora=!!r.integradora; r.img=(r.img===undefined?null:r.img);
+  r.status="draft"; r.versao=1;
+  return r; // correlacao_clinica e num sao descartados de propósito
+}
+
+$("go").onclick=async()=>{
+  $("go").disabled=true; $("log").textContent="Iniciando…";
+  const url=$("url").value.trim().replace(/\/+$/,""), anon=$("anon").value.trim();
+  if(!/^https:\/\/.+\.supabase\.co$/.test(url)){log("URL inválida.","err");$("go").disabled=false;return;}
+  const sb=window.supabase.createClient(url,anon);
+  try{
+    log("Fazendo login…");
+    const {error:ae}=await sb.auth.signInWithPassword({email:$("email").value.trim(),password:$("senha").value});
+    if(ae){log("Falha no login: "+ae.message,"err");$("go").disabled=false;return;}
+    log("Login OK. Carregando banco_completo.json…","ok");
+    const res=await fetch("./banco_completo.json",{cache:"no-store"});
+    if(!res.ok){log("Não achei banco_completo.json ao lado desta página (HTTP "+res.status+").","err");$("go").disabled=false;return;}
+    const all=await res.json();
+    log(`Arquivo com ${all.length} questões. Enviando em lotes de 25…`);
+    const rows=all.map(pick); const B=25; let ok=0,fail=0;
+    for(let i=0;i<rows.length;i+=B){
+      const batch=rows.slice(i,i+B);
+      const {error}=await sb.from("questions").upsert(batch,{onConflict:"id",ignoreDuplicates:true});
+      if(error){fail+=batch.length; log(`Lote ${i}-${i+batch.length}: ERRO — ${error.message}`,"err");}
+      else{ok+=batch.length;}
+      $("prog").style.width=Math.round(100*(i+batch.length)/rows.length)+"%";
+    }
+    log(`\nConcluído. Enviadas ${ok} | falhas ${fail}.`, fail?"err":"ok");
+    // verificação
+    const {count}=await sb.from("questions").select("*",{count:"exact",head:true});
+    log(`Total de questões agora no banco: ${count}`, "ok");
+  }catch(e){log("Erro: "+(e.message||e),"err");}
+  $("go").disabled=false;
+};
+</script>
+</body>
+</html>
