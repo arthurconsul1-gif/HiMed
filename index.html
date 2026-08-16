@@ -94,6 +94,8 @@ select:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px va
 .exit{font-size:13px;color:var(--ink-500);background:none;border:none;cursor:pointer;padding:6px 4px;font-family:var(--font-ui)}
 .exit:hover{color:var(--ink-700)}
 .qimg{width:100%;border-radius:var(--r-md);border:1px solid var(--line);margin:0 0 20px;display:block}
+.qimg-svg{padding:12px;background:var(--surface)}
+.qimg-svg svg{width:100%;height:auto;display:block}
 .alts{display:flex;flex-direction:column;gap:8px;margin-top:20px}
 .alt{display:flex;gap:12px;align-items:flex-start;width:100%;min-height:52px;padding:14px;background:var(--surface);border:1px solid var(--line-strong);border-radius:var(--r-md);cursor:pointer;text-align:left;font-family:var(--font-ui);font-size:15.5px;line-height:1.45;color:var(--ink-700);transition:border-color .15s,background .15s}
 .alt:hover:not(:disabled){border-color:var(--accent-500)}
@@ -359,7 +361,10 @@ $("startBtn").onclick=()=>{ let items=available().slice(); if(state.shuffle) shu
   $("actionbar").classList.add("show"); show("s-quiz"); renderQ(); };
 function renderQ(){ const s=session,q=s.items[s.i]; s.chosen=null; s.answered=false; s.flagged=false; s.t0=Date.now();
   $("counter").textContent=`${s.i+1}/${s.items.length}`; $("progFill").style.width=`${s.i/s.items.length*100}%`;
-  let html=""; if(A.img(q)) html+=`<img class="qimg" src="${esc(A.img(q))}" alt="${esc(A.imgalt(q))}">`;
+  let html=""; { const im=A.img(q); if(im){ const t=String(im).trim();
+    if(t.slice(0,4).toLowerCase()==="<svg") html+=`<figure class="qimg qimg-svg" role="img" aria-label="${esc(A.imgalt(q))}">${t}</figure>`;
+    else if(/^https?:\/\//i.test(t)) html+=`<img class="qimg" src="${esc(t)}" alt="${esc(A.imgalt(q))}" loading="lazy">`;
+    else html+=`<img class="qimg" src="img/${esc(t)}" alt="${esc(A.imgalt(q))}" loading="lazy">`; } }
   html+=`<p class="enun">${esc(A.enun(q))}</p><div class="alts" id="alts"></div>`; $("qbody").innerHTML=html;
   const box=$("alts"); A.alts(q).forEach((txt,idx)=>{ const L=LETTERS[idx];
     const b=document.createElement("button"); b.className="alt"; b.setAttribute("aria-pressed","false"); b.dataset.letter=L;
