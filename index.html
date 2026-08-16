@@ -124,6 +124,18 @@ select:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px va
 .exp-block{margin-top:20px}.exp-block .eyebrow{display:block;margin-bottom:8px;color:var(--accent-600)}
 [data-theme="dark"] .exp-block .eyebrow{color:var(--accent-500)}
 .exp-block p{font-size:16px;line-height:1.6;color:var(--ink-700);margin-bottom:10px}.exp-block p:last-child{margin-bottom:0}
+.report-wrap{margin-top:24px;padding-top:16px;border-top:1px solid var(--line)}
+.report-btn{background:none;border:none;color:var(--ink-400);font-size:13px;cursor:pointer;padding:4px 0;text-decoration:underline}
+.report-btn:hover{color:var(--ink-600)}
+.report-box{margin-top:12px}
+.report-opts{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.report-opts button{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-sm,8px);color:var(--ink-600);font-size:13px;padding:7px 12px;cursor:pointer}
+.report-opts button:hover{border-color:var(--line-strong)}
+.report-opts button.sel{border-color:var(--accent-600);color:var(--accent-600)}
+.report-box textarea{width:100%;min-height:60px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-sm,8px);color:var(--ink-800);font-size:14px;padding:8px;font-family:inherit;resize:vertical;margin-bottom:10px}
+.report-send{background:var(--accent-600);color:#fff;border:none;border-radius:var(--r-sm,8px);padding:8px 18px;font-size:14px;cursor:pointer}
+.report-send:disabled{opacity:.5;cursor:not-allowed}
+.report-ok{color:var(--accent-600);font-size:14px;margin-top:6px}
 .why-list{list-style:none;display:flex;flex-direction:column;gap:10px}
 .why-list li{font-size:15px;line-height:1.5;color:var(--ink-700);padding-left:26px;position:relative}
 .why-list li .wl{position:absolute;left:0;top:0;font-family:var(--font-mono);font-weight:650;font-size:13px;color:var(--err)}
@@ -400,7 +412,44 @@ function renderExplain(q,ok,secs){ const mech=A.mech(q),choices=A.choices(q),gab
   if(A.integradora(q)) h+=`<span><span class="k">Integração</span> sim</span>`;
   if(A.ref(q)) h+=`<span><span class="k">Referência</span> ${esc(A.ref(q))}</span>`;
   h+=`</div>`;
-  const ex=$("explain"); ex.innerHTML=h; ex.classList.add("show"); }
+  h+=`<div class="report-wrap" id="reportWrap">
+    <button class="report-btn" id="reportBtn" type="button">Reportar erro nesta questão</button>
+    <div class="report-box" id="reportBox" hidden>
+      <div class="report-opts">
+        <button type="button" data-r="gabarito">Gabarito errado</button>
+        <button type="button" data-r="enunciado">Erro no enunciado</button>
+        <button type="button" data-r="explicacao">Erro na explicação</button>
+        <button type="button" data-r="imagem">Problema na imagem</button>
+        <button type="button" data-r="digitacao">Erro de digitação</button>
+        <button type="button" data-r="outro">Outro</button>
+      </div>
+      <textarea id="reportMsg" placeholder="Descreva o problema (opcional)"></textarea>
+      <button class="report-send" id="reportSend" type="button" disabled>Enviar</button>
+      <p class="report-ok" id="reportOk" hidden>Obrigado! Erro reportado.</p>
+    </div>
+  </div>`;
+  const ex=$("explain"); ex.innerHTML=h; ex.classList.add("show");
+  setupReport(q); }
+
+let reportReason=null;
+function setupReport(q){
+  reportReason=null;
+  const btn=$("reportBtn"),box=$("reportBox"),send=$("reportSend"),ok=$("reportOk");
+  if(!btn) return;
+  btn.onclick=()=>{ box.hidden=!box.hidden; };
+  box.querySelectorAll(".report-opts button").forEach(b=>{
+    b.onclick=()=>{ box.querySelectorAll(".report-opts button").forEach(x=>x.classList.remove("sel"));
+      b.classList.add("sel"); reportReason=b.dataset.r; send.disabled=false; };
+  });
+  send.onclick=async()=>{ if(!reportReason) return; send.disabled=true;
+    try{ await sb.from("question_reports").insert({
+        user_id:user?.id||null, question_id:A.key(q), reason:reportReason,
+        message:$("reportMsg").value.trim()||null });
+      $("reportMsg").value=""; box.querySelector(".report-opts").hidden=true;
+      $("reportMsg").hidden=true; send.hidden=true; ok.hidden=false;
+    }catch(e){ send.disabled=false; send.textContent="Erro ao enviar, tente de novo"; }
+  };
+}
 function next(){ const s=session; if(s.i+1<s.items.length){ s.i++; renderQ(); } else finish(); }
 async function finish(){ const s=session,total=s.items.length,pct=Math.round(s.correct/total*100);
   $("qbody").innerHTML=`<div class="center"><span class="eyebrow">Sessão concluída</span><p class="display" style="margin:12px 0">${s.correct}/${total}</p><p class="mono" style="font-size:14px;color:var(--ink-500)">${pct}% de acerto</p></div>`;
