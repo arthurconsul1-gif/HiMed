@@ -94,6 +94,9 @@ select:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px va
 .exit{font-size:13px;color:var(--ink-500);background:none;border:none;cursor:pointer;padding:6px 4px;font-family:var(--font-ui)}
 .exit:hover{color:var(--ink-700)}
 .qimg{width:100%;border-radius:var(--r-md);border:1px solid var(--line);margin:20px 0;display:block}
+.qimg-fig{margin:20px 0}.qimg-fig .qimg{margin:0}
+.qimg-credito{font-size:10px;color:var(--ink-500);opacity:.75;margin-top:4px;text-align:right;line-height:1.35;font-weight:400;letter-spacing:.01em}
+.qimg-svg .qimg-credito{padding-top:6px}
 .qimg-svg{padding:12px;background:var(--surface)}
 .qimg-svg svg{width:100%;height:auto;display:block}
 .alts{display:flex;flex-direction:column;gap:8px;margin-top:20px}
@@ -243,7 +246,7 @@ function clearMsg(el){ el.className="msg"; }
 const A={ enun:q=>q.enun, alts:q=>q.alts||[], gab:q=>q.gab, sistema:q=>q.sistema, disc:q=>q.area, esp:q=>q.esp,
   tema:q=>q.tema, subtema:q=>q.subtema, dif:q=>q.dif, exp:q=>q.exp, ref:q=>q.referencia,
   mech:q=>(q.uw&&q.uw.mech)||[], choices:q=>(q.uw&&q.uw.choices)||{}, obj:q=>(q.uw&&q.uw.obj)||"",
-  img:q=>q.img||null, imgalt:q=>q.imgalt||"", integradora:q=>!!q.integradora, key:q=>q.id };
+  img:q=>q.img||null, imgalt:q=>q.imgalt||"", credito:q=>q.credito||"", integradora:q=>!!q.integradora, key:q=>q.id };
 
 const SYS=[
   {code:"CARDIO",name:"Cardiovascular",v:"--s-cardio"},{code:"RESP",name:"Respiratório",v:"--s-resp"},
@@ -374,17 +377,18 @@ $("startBtn").onclick=()=>{ let items=available().slice(); if(state.shuffle) shu
 function renderQ(){ const s=session,q=s.items[s.i]; s.chosen=null; s.answered=false; s.flagged=false; s.t0=Date.now();
   $("counter").textContent=`${s.i+1}/${s.items.length}`; $("progFill").style.width=`${s.i/s.items.length*100}%`;
   let html=`<p class="enun">${esc(A.enun(q))}</p>`;
-  { const im=A.img(q); if(im){ const t=String(im).trim();
-    if(t.slice(0,4).toLowerCase()==="<svg") html+=`<figure class="qimg qimg-svg" role="img" aria-label="${esc(A.imgalt(q))}">${t}</figure>`;
-    else if(/^https?:\/\//i.test(t)) html+=`<img class="qimg" src="${esc(t)}" alt="${esc(A.imgalt(q))}" loading="lazy">`;
-    else html+=`<img class="qimg" src="img/${esc(t)}" alt="${esc(A.imgalt(q))}" loading="lazy">`; } }
+  { const im=A.img(q); if(im){ const t=String(im).trim(); const cr=A.credito(q);
+    const cap=cr?`<figcaption class="qimg-credito">${esc(cr)}</figcaption>`:"";
+    if(t.slice(0,4).toLowerCase()==="<svg") html+=`<figure class="qimg qimg-svg" role="img" aria-label="${esc(A.imgalt(q))}">${t}${cap}</figure>`;
+    else if(/^https?:\/\//i.test(t)) html+=`<figure class="qimg-fig"><img class="qimg" src="${esc(t)}" alt="${esc(A.imgalt(q))}" loading="lazy">${cap}</figure>`;
+    else html+=`<figure class="qimg-fig"><img class="qimg" src="img/${esc(t)}" alt="${esc(A.imgalt(q))}" loading="lazy">${cap}</figure>`; } }
   html+=`<div class="alts" id="alts"></div>`; $("qbody").innerHTML=html;
   const box=$("alts"); A.alts(q).forEach((txt,idx)=>{ const L=LETTERS[idx];
     const b=document.createElement("button"); b.className="alt"; b.setAttribute("aria-pressed","false"); b.dataset.letter=L;
     b.innerHTML=`<span class="letter">${L}</span><span>${esc(txt)}</span>`; b.onclick=()=>choose(L); box.appendChild(b); });
   const ex=$("explain"); ex.classList.remove("show"); ex.innerHTML="";
   const act=$("actionBtn"); act.textContent="Confirmar resposta"; act.disabled=true; act.onclick=confirmA;
-  const fb=$("flagBtn"); fb.setAttribute("aria-pressed","false"); fb.onclick=()=>{ s.flagged=!s.flagged; fb.setAttribute("aria-pressed",s.flagged); }; }
+  const fb=$("flagBtn"); fb.setAttribute("aria-pressed","false"); fb.title="Reportar erro"; fb.onclick=()=>openReport(q,fb); }
 function choose(L){ const s=session; if(s.answered) return; s.chosen=L;
   document.querySelectorAll(".alt").forEach(a=>a.setAttribute("aria-pressed",a.dataset.letter===L)); $("actionBtn").disabled=false; }
 async function confirmA(){ const s=session; if(s.answered||!s.chosen) return; s.answered=true;
@@ -412,44 +416,7 @@ function renderExplain(q,ok,secs){ const mech=A.mech(q),choices=A.choices(q),gab
   if(A.integradora(q)) h+=`<span><span class="k">Integração</span> sim</span>`;
   if(A.ref(q)) h+=`<span><span class="k">Referência</span> ${esc(A.ref(q))}</span>`;
   h+=`</div>`;
-  h+=`<div class="report-wrap" id="reportWrap">
-    <button class="report-btn" id="reportBtn" type="button">Reportar erro nesta questão</button>
-    <div class="report-box" id="reportBox" hidden>
-      <div class="report-opts">
-        <button type="button" data-r="gabarito">Gabarito errado</button>
-        <button type="button" data-r="enunciado">Erro no enunciado</button>
-        <button type="button" data-r="explicacao">Erro na explicação</button>
-        <button type="button" data-r="imagem">Problema na imagem</button>
-        <button type="button" data-r="digitacao">Erro de digitação</button>
-        <button type="button" data-r="outro">Outro</button>
-      </div>
-      <textarea id="reportMsg" placeholder="Descreva o problema (opcional)"></textarea>
-      <button class="report-send" id="reportSend" type="button" disabled>Enviar</button>
-      <p class="report-ok" id="reportOk" hidden>Obrigado! Erro reportado.</p>
-    </div>
-  </div>`;
-  const ex=$("explain"); ex.innerHTML=h; ex.classList.add("show");
-  setupReport(q); }
-
-let reportReason=null;
-function setupReport(q){
-  reportReason=null;
-  const btn=$("reportBtn"),box=$("reportBox"),send=$("reportSend"),ok=$("reportOk");
-  if(!btn) return;
-  btn.onclick=()=>{ box.hidden=!box.hidden; };
-  box.querySelectorAll(".report-opts button").forEach(b=>{
-    b.onclick=()=>{ box.querySelectorAll(".report-opts button").forEach(x=>x.classList.remove("sel"));
-      b.classList.add("sel"); reportReason=b.dataset.r; send.disabled=false; };
-  });
-  send.onclick=async()=>{ if(!reportReason) return; send.disabled=true;
-    try{ await sb.from("question_reports").insert({
-        user_id:user?.id||null, question_id:A.key(q), reason:reportReason,
-        message:$("reportMsg").value.trim()||null });
-      $("reportMsg").value=""; box.querySelector(".report-opts").hidden=true;
-      $("reportMsg").hidden=true; send.hidden=true; ok.hidden=false;
-    }catch(e){ send.disabled=false; send.textContent="Erro ao enviar, tente de novo"; }
-  };
-}
+  const ex=$("explain"); ex.innerHTML=h; ex.classList.add("show"); }
 function next(){ const s=session; if(s.i+1<s.items.length){ s.i++; renderQ(); } else finish(); }
 async function finish(){ const s=session,total=s.items.length,pct=Math.round(s.correct/total*100);
   $("qbody").innerHTML=`<div class="center"><span class="eyebrow">Sessão concluída</span><p class="display" style="margin:12px 0">${s.correct}/${total}</p><p class="mono" style="font-size:14px;color:var(--ink-500)">${pct}% de acerto</p></div>`;
