@@ -2474,7 +2474,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "Wikimedia Commons — Stillwaterising (domínio público / CC0)"
   },
   {
     "id": "CB-ANAT-050",
@@ -4297,7 +4298,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": true
+    "correlacao_clinica": true,
+    "credito": "Wikimedia Commons — Ed Uthman (domínio público)"
   },
   {
     "id": "CB-BIOQ-007",
@@ -12439,7 +12441,7 @@
       "correct": "A"
     },
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Langerhanssche_Insel.jpg",
-    "imgalt": "Corte histologico (H&E) do pancreas mostrando uma ilhota de Langerhans, mais clara, cercada pelos acinos exocrinos mais corados.",
+    "imgalt": "Corte histológico (H&E) do pâncreas mostrando um aglomerado de células mais claras, arredondado, cercado por células acinares mais coradas ao redor.",
     "armadilha": "Trocar ácinos (exócrinos) por ilhotas ou inverter os produtos das células alfa e beta.",
     "referencia": "Junqueira & Carneiro, Histologia Básica (pâncreas).",
     "palavras_chave": [
@@ -12454,7 +12456,8 @@
       "HIST",
       "FISI"
     ],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "Wikimedia Commons — Polarlys (CC BY-SA 3.0)"
   },
   {
     "id": "CB-HIST-005",
@@ -12491,8 +12494,8 @@
       "obj": "Sertoli, nos túbulos seminíferos, dão suporte à espermatogênese; Leydig, no interstício, produzem testosterona.",
       "correct": "D"
     },
-    "img": null,
-    "imgalt": "",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Seminiferous_tubule_and_sperm.jpg",
+    "imgalt": "Corte histológico do testículo mostrando túbulos arredondados cortados transversalmente, com várias camadas de células em sua parede, e, nos espaços de tecido entre os túbulos, pequenos grupos de células.",
     "armadilha": "Trocar as funções ou a localização das células de Sertoli e de Leydig.",
     "referencia": "Junqueira & Carneiro, Histologia Básica (aparelho reprodutor masculino).",
     "palavras_chave": [
@@ -12507,7 +12510,8 @@
       "HIST",
       "FISI"
     ],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "CB-HIST-006",
@@ -12557,7 +12561,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "OpenStax Anatomy & Physiology (CC BY 3.0)"
   },
   {
     "id": "CB-HIST-007",
@@ -12694,8 +12699,8 @@
       "obj": "Vias aereas: epitelio pseudoestratificado ciliado com celulas caliciformes (limpeza mucociliar); o fumo o lesa.",
       "correct": "B"
     },
-    "img": null,
-    "imgalt": "",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Histology-_Pseudostratified_ciliated_columnar_epithelium_t.s._trachea.png",
+    "imgalt": "Fotomicrografia de um epitélio de revestimento, com células altas apoiadas numa membrana basal, núcleos dispostos em alturas diferentes e uma borda de finos prolongamentos (cílios) voltada para a superfície livre.",
     "armadilha": "Confundir o epitelio respiratorio com o da pele ou com o alveolar.",
     "referencia": "Junqueira & Carneiro, Histologia Basica (sistema respiratorio).",
     "palavras_chave": [
@@ -12707,7 +12712,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": true
+    "correlacao_clinica": true,
+    "credito": "Wikimedia Commons (CC BY 4.0)"
   },
   {
     "id": "CB-HIST-010",
@@ -12794,8 +12800,8 @@
       "obj": "Dendritos recebem, o corpo celular integra e o axonio conduz o impulso; a neuroglia da suporte.",
       "correct": "B"
     },
-    "img": null,
-    "imgalt": "",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/415_Neuron.jpg",
+    "imgalt": "Imagem de uma célula do tecido nervoso, com um corpo central volumoso contendo o núcleo, vários prolongamentos curtos e ramificados saindo dele e um prolongamento único mais longo que se estende para longe do corpo.",
     "armadilha": "Inverter as funcoes de dendritos (recebem) e axonio (conduz).",
     "referencia": "Junqueira & Carneiro, Histologia Basica (tecido nervoso).",
     "palavras_chave": [
@@ -12807,7 +12813,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "OpenStax / Wikimedia Commons (CC BY 3.0)"
   },
   {
     "id": "CB-HIST-012",
@@ -12844,8 +12851,8 @@
       "obj": "Tireoide: foliculos com celulas foliculares em torno de coloide, que armazena a tireoglobulina (T3/T4).",
       "correct": "B"
     },
-    "img": null,
-    "imgalt": "",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1811_The_Thyroid_Gland.jpg",
+    "imgalt": "Esquema histológico de uma glândula endócrina mostrando estruturas arredondadas, cada uma formada por uma fileira de células ao redor de um material central mais claro armazenado.",
     "armadilha": "Confundir o foliculo tireoidiano com estruturas de outros tecidos (neuronios, alveolos, tubulos).",
     "referencia": "Junqueira & Carneiro, Histologia Basica (tireoide).",
     "palavras_chave": [
@@ -12857,7 +12864,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "OpenStax Anatomy & Physiology (CC BY 4.0)"
   },
   {
     "id": "CB-HIST-013",
@@ -12944,8 +12952,8 @@
       "obj": "Sangue: hemacias (oxigenio), leucocitos (defesa), plaquetas (coagulacao).",
       "correct": "B"
     },
-    "img": null,
-    "imgalt": "",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Blood_smear.jpg",
+    "imgalt": "Esfregaço de sangue ao microscópio: muitas células arredondadas sem núcleo, mais claras no centro, e, entre elas, algumas células maiores com núcleo corado.",
     "armadilha": "Trocar as funcoes de hemacias (oxigenio) e leucocitos (defesa).",
     "referencia": "Junqueira & Carneiro, Histologia Basica (sangue).",
     "palavras_chave": [
@@ -12957,7 +12965,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "Wikimedia Commons — Jagiellonian University (CC BY-SA 3.0)"
   },
   {
     "id": "CB-HIST-015",
@@ -13044,8 +13053,8 @@
       "obj": "Lobulo hepatico: cordoes de hepatocitos em torno da veia central; sinusoides levam sangue dos espacos porta ao centro.",
       "correct": "B"
     },
-    "img": null,
-    "imgalt": "",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2423_Microscopic_Anatomy_of_Liver.jpg",
+    "imgalt": "Fotomicrografia de tecido hepático mostrando fileiras de células dispostas em cordões que se irradiam a partir de um vaso central, com pequenos canais vasculares entre elas.",
     "armadilha": "Confundir o lobulo hepatico com foliculos da tireoide ou alveolos do pulmao.",
     "referencia": "Junqueira & Carneiro, Histologia Basica (figado).",
     "palavras_chave": [
@@ -13057,7 +13066,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "OpenStax / Wikimedia Commons (domínio público)"
   },
   {
     "id": "CB-HIST-017",
@@ -13144,8 +13154,8 @@
       "obj": "Parede vascular: íntima, média (músculo liso) e adventícia; a média é mais espessa nas artérias.",
       "correct": "D"
     },
-    "img": null,
-    "imgalt": "",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Blood_vessels_structure.jpg",
+    "imgalt": "Corte transversal de vasos sanguíneos mostrando a parede organizada em camadas concêntricas ao redor do canal central, com a camada intermediária mais espessa na artéria do que na veia.",
     "armadilha": "Achar que os vasos têm camada única ou só endotélio.",
     "referencia": "Junqueira & Carneiro, Histologia Básica (sistema circulatório).",
     "palavras_chave": [
@@ -13157,7 +13167,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "Wikimedia Commons (CC BY-SA 4.0)"
   },
   {
     "id": "CB-HIST-019",
@@ -13194,8 +13205,8 @@
       "obj": "Esquelético (estriado, voluntário), cardíaco (estriado, involuntário, discos intercalares) e liso (não estriado, involuntário).",
       "correct": "D"
     },
-    "img": null,
-    "imgalt": "",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/414_Skeletal_Smooth_Cardiac.jpg",
+    "imgalt": "Três fotomicrografias lado a lado de tecidos musculares: duas mostram fibras com faixas transversais regulares (uma de fibras longas com vários núcleos na borda, outra de fibras ramificadas com um núcleo central) e a terceira mostra células alongadas em fuso, de núcleo único, sem faixas.",
     "armadilha": "Achar que todos são voluntários/estriados ou que o liso é voluntário.",
     "referencia": "Junqueira & Carneiro, Histologia Básica (tecido muscular).",
     "palavras_chave": [
@@ -13207,7 +13218,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "OpenStax (CC BY 4.0)"
   },
   {
     "id": "CB-HIST-020",
@@ -13294,8 +13306,8 @@
       "obj": "Tecido conjuntivo: células dispersas em matriz extracelular abundante, com fibras (colágeno, elásticas, reticulares).",
       "correct": "A"
     },
-    "img": null,
-    "imgalt": "",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Connective_Tissue_Loose_Aerolar_(41743649782).jpg",
+    "imgalt": "Fotomicrografia de um tecido com poucas células espalhadas e distantes umas das outras, imersas num espaço amplo atravessado por finas fibras entrelaçadas em várias direções.",
     "armadilha": "Confundir o conjuntivo com o epitélio (células unidas, pouca matriz).",
     "referencia": "Junqueira & Carneiro, Histologia Básica (tecido conjuntivo).",
     "palavras_chave": [
@@ -13307,7 +13319,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "Wikimedia Commons (CC0)"
   },
   {
     "id": "CB-HIST-022",
@@ -13344,8 +13357,8 @@
       "obj": "Néfron: corpúsculo renal (glomérulo + cápsula de Bowman) e um sistema de túbulos que processam o filtrado em urina.",
       "correct": "B"
     },
-    "img": null,
-    "imgalt": "",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2611_Blood_Flow_in_the_Nephron.jpg",
+    "imgalt": "Esquema da unidade funcional do rim: um novelo de capilares envolvido por uma cápsula, seguido de um túbulo longo e contorcido por onde passa o filtrado.",
     "armadilha": "Reduzir o néfron a um tubo simples ou a só um aglomerado de vasos.",
     "referencia": "Junqueira & Carneiro, Histologia Básica (rim).",
     "palavras_chave": [
@@ -13357,7 +13370,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "OpenStax Anatomy & Physiology (CC BY 4.0)"
   },
   {
     "id": "CB-HIST-023",
@@ -13457,7 +13471,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "OpenStax Anatomy & Physiology (CC BY 3.0)"
   },
   {
     "id": "CB-HIST-026",
@@ -13494,8 +13509,8 @@
       "obj": "Ovário: folículos ovarianos contêm o ovócito com células de suporte e evoluem no ciclo (primordial a maduro/de Graaf).",
       "correct": "D"
     },
-    "img": null,
-    "imgalt": "",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/T.S._of_mammalian_ovary.jpg",
+    "imgalt": "Corte histológico do ovário mostrando, no tecido, estruturas arredondadas de vários tamanhos, cada uma com uma célula grande central envolvida por camadas de células menores ao redor.",
     "armadilha": "Confundir folículos ovarianos com túbulos seminíferos ou alvéolos.",
     "referencia": "Junqueira & Carneiro, Histologia Básica (ovário).",
     "palavras_chave": [
@@ -13507,7 +13522,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": false
+    "correlacao_clinica": false,
+    "credito": "Wikimedia Commons (CC BY 4.0)"
   },
   {
     "id": "CB-HIST-027",
@@ -14599,7 +14615,8 @@
       "MICR",
       "FARM"
     ],
-    "correlacao_clinica": true
+    "correlacao_clinica": true,
+    "credito": "Wikimedia Commons — Y tambe (CC BY-SA 3.0)"
   },
   {
     "id": "CB-MICR-004",
@@ -15476,7 +15493,7 @@
       "correct": "B"
     },
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Neisseria_meningitidis_CSF_Gram_1000.jpg",
-    "imgalt": "Fotomicrografia de Gram do líquor mostrando diplococos Gram-negativos (Neisseria meningitidis), muitos no interior de leucócitos.",
+    "imgalt": "Fotomicrografia de Gram do líquor mostrando diplococos (bactérias em pares) corados em rosa, muitos no interior de leucócitos.",
     "armadilha": "Tratar como viral/fúngico ou ignorar as medidas de saúde pública.",
     "referencia": "Murray, Microbiologia Médica; Ministério da Saúde (meningite).",
     "palavras_chave": [
@@ -15491,7 +15508,8 @@
       "MICR",
       "IMUN"
     ],
-    "correlacao_clinica": true
+    "correlacao_clinica": true,
+    "credito": "Wikimedia Commons — Microman12345 (CC BY 4.0)"
   },
   {
     "id": "CB-MICR-022",
@@ -16061,7 +16079,7 @@
       "correct": "A"
     },
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plasmodium_falciparum_(malaria)_parasite_in_blood.jpg",
-    "imgalt": "Fotomicrografia de esfregaço de sangue mostrando hemácias parasitadas por Plasmodium falciparum (formas em anel no interior das hemácias).",
+    "imgalt": "Fotomicrografia de esfregaço de sangue corado, mostrando hemácias com pequenas formas em anel no seu interior.",
     "armadilha": "Confundir o Plasmodium (protozoário intracelular) com bactéria ou verme.",
     "referencia": "Neves, Parasitologia Humana; Ministério da Saúde (malária).",
     "palavras_chave": [
@@ -16076,7 +16094,8 @@
       "PARA",
       "PATO"
     ],
-    "correlacao_clinica": true
+    "correlacao_clinica": true,
+    "credito": "CDC PHIL (domínio público)"
   },
   {
     "id": "CB-PARA-010",
@@ -16114,7 +16133,7 @@
       "correct": "B"
     },
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Schistosoma_mansoni_egg_4841_lores.jpg",
-    "imgalt": "Fotomicrografia de ovo de Schistosoma mansoni em amostra de fezes, com a característica espícula lateral.",
+    "imgalt": "Fotomicrografia de um ovo em amostra de fezes, de formato oval e com uma espícula (projeção pontiaguda) na lateral.",
     "armadilha": "Confundir o helminto (contato com água) com bactéria alimentar ou protozoário de mosquito.",
     "referencia": "Neves, Parasitologia Humana; Ministério da Saúde (esquistossomose).",
     "palavras_chave": [
@@ -16129,7 +16148,8 @@
       "PARA",
       "PATO"
     ],
-    "correlacao_clinica": true
+    "correlacao_clinica": true,
+    "credito": "CDC PHIL (domínio público)"
   },
   {
     "id": "CB-PARA-011",
@@ -16167,7 +16187,7 @@
       "correct": "C"
     },
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Giardia_lamblia.png",
-    "imgalt": "Fotomicrografia de trofozoíto de Giardia com dois núcleos, aspecto simétrico em forma de 'rosto', típico do parasita.",
+    "imgalt": "Fotomicrografia de um protozoário em forma de pera, com dois núcleos simétricos que lembram um 'rosto', em amostra de fezes.",
     "armadilha": "Confundir o protozoário (fecal-oral) com verme de inseto ou parasita do sangue.",
     "referencia": "Neves, Parasitologia Humana (giardíase).",
     "palavras_chave": [
@@ -16182,7 +16202,8 @@
       "PARA",
       "FISI"
     ],
-    "correlacao_clinica": true
+    "correlacao_clinica": true,
+    "credito": "CDC PHIL (domínio público)"
   },
   {
     "id": "CB-PARA-012",
@@ -16220,7 +16241,7 @@
       "correct": "D"
     },
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fertilized_egg_of_Ascaris_lumbricoides_PHIL_410_lores.jpg",
-    "imgalt": "Fotomicrografia de ovo fertilizado de Ascaris lumbricoides, com casca espessa e mamilonada, em amostra de fezes.",
+    "imgalt": "Fotomicrografia de um ovo em amostra de fezes, arredondado, com casca espessa e superfície irregular (mamilonada).",
     "armadilha": "Confundir o helminto (fecal-oral) com protozoário de mosquito ou IST.",
     "referencia": "Neves, Parasitologia Humana; Ministério da Saúde (ascaridíase).",
     "palavras_chave": [
@@ -16232,7 +16253,8 @@
     ],
     "integradora": false,
     "disciplinas_integradas": [],
-    "correlacao_clinica": true
+    "correlacao_clinica": true,
+    "credito": "CDC PHIL (domínio público)"
   },
   {
     "id": "CB-PATO-001",
