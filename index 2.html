@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PROTOCOLO — Ciclo Básico</title>
+<style>
+/* ============================================================
+   PROTOCOLO — Ciclo Básico · Design System portado do ENARE v1.0
+   Tokens neutros/semânticos/acento: 1:1 (inegociáveis).
+   Cores de sistema: 10 do handoff + 1 nova (Imunológico).
+   ============================================================ */
+:root{
+  --paper:#FBFBFD; --surface:#FFFFFF; --sunken:#F4F5F8;
+  --ink-900:#15171C; --ink-700:#373C46; --ink-500:#6A717E; --ink-400:#9AA1AD;
+  --line:#E7E9EF; --line-strong:#D6DAE1;
+  --accent-700:#0E5561; --accent-600:#12707E; --accent-500:#2A8A98; --accent-tint:#E8F2F3;
+  --ok:#2E7D57; --ok-tint:#E9F3EC; --err:#B0483E; --err-tint:#F6ECEA; --warn:#9C6B12;
+  --s-cardio:#9C5560; --s-resp:#4C7A96; --s-dig:#A5703C; --s-renal:#7C6A3E; --s-endo:#8A4A6B;
+  --s-reprod:#3C8266; --s-neuro:#4C5687; --s-msk:#6E7B4A; --s-hemato:#6E4A7B; --s-imuno:#3F8A80; --s-teg:#3E5C76;
+  --r-sm:8px; --r-md:12px; --r-lg:16px; --r-pill:999px;
+  --sh-1:0 1px 2px rgba(16,24,40,.04),0 1px 3px rgba(16,24,40,.05);
+  --sh-2:0 4px 12px rgba(16,24,40,.06),0 2px 4px rgba(16,24,40,.05);
+  --font-ui:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Inter,system-ui,sans-serif;
+  --font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+[data-theme="dark"]{
+  --paper:#0F1216; --surface:#161A20; --sunken:#1E242C;
+  --ink-900:#EAECEF; --ink-700:#C4C9D1; --ink-500:#8C929C; --ink-400:#666D77;
+  --line:#262C34; --line-strong:#353C46;
+  --accent-700:#1E8A97; --accent-600:#33A7B4; --accent-500:#4FBECB; --accent-tint:#122A30;
+  --ok:#4FAE7C; --ok-tint:#152720; --err:#D0776C; --err-tint:#2A1A17; --warn:#C9962F;
+  --s-cardio:#BE7580; --s-resp:#6C9AB6; --s-dig:#C08C52; --s-renal:#9C8A5E; --s-endo:#B06A8E;
+  --s-reprod:#57A184; --s-neuro:#6E79AD; --s-msk:#8E9B6A; --s-hemato:#8E6A9B; --s-imuno:#5FA69C; --s-teg:#5A7B96;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;background:var(--paper)}
+body{font-family:var(--font-ui);background:var(--paper);color:var(--ink-700);line-height:1.5;-webkit-font-smoothing:antialiased;min-height:100vh;min-height:100dvh;
+  padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+.wrap{max-width:520px;margin:0 auto;padding:20px 20px 96px}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.eyebrow{font-size:11.5px;font-weight:650;text-transform:uppercase;letter-spacing:.09em;color:var(--ink-500)}
+.display{font-size:27px;line-height:1.15;font-weight:700;letter-spacing:-.02em;color:var(--ink-900)}
+.sub{font-size:13px;color:var(--ink-500)}
+.enun{font-size:18px;line-height:1.62;color:var(--ink-900);max-width:60ch}
+.topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px}
+.brand .eyebrow{display:block}.brand .name{font-size:15px;font-weight:650;color:var(--ink-900)}
+.hbtns{display:flex;gap:8px}
+.icbtn{width:44px;height:44px;border:1px solid var(--line);background:var(--surface);border-radius:var(--r-md);color:var(--ink-500);cursor:pointer;display:grid;place-items:center;transition:border-color .15s,color .15s}
+.icbtn:hover{border-color:var(--line-strong);color:var(--ink-700)}.icbtn svg{width:20px;height:20px}
+.section{margin-top:26px}.section>.eyebrow{display:block;margin-bottom:12px}
+label.fl{display:block;font-size:12.5px;font-weight:600;color:var(--ink-500);margin:14px 0 6px}
+input{width:100%;min-height:52px;padding:0 14px;font-family:var(--font-ui);font-size:15.5px;color:var(--ink-900);background:var(--surface);border:1px solid var(--line-strong);border-radius:var(--r-md)}
+input:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px var(--accent-500)}
+select{width:100%;min-height:52px;padding:0 40px 0 14px;font-family:var(--font-ui);font-size:15.5px;color:var(--ink-900);background:var(--surface);border:1px solid var(--line-strong);border-radius:var(--r-md);appearance:none;cursor:pointer}
+select:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px var(--accent-500)}
+.field{position:relative}
+.field.sel::after{content:"";position:absolute;right:16px;top:50%;width:9px;height:9px;pointer-events:none;border-right:1.5px solid var(--ink-400);border-bottom:1.5px solid var(--ink-400);transform:translateY(-70%) rotate(45deg)}
+.chips{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.chip{display:flex;align-items:center;gap:10px;min-height:52px;padding:0 14px;background:var(--surface);border:1px solid var(--line-strong);border-radius:var(--r-md);cursor:pointer;text-align:left;transition:border-color .15s,background .15s;color:var(--ink-700)}
+.chip:hover{border-color:var(--accent-500)}
+.chip[aria-pressed="true"]{background:var(--accent-tint);border-color:var(--accent-600)}
+.chip[aria-pressed="true"] .chip-name{color:var(--accent-700)}
+[data-theme="dark"] .chip[aria-pressed="true"] .chip-name{color:var(--accent-500)}
+.dot{width:8px;height:8px;border-radius:50%;flex:0 0 8px}
+.chip-body{display:flex;flex-direction:column;line-height:1.2;min-width:0}
+.chip-name{font-size:15px;font-weight:500;color:var(--ink-900);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chip-n{font-size:12px;font-family:var(--font-mono);color:var(--ink-500);font-variant-numeric:tabular-nums}
+.toggles{display:flex;flex-direction:column;gap:8px}
+.toggle{display:flex;align-items:center;justify-content:space-between;min-height:52px;padding:0 14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);cursor:pointer}
+.toggle .tlabel{font-size:15.5px;color:var(--ink-700)}
+.tbox{width:22px;height:22px;border:1.5px solid var(--line-strong);border-radius:6px;display:grid;place-items:center;transition:background .15s,border-color .15s}
+.toggle[aria-pressed="true"] .tbox{background:var(--accent-600);border-color:var(--accent-600)}
+.tbox svg{width:14px;height:14px;stroke:#fff;opacity:0;transition:opacity .15s}
+.toggle[aria-pressed="true"] .tbox svg{opacity:1}
+.btn-primary{width:100%;min-height:52px;margin-top:24px;border:none;border-radius:var(--r-md);background:var(--accent-600);color:#fff;font-family:var(--font-ui);font-size:16px;font-weight:600;cursor:pointer;transition:background .15s}
+.btn-primary:hover{background:var(--accent-500)}.btn-primary:active{background:var(--accent-700)}
+.btn-primary:disabled{background:var(--sunken);color:var(--ink-400);cursor:not-allowed}
+.btn-primary:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px var(--accent-500)}
+.btn-ghost{background:none;border:none;color:var(--accent-600);font-size:14px;cursor:pointer;font-family:var(--font-ui);padding:8px;margin-top:10px}
+.live{margin-top:12px;text-align:center;font-size:12.5px;font-family:var(--font-mono);color:var(--ink-500);font-variant-numeric:tabular-nums}
+.msg{margin-top:14px;font-size:13.5px;padding:12px 14px;border-radius:var(--r-md);display:none;line-height:1.45}
+.msg.show{display:block}
+.msg.err{background:var(--err-tint);color:var(--err)}.msg.ok{background:var(--ok-tint);color:var(--ok)}.msg.info{background:var(--accent-tint);color:var(--accent-700)}
+.help{font-size:12.5px;color:var(--ink-500);margin-top:8px;line-height:1.5}
+.stat{display:flex;gap:22px}
+.stat .b{font-size:24px;font-weight:700;color:var(--ink-900);font-family:var(--font-mono)}
+.stat .l{font-size:12px;color:var(--ink-500)}
+.screen{display:none}.screen.active{display:block}
+.qhead{display:flex;align-items:center;gap:14px;margin-bottom:24px}
+.progress{flex:1;height:4px;background:var(--sunken);border-radius:var(--r-pill);overflow:hidden}
+.progress-fill{height:100%;background:var(--accent-600);border-radius:var(--r-pill);transition:width .25s ease;width:0}
+.counter{font-size:12.5px;font-family:var(--font-mono);color:var(--ink-500);font-variant-numeric:tabular-nums;flex:0 0 auto}
+.exit{font-size:13px;color:var(--ink-500);background:none;border:none;cursor:pointer;padding:6px 4px;font-family:var(--font-ui)}
+.exit:hover{color:var(--ink-700)}
+.qimg{width:100%;border-radius:var(--r-md);border:1px solid var(--line);margin:20px 0;display:block}
+.qimg-fig{margin:20px 0}.qimg-fig .qimg{margin:0}
+.qimg-credito{font-size:10px;color:var(--ink-500);opacity:.75;margin-top:4px;text-align:right;line-height:1.35;font-weight:400;letter-spacing:.01em}
+.qimg-svg .qimg-credito{padding-top:6px}
+.qimg-svg{padding:12px;background:var(--surface)}
+.qimg-svg svg{width:100%;height:auto;display:block}
+.alts{display:flex;flex-direction:column;gap:8px;margin-top:20px}
+.alt{display:flex;gap:12px;align-items:flex-start;width:100%;min-height:52px;padding:14px;background:var(--surface);border:1px solid var(--line-strong);border-radius:var(--r-md);cursor:pointer;text-align:left;font-family:var(--font-ui);font-size:15.5px;line-height:1.45;color:var(--ink-700);transition:border-color .15s,background .15s}
+.alt:hover:not(:disabled){border-color:var(--accent-500)}
+.alt .letter{flex:0 0 24px;height:24px;border-radius:6px;display:grid;place-items:center;font-size:13px;font-weight:650;font-family:var(--font-mono);background:var(--sunken);color:var(--ink-500);transition:background .15s,color .15s}
+.alt[aria-pressed="true"]{border-color:var(--accent-600);box-shadow:inset 0 0 0 1px var(--accent-600)}
+.alt[aria-pressed="true"] .letter{background:var(--accent-600);color:#fff}
+.alt:disabled{cursor:default}.alt.locked{opacity:.72}
+.alt.correct{border-color:var(--ok);background:var(--ok-tint)}.alt.correct .letter{background:var(--ok);color:#fff}
+.alt.wrong{border-color:var(--err);background:var(--err-tint)}.alt.wrong .letter{background:var(--err);color:#fff}
+.alt:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px var(--accent-500)}
+.actionbar{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);padding:12px 20px calc(12px + env(safe-area-inset-bottom));z-index:20;display:none}
+.actionbar.show{display:block}
+.actionbar-inner{max-width:520px;margin:0 auto;display:flex;gap:12px;align-items:center}
+.flagbtn{flex:0 0 auto;width:52px;height:52px;border:1px solid var(--line);background:var(--surface);border-radius:var(--r-md);color:var(--ink-400);cursor:pointer;display:grid;place-items:center;transition:color .15s,border-color .15s}
+.flagbtn:hover{border-color:var(--line-strong);color:var(--ink-500)}
+.flagbtn[aria-pressed="true"]{color:var(--warn);border-color:var(--warn)}
+.flagbtn svg{width:20px;height:20px}.flagbtn[aria-pressed="true"] svg{fill:var(--warn)}
+.btn-action{flex:1;min-height:52px;border:none;border-radius:var(--r-md);background:var(--accent-600);color:#fff;font-family:var(--font-ui);font-size:16px;font-weight:600;cursor:pointer;transition:background .15s}
+.btn-action:hover:not(:disabled){background:var(--accent-500)}.btn-action:active{background:var(--accent-700)}
+.btn-action:disabled{background:var(--sunken);color:var(--ink-400);cursor:not-allowed}
+.explain{margin-top:24px;padding-top:24px;border-top:1px solid var(--line);display:none}
+.explain.show{display:block}
+.verdict{display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border-radius:var(--r-pill);font-size:13.5px;font-weight:650;margin-bottom:20px}
+.verdict.ok{background:var(--ok-tint);color:var(--ok)}.verdict.no{background:var(--err-tint);color:var(--err)}
+.verdict .time{font-family:var(--font-mono);font-weight:400;opacity:.8}
+.exp-block{margin-top:20px}.exp-block .eyebrow{display:block;margin-bottom:8px;color:var(--accent-600)}
+[data-theme="dark"] .exp-block .eyebrow{color:var(--accent-500)}
+.exp-block p{font-size:16px;line-height:1.6;color:var(--ink-700);margin-bottom:10px}.exp-block p:last-child{margin-bottom:0}
+.report-wrap{margin-top:24px;padding-top:16px;border-top:1px solid var(--line)}
+.report-btn{background:none;border:none;color:var(--ink-400);font-size:13px;cursor:pointer;padding:4px 0;text-decoration:underline}
+.report-btn:hover{color:var(--ink-600)}
+.report-box{margin-top:12px}
+.report-opts{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.report-opts button{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-sm,8px);color:var(--ink-600);font-size:13px;padding:7px 12px;cursor:pointer}
+.report-opts button:hover{border-color:var(--line-strong)}
+.report-opts button.sel{border-color:var(--accent-600);color:var(--accent-600)}
+.report-box textarea{width:100%;min-height:60px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-sm,8px);color:var(--ink-800);font-size:14px;padding:8px;font-family:inherit;resize:vertical;margin-bottom:10px}
+.report-send{background:var(--accent-600);color:#fff;border:none;border-radius:var(--r-sm,8px);padding:8px 18px;font-size:14px;cursor:pointer}
+.report-send:disabled{opacity:.5;cursor:not-allowed}
+.report-ok{color:var(--accent-600);font-size:14px;margin-top:6px}
+.why-list{list-style:none;display:flex;flex-direction:column;gap:10px}
+.why-list li{font-size:15px;line-height:1.5;color:var(--ink-700);padding-left:26px;position:relative}
+.why-list li .wl{position:absolute;left:0;top:0;font-family:var(--font-mono);font-weight:650;font-size:13px;color:var(--err)}
+.why-list li.correct .wl{color:var(--ok)}
+.takehome{margin-top:20px;padding:16px;background:var(--accent-tint);border-radius:var(--r-md)}
+.takehome .eyebrow{color:var(--accent-700);display:block;margin-bottom:8px}
+[data-theme="dark"] .takehome .eyebrow{color:var(--accent-500)}
+.takehome p{font-size:15.5px;line-height:1.55;color:var(--ink-900)}
+.meta-foot{margin-top:20px;padding-top:16px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px 14px}
+.meta-foot span{font-size:12.5px;font-family:var(--font-mono);color:var(--ink-500);font-variant-numeric:tabular-nums}
+.meta-foot .k{color:var(--ink-400)}
+.center{text-align:center;padding:40px 0}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- SETUP -->
+  <section id="s-setup" class="screen">
+    <span class="eyebrow">PROTOCOLO · Ciclo Básico</span>
+    <h1 class="display" style="margin-top:6px">Conectar ao seu banco</h1>
+    <p class="sub" style="margin-top:6px">Cole os dois valores do seu projeto Supabase. Ficam salvos só neste navegador.</p>
+    <label class="fl">URL do projeto</label>
+    <input id="cfgUrl" placeholder="https://xxxxx.supabase.co" autocomplete="off">
+    <label class="fl">Chave pública (anon)</label>
+    <input id="cfgKey" placeholder="eyJhbGci..." autocomplete="off">
+    <p class="help">No Supabase: <b>Project Settings → API</b>. Copie <b>Project URL</b> e a chave <b>anon public</b>. Nunca use a <b>service_role</b> aqui.</p>
+    <button class="btn-primary" id="cfgSave">Salvar e continuar</button>
+    <div class="msg" id="cfgMsg"></div>
+  </section>
+
+  <!-- AUTH -->
+  <section id="s-auth" class="screen">
+    <div class="topbar"><div class="brand"><span class="eyebrow">PROTOCOLO</span><span class="name">Ciclo Básico</span></div>
+      <div class="hbtns"><button class="icbtn" id="authTheme" title="Tema"><svg class="theme-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></svg></button></div></div>
+    <h1 class="display" id="authTitle">Entrar</h1>
+    <p class="sub" style="margin-top:6px" id="authSub">Acesse com seu e-mail e senha.</p>
+    <label class="fl">E-mail</label>
+    <input id="email" type="email" autocomplete="email" placeholder="voce@email.com">
+    <label class="fl">Senha</label>
+    <input id="password" type="password" autocomplete="current-password" placeholder="mínimo 6 caracteres">
+    <button class="btn-primary" id="authBtn">Entrar</button>
+    <button class="btn-ghost" id="authSwitch">Não tem conta? Criar conta</button>
+    <button class="btn-ghost" id="cfgReset" style="color:var(--ink-400)">Trocar de banco</button>
+    <div class="msg" id="authMsg"></div>
+  </section>
+
+  <!-- HOME -->
+  <section id="s-home" class="screen">
+    <div class="topbar"><div class="brand"><span class="eyebrow">PROTOCOLO</span><span class="name">Ciclo Básico</span></div>
+      <div class="hbtns"><button class="icbtn" id="homeTheme" title="Tema"><svg class="theme-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></svg></button>
+      <button class="icbtn" id="logoutBtn" title="Sair"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg></button></div></div>
+
+    <h1 class="display">Montar sessão</h1>
+    <p class="sub" id="homeHi" style="margin-top:6px"></p>
+
+    <div class="section"><span class="eyebrow">Seu progresso</span>
+      <div class="stat"><div><div class="b" id="stTot">0</div><div class="l">respondidas</div></div>
+      <div><div class="b" id="stPct">—</div><div class="l">acerto</div></div></div></div>
+
+    <div class="section"><span class="eyebrow">Sistema</span><div class="chips" id="sysChips"></div></div>
+    <div class="section"><span class="eyebrow">Disciplina</span><div class="field sel"><select id="discSel"></select></div></div>
+    <div class="section"><span class="eyebrow">Quantidade</span><div class="field sel"><select id="qtySel"></select></div></div>
+
+    <div class="section"><span class="eyebrow">Ordem e repetição</span>
+      <div class="toggles">
+        <button class="toggle" id="tgShuffle" aria-pressed="true"><span class="tlabel">Embaralhar questões</span>
+          <span class="tbox"><svg viewBox="0 0 24 24" fill="none" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span></button>
+        <button class="toggle" id="tgSkip" aria-pressed="true"><span class="tlabel">Pular já respondidas</span>
+          <span class="tbox"><svg viewBox="0 0 24 24" fill="none" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span></button>
+      </div></div>
+
+    <button class="btn-primary" id="startBtn">Começar sessão</button>
+    <p class="live" id="liveCount"></p>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="s-quiz" class="screen">
+    <div class="qhead"><div class="progress"><div class="progress-fill" id="progFill"></div></div>
+      <span class="counter mono" id="counter">0/0</span><button class="exit" id="exitBtn">Encerrar</button></div>
+    <div id="qbody"></div>
+    <div class="explain" id="explain"></div>
+  </section>
+</div>
+
+<div class="actionbar" id="actionbar"><div class="actionbar-inner">
+  <button class="flagbtn" id="flagBtn" aria-pressed="false" title="Marcar para revisão">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V4h13l-2 4 2 4H4"/></svg></button>
+  <button class="btn-action" id="actionBtn" disabled>Confirmar resposta</button>
+</div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+"use strict";
+const { createClient } = window.supabase;
+const $ = id => document.getElementById(id);
+const show = s => { document.querySelectorAll(".screen").forEach(x=>x.classList.remove("active")); $(s).classList.add("active"); window.scrollTo(0,0); };
+const esc = s => String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const LETTERS=["A","B","C","D"];
+function msg(el,t,k){ el.textContent=t; el.className="msg show "+(k||"info"); }
+function clearMsg(el){ el.className="msg"; }
+
+/* adaptador de schema — único ponto que conhece nomes de campo */
+const A={ enun:q=>q.enun, alts:q=>q.alts||[], gab:q=>q.gab, sistema:q=>q.sistema, disc:q=>q.area, esp:q=>q.esp,
+  tema:q=>q.tema, subtema:q=>q.subtema, dif:q=>q.dif, exp:q=>q.exp, ref:q=>q.referencia,
+  mech:q=>(q.uw&&q.uw.mech)||[], choices:q=>(q.uw&&q.uw.choices)||{}, obj:q=>(q.uw&&q.uw.obj)||"",
+  img:q=>q.img||null, imgalt:q=>q.imgalt||"", credito:q=>q.credito||"", integradora:q=>!!q.integradora, key:q=>q.id };
+
+const SYS=[
+  {code:"CARDIO",name:"Cardiovascular",v:"--s-cardio"},{code:"RESP",name:"Respiratório",v:"--s-resp"},
+  {code:"DIG",name:"Digestivo",v:"--s-dig"},{code:"RENAL",name:"Renal/Urinário",v:"--s-renal"},
+  {code:"ENDO",name:"Endócrino",v:"--s-endo"},{code:"REPRO",name:"Reprodutor",v:"--s-reprod"},
+  {code:"NERV",name:"Nervoso",v:"--s-neuro"},{code:"LOCO",name:"Locomotor",v:"--s-msk"},
+  {code:"HEMATO",name:"Hematopoético",v:"--s-hemato"},{code:"IMUNO",name:"Imunológico",v:"--s-imuno"},
+  {code:"TEG",name:"Tegumentar",v:"--s-teg"}];
+const SYSNAME=Object.fromEntries(SYS.map(s=>[s.code,s.name]));
+const DISC={ANAT:"Anatomia",HIST:"Histologia",EMBR:"Embriologia",FISI:"Fisiologia",BIOQ:"Bioquímica",BCM:"Biologia Celular e Molecular",GENE:"Genética",FARM:"Farmacologia",PATO:"Patologia",MICR:"Microbiologia",PARA:"Parasitologia",IMUN:"Imunologia",SEMIO:"Semiologia",EPI:"Epidemiologia e Bioestatística",SC:"Saúde Coletiva e SUS",ETICA:"Bioética e Ética"};
+const DIFNAME={basica:"Básica",intermediaria:"Intermediária",avancada:"Avançada"};
+
+let sb=null,user=null,BANK=[],answered=new Set(),session=null;
+let state={sys:null,disc:"ALL",qty:10,shuffle:true,skip:true};
+
+/* tema */
+const SUN='<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/>';
+const MOON='<path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/>';
+function applyTheme(t){ document.documentElement.setAttribute("data-theme",t);
+  document.querySelectorAll(".theme-ic").forEach(el=>el.innerHTML=t==="dark"?SUN:MOON);
+  try{localStorage.setItem("protocolo_theme",t)}catch(e){} }
+(function(){ let t; try{t=localStorage.getItem("protocolo_theme")}catch(e){}
+  if(!t) t=(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light"; applyTheme(t); })();
+function toggleTheme(){ applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark"); }
+$("authTheme").onclick=toggleTheme; $("homeTheme").onclick=toggleTheme;
+
+/* config */
+function loadCfg(){ try{return JSON.parse(localStorage.getItem("protocolo_cfg"))}catch(e){return null} }
+$("cfgSave").onclick=()=>{
+  const url=$("cfgUrl").value.trim().replace(/\/+$/,""),anon=$("cfgKey").value.trim();
+  if(!/^https:\/\/.+\.supabase\.co$/.test(url)){ msg($("cfgMsg"),"A URL deve ser https://xxxxx.supabase.co","err"); return; }
+  if(anon.length<20){ msg($("cfgMsg"),"A chave anon parece incompleta.","err"); return; }
+  try{localStorage.setItem("protocolo_cfg",JSON.stringify({url,anon}))}catch(e){}
+  sb=createClient(url,anon); clearMsg($("cfgMsg")); routeAuth();
+};
+$("cfgReset").onclick=()=>{ try{localStorage.removeItem("protocolo_cfg")}catch(e){} location.reload(); };
+
+/* auth */
+let mode="signin";
+$("authSwitch").onclick=()=>{ mode=mode==="signin"?"signup":"signin";
+  $("authTitle").textContent=mode==="signin"?"Entrar":"Criar conta";
+  $("authSub").textContent=mode==="signin"?"Acesse com seu e-mail e senha.":"Crie sua conta para começar a praticar.";
+  $("authBtn").textContent=mode==="signin"?"Entrar":"Criar conta";
+  $("authSwitch").textContent=mode==="signin"?"Não tem conta? Criar conta":"Já tem conta? Entrar"; clearMsg($("authMsg")); };
+$("authBtn").onclick=async()=>{
+  const email=$("email").value.trim(),password=$("password").value;
+  if(!email||password.length<6){ msg($("authMsg"),"Informe e-mail e senha (mín. 6 caracteres).","err"); return; }
+  $("authBtn").disabled=true; clearMsg($("authMsg"));
+  try{
+    if(mode==="signup"){ const {error}=await sb.auth.signUp({email,password}); if(error) throw error;
+      const {error:e2}=await sb.auth.signInWithPassword({email,password});
+      if(e2){ msg($("authMsg"),"Conta criada. Se pedir confirmação por e-mail, verifique a caixa e depois entre.","ok"); mode="signin"; return; }
+    } else { const {error}=await sb.auth.signInWithPassword({email,password}); if(error) throw error; }
+  }catch(err){ msg($("authMsg"),translate(err.message),"err"); }
+  finally{ $("authBtn").disabled=false; }
+};
+function translate(m){ m=m||"";
+  if(/Invalid login/i.test(m)) return "E-mail ou senha incorretos.";
+  if(/already registered/i.test(m)) return "Este e-mail já tem conta. Tente entrar.";
+  if(/Email not confirmed/i.test(m)) return "E-mail ainda não confirmado. Verifique sua caixa de entrada.";
+  if(/Load failed|NetworkError|Failed to fetch|fetch/i.test(m)) return "Não consegui falar com o Supabase. Confira a URL/chave em 'Trocar de banco'.";
+  return m; }
+$("logoutBtn").onclick=async()=>{ await sb.auth.signOut(); };
+
+function routeAuth(){ show("s-auth");
+  sb.auth.getSession().then(({data})=>{ if(data.session) onLogin(data.session.user); });
+  sb.auth.onAuthStateChange((_e,s)=>{ if(s) onLogin(s.user); else show("s-auth"); }); }
+
+let booted=false;
+async function onLogin(u){ user=u; if(booted) return; booted=true;
+  $("homeHi").textContent="Olá, "+(u.email||"")+".";
+  await loadBank(); await loadAnswered(); await refreshProgress(); buildHome(); show("s-home"); }
+
+async function loadBank(){
+  const {data,error}=await sb.from("questions").select("*").eq("status","published");
+  if(error){ msg($("liveCount"),"Erro ao carregar: "+error.message,"err"); BANK=[]; return; } BANK=data||[]; }
+async function loadAnswered(){
+  const {data}=await sb.from("question_attempts").select("question_id").eq("user_id",user.id);
+  answered=new Set((data||[]).map(a=>a.question_id)); }
+async function refreshProgress(){
+  const {data}=await sb.from("question_attempts").select("correct").eq("user_id",user.id);
+  const tot=(data||[]).length,ok=(data||[]).filter(a=>a.correct).length;
+  $("stTot").textContent=tot; $("stPct").textContent=tot?Math.round(ok/tot*100)+"%":"—"; }
+
+/* filtros */
+function pool(){ return BANK.filter(q=>(!state.sys||A.sistema(q)===state.sys)&&(state.disc==="ALL"||A.disc(q)===state.disc)); }
+function available(){ let p=pool(); if(state.skip) p=p.filter(q=>!answered.has(A.key(q))); return p; }
+
+/* home */
+function buildHome(){
+  const box=$("sysChips"); box.innerHTML="";
+  const counts={}; BANK.forEach(q=>counts[A.sistema(q)]=(counts[A.sistema(q)]||0)+1);
+  const all=document.createElement("button"); all.className="chip"; all.setAttribute("aria-pressed",state.sys===null);
+  all.innerHTML=`<span class="dot" style="background:var(--ink-400)"></span><span class="chip-body"><span class="chip-name">Todos</span><span class="chip-n mono">${BANK.length} questões</span></span>`;
+  all.onclick=()=>{ state.sys=null; state.disc="ALL"; buildHome(); }; box.appendChild(all);
+  SYS.forEach(s=>{ const n=counts[s.code]||0; if(!n) return;
+    const c=document.createElement("button"); c.className="chip"; c.setAttribute("aria-pressed",state.sys===s.code);
+    c.innerHTML=`<span class="dot" style="background:var(${s.v})"></span><span class="chip-body"><span class="chip-name">${s.name}</span><span class="chip-n mono">${n} questões</span></span>`;
+    c.onclick=()=>{ state.sys=state.sys===s.code?null:s.code; state.disc="ALL"; buildHome(); }; box.appendChild(c); });
+  const base=BANK.filter(q=>!state.sys||A.sistema(q)===state.sys);
+  const dc={}; base.forEach(q=>dc[A.disc(q)]=(dc[A.disc(q)]||0)+1);
+  const sel=$("discSel"); sel.innerHTML="";
+  const o0=document.createElement("option"); o0.value="ALL"; o0.textContent=`Todas as disciplinas (${base.length})`; sel.appendChild(o0);
+  Object.keys(dc).sort((a,b)=>(DISC[a]||a).localeCompare(DISC[b]||b,"pt")).forEach(d=>{
+    const o=document.createElement("option"); o.value=d; o.textContent=`${DISC[d]||d} (${dc[d]})`; if(d===state.disc)o.selected=true; sel.appendChild(o); });
+  sel.onchange=()=>{ state.disc=sel.value; buildQty(); }; buildQty();
+}
+function buildQty(){
+  const avail=available().length; const sel=$("qtySel"); sel.innerHTML="";
+  let opts=[5,10,20,30,40].filter(n=>n<=Math.max(1,avail));
+  if(avail>0&&!opts.includes(avail)) opts.push(avail); if(!opts.length) opts=[avail||0];
+  opts.forEach(n=>{ const o=document.createElement("option"); o.value=n; o.textContent=n; sel.appendChild(o); });
+  state.qty=Math.min(state.qty,opts[opts.length-1])||opts[0];
+  sel.value=opts.includes(state.qty)?state.qty:opts[0]; state.qty=parseInt(sel.value,10);
+  sel.onchange=()=>{ state.qty=parseInt(sel.value,10); updateLive(); }; updateLive();
+  $("startBtn").disabled=avail===0;
+}
+function updateLive(){ const a=available().length;
+  $("liveCount").textContent=a>0?`${a} ${a===1?"questão disponível":"questões disponíveis"} com esse recorte`:"Nenhuma questão disponível — ajuste o recorte ou desligue “pular respondidas”."; }
+function bindToggle(id,key){ const b=$(id); b.onclick=()=>{ state[key]=!state[key]; b.setAttribute("aria-pressed",state[key]); buildQty(); }; }
+bindToggle("tgShuffle","shuffle"); bindToggle("tgSkip","skip");
+
+/* sessão */
+function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+$("startBtn").onclick=()=>{ let items=available().slice(); if(state.shuffle) shuffle(items); items=items.slice(0,state.qty);
+  if(!items.length) return; session={items,i:0,chosen:null,answered:false,flagged:false,t0:0,correct:0};
+  $("actionbar").classList.add("show"); show("s-quiz"); renderQ(); };
+function renderQ(){ const s=session,q=s.items[s.i]; s.chosen=null; s.answered=false; s.flagged=false; s.t0=Date.now();
+  $("counter").textContent=`${s.i+1}/${s.items.length}`; $("progFill").style.width=`${s.i/s.items.length*100}%`;
+  let html=`<p class="enun">${esc(A.enun(q))}</p>`;
+  { const im=A.img(q); if(im){ const t=String(im).trim(); const cr=A.credito(q);
+    const cap=cr?`<figcaption class="qimg-credito">${esc(cr)}</figcaption>`:"";
+    if(t.slice(0,4).toLowerCase()==="<svg") html+=`<figure class="qimg qimg-svg" role="img" aria-label="${esc(A.imgalt(q))}">${t}${cap}</figure>`;
+    else if(/^https?:\/\//i.test(t)) html+=`<figure class="qimg-fig"><img class="qimg" src="${esc(t)}" alt="${esc(A.imgalt(q))}" loading="lazy">${cap}</figure>`;
+    else html+=`<figure class="qimg-fig"><img class="qimg" src="img/${esc(t)}" alt="${esc(A.imgalt(q))}" loading="lazy">${cap}</figure>`; } }
+  html+=`<div class="alts" id="alts"></div>`; $("qbody").innerHTML=html;
+  const box=$("alts"); A.alts(q).forEach((txt,idx)=>{ const L=LETTERS[idx];
+    const b=document.createElement("button"); b.className="alt"; b.setAttribute("aria-pressed","false"); b.dataset.letter=L;
+    b.innerHTML=`<span class="letter">${L}</span><span>${esc(txt)}</span>`; b.onclick=()=>choose(L); box.appendChild(b); });
+  const ex=$("explain"); ex.classList.remove("show"); ex.innerHTML="";
+  const act=$("actionBtn"); act.textContent="Confirmar resposta"; act.disabled=true; act.onclick=confirmA;
+  const fb=$("flagBtn"); fb.setAttribute("aria-pressed","false"); fb.title="Reportar erro"; fb.onclick=()=>openReport(q,fb); }
+function choose(L){ const s=session; if(s.answered) return; s.chosen=L;
+  document.querySelectorAll(".alt").forEach(a=>a.setAttribute("aria-pressed",a.dataset.letter===L)); $("actionBtn").disabled=false; }
+async function confirmA(){ const s=session; if(s.answered||!s.chosen) return; s.answered=true;
+  const q=s.items[s.i],gab=A.gab(q),secs=Math.round((Date.now()-s.t0)/1000),ok=s.chosen===gab; if(ok) s.correct++;
+  document.querySelectorAll(".alt").forEach(a=>{ const L=a.dataset.letter; a.disabled=true; a.classList.add("locked"); a.setAttribute("aria-pressed","false");
+    if(L===gab) a.classList.add("correct"); else if(L===s.chosen) a.classList.add("wrong"); });
+  answered.add(A.key(q)); renderExplain(q,ok,secs);
+  const act=$("actionBtn"); act.textContent=(s.i+1<s.items.length)?"Próxima questão":"Ver resultado"; act.onclick=next;
+  $("progFill").style.width=`${(s.i+1)/s.items.length*100}%`;
+  try{ await sb.from("question_attempts").insert({user_id:user.id,question_id:A.key(q),chosen:s.chosen,correct:ok,time_ms:secs*1000}); }catch(e){}
+  if(s.flagged){ try{ await sb.from("reviews").upsert({user_id:user.id,question_id:A.key(q),reason:"flagged"}); }catch(e){} }
+}
+function renderExplain(q,ok,secs){ const mech=A.mech(q),choices=A.choices(q),gab=A.gab(q);
+  let h=`<div class="verdict ${ok?"ok":"no"}">${ok?"Correto":"Incorreto"} <span class="time mono">· ${secs}s</span></div>`;
+  if(mech.length){ h+=`<div class="exp-block"><span class="eyebrow">Raciocínio</span>`; mech.forEach(p=>h+=`<p>${esc(p)}</p>`); h+=`</div>`; }
+  if(A.exp(q)){ h+=`<div class="exp-block"><span class="eyebrow">Por que a correta é correta</span><p>${esc(A.exp(q))}</p></div>`; }
+  h+=`<div class="exp-block"><span class="eyebrow">Análise das alternativas</span><ul class="why-list">`;
+  LETTERS.forEach(L=>{ if(choices[L]) h+=`<li class="${L===gab?"correct":""}"><span class="wl">${L}</span>${esc(choices[L])}</li>`; }); h+=`</ul></div>`;
+  if(A.obj(q)){ h+=`<div class="takehome"><span class="eyebrow">Take-home</span><p>${esc(A.obj(q))}</p></div>`; }
+  h+=`<div class="meta-foot">`;
+  h+=`<span><span class="k">Sistema</span> ${esc(SYSNAME[A.sistema(q)]||A.sistema(q))}</span>`;
+  h+=`<span><span class="k">Disciplina</span> ${esc(A.esp(q)||DISC[A.disc(q)]||A.disc(q))}</span>`;
+  if(A.subtema(q)) h+=`<span><span class="k">Subtema</span> ${esc(A.subtema(q))}</span>`;
+  if(A.dif(q)) h+=`<span><span class="k">Dificuldade</span> ${esc(DIFNAME[A.dif(q)]||A.dif(q))}</span>`;
+  if(A.integradora(q)) h+=`<span><span class="k">Integração</span> sim</span>`;
+  if(A.ref(q)) h+=`<span><span class="k">Referência</span> ${esc(A.ref(q))}</span>`;
+  h+=`</div>`;
+  const ex=$("explain"); ex.innerHTML=h; ex.classList.add("show"); }
+function next(){ const s=session; if(s.i+1<s.items.length){ s.i++; renderQ(); } else finish(); }
+async function finish(){ const s=session,total=s.items.length,pct=Math.round(s.correct/total*100);
+  $("qbody").innerHTML=`<div class="center"><span class="eyebrow">Sessão concluída</span><p class="display" style="margin:12px 0">${s.correct}/${total}</p><p class="mono" style="font-size:14px;color:var(--ink-500)">${pct}% de acerto</p></div>`;
+  $("explain").classList.remove("show"); $("explain").innerHTML=""; $("progFill").style.width="100%"; $("flagBtn").style.visibility="hidden";
+  const act=$("actionBtn"); act.textContent="Voltar ao início"; act.disabled=false; act.onclick=backHome; }
+async function backHome(){ session=null; $("flagBtn").style.visibility="visible"; $("actionbar").classList.remove("show");
+  await refreshProgress(); buildHome(); show("s-home"); }
+$("exitBtn").onclick=async()=>{ if(session&&session.i>0&&!session.answered&&!confirm("Encerrar a sessão? O progresso das respondidas fica salvo.")) return; await backHome(); };
+
+/* boot */
+const cfg=loadCfg();
+if(cfg){ sb=createClient(cfg.url,cfg.anon); routeAuth(); } else { show("s-setup"); }
+</script>
+</body>
+</html>
