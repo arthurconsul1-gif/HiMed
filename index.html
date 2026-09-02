@@ -7,8 +7,6 @@
 <style>
 /* ============================================================
    PROTOCOLO — Ciclo Básico · Design System portado do ENARE v1.0
-   Tokens neutros/semânticos/acento: 1:1 (inegociáveis).
-   Cores de sistema: 10 do handoff + 1 nova (Imunológico).
    ============================================================ */
 :root{
   --paper:#FBFBFD; --surface:#FFFFFF; --sunken:#F4F5F8;
@@ -78,6 +76,7 @@ select:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px va
 .btn-primary:disabled{background:var(--sunken);color:var(--ink-400);cursor:not-allowed}
 .btn-primary:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px var(--accent-500)}
 .btn-ghost{background:none;border:none;color:var(--accent-600);font-size:14px;cursor:pointer;font-family:var(--font-ui);padding:8px;margin-top:10px}
+.authlinks{display:flex;flex-direction:column;align-items:flex-start;margin-top:6px}
 .live{margin-top:12px;text-align:center;font-size:12.5px;font-family:var(--font-mono);color:var(--ink-500);font-variant-numeric:tabular-nums}
 .msg{margin-top:14px;font-size:13.5px;padding:12px 14px;border-radius:var(--r-md);display:none;line-height:1.45}
 .msg.show{display:block}
@@ -130,13 +129,13 @@ select:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px va
 .report-wrap{margin-top:24px;padding-top:16px;border-top:1px solid var(--line)}
 .report-btn{background:none;border:none;color:var(--ink-400);font-size:13px;cursor:pointer;padding:4px 0;text-decoration:underline}
 .report-btn:hover{color:var(--ink-600)}
-.report-box{margin-top:12px}
+.report-box{margin-top:12px;display:none}.report-box.show{display:block}
 .report-opts{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
-.report-opts button{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-sm,8px);color:var(--ink-600);font-size:13px;padding:7px 12px;cursor:pointer}
+.report-opts button{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-sm);color:var(--ink-500);font-size:13px;padding:7px 12px;cursor:pointer}
 .report-opts button:hover{border-color:var(--line-strong)}
 .report-opts button.sel{border-color:var(--accent-600);color:var(--accent-600)}
-.report-box textarea{width:100%;min-height:60px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-sm,8px);color:var(--ink-800);font-size:14px;padding:8px;font-family:inherit;resize:vertical;margin-bottom:10px}
-.report-send{background:var(--accent-600);color:#fff;border:none;border-radius:var(--r-sm,8px);padding:8px 18px;font-size:14px;cursor:pointer}
+.report-box textarea{width:100%;min-height:60px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-sm);color:var(--ink-900);font-size:14px;padding:8px;font-family:inherit;resize:vertical;margin-bottom:10px}
+.report-send{background:var(--accent-600);color:#fff;border:none;border-radius:var(--r-sm);padding:8px 18px;font-size:14px;cursor:pointer}
 .report-send:disabled{opacity:.5;cursor:not-allowed}
 .report-ok{color:var(--accent-600);font-size:14px;margin-top:6px}
 .why-list{list-style:none;display:flex;flex-direction:column;gap:10px}
@@ -157,20 +156,6 @@ select:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px va
 <body>
 <div class="wrap">
 
-  <!-- SETUP -->
-  <section id="s-setup" class="screen">
-    <span class="eyebrow">PROTOCOLO · Ciclo Básico</span>
-    <h1 class="display" style="margin-top:6px">Conectar ao seu banco</h1>
-    <p class="sub" style="margin-top:6px">Cole os dois valores do seu projeto Supabase. Ficam salvos só neste navegador.</p>
-    <label class="fl">URL do projeto</label>
-    <input id="cfgUrl" placeholder="https://xxxxx.supabase.co" autocomplete="off">
-    <label class="fl">Chave pública (anon)</label>
-    <input id="cfgKey" placeholder="eyJhbGci..." autocomplete="off">
-    <p class="help">No Supabase: <b>Project Settings → API</b>. Copie <b>Project URL</b> e a chave <b>anon public</b>. Nunca use a <b>service_role</b> aqui.</p>
-    <button class="btn-primary" id="cfgSave">Salvar e continuar</button>
-    <div class="msg" id="cfgMsg"></div>
-  </section>
-
   <!-- AUTH -->
   <section id="s-auth" class="screen">
     <div class="topbar"><div class="brand"><span class="eyebrow">PROTOCOLO</span><span class="name">Ciclo Básico</span></div>
@@ -182,9 +167,38 @@ select:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px va
     <label class="fl">Senha</label>
     <input id="password" type="password" autocomplete="current-password" placeholder="mínimo 6 caracteres">
     <button class="btn-primary" id="authBtn">Entrar</button>
-    <button class="btn-ghost" id="authSwitch">Não tem conta? Criar conta</button>
-    <button class="btn-ghost" id="cfgReset" style="color:var(--ink-400)">Trocar de banco</button>
+    <div class="authlinks">
+      <button class="btn-ghost" id="authSwitch">Não tem conta? Criar conta</button>
+      <button class="btn-ghost" id="forgotBtn" style="color:var(--ink-500)">Esqueci minha senha</button>
+    </div>
     <div class="msg" id="authMsg"></div>
+  </section>
+
+  <!-- RECUPERAR SENHA (pedir e-mail) -->
+  <section id="s-forgot" class="screen">
+    <div class="topbar"><div class="brand"><span class="eyebrow">PROTOCOLO</span><span class="name">Ciclo Básico</span></div>
+      <div class="hbtns"><button class="icbtn" id="forgotTheme" title="Tema"><svg class="theme-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></svg></button></div></div>
+    <h1 class="display">Recuperar senha</h1>
+    <p class="sub" style="margin-top:6px">Informe seu e-mail. Enviaremos um link para você criar uma nova senha.</p>
+    <label class="fl">E-mail</label>
+    <input id="forgotEmail" type="email" autocomplete="email" placeholder="voce@email.com">
+    <button class="btn-primary" id="forgotSend">Enviar link de recuperação</button>
+    <button class="btn-ghost" id="forgotBack">Voltar ao login</button>
+    <div class="msg" id="forgotMsg"></div>
+  </section>
+
+  <!-- DEFINIR NOVA SENHA (após clicar no link do e-mail) -->
+  <section id="s-reset" class="screen">
+    <div class="topbar"><div class="brand"><span class="eyebrow">PROTOCOLO</span><span class="name">Ciclo Básico</span></div>
+      <div class="hbtns"><button class="icbtn" id="resetTheme" title="Tema"><svg class="theme-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></svg></button></div></div>
+    <h1 class="display">Nova senha</h1>
+    <p class="sub" style="margin-top:6px">Digite a nova senha para a sua conta.</p>
+    <label class="fl">Nova senha</label>
+    <input id="newPass" type="password" autocomplete="new-password" placeholder="mínimo 6 caracteres">
+    <label class="fl">Repita a nova senha</label>
+    <input id="newPass2" type="password" autocomplete="new-password" placeholder="repita a senha">
+    <button class="btn-primary" id="resetSave">Salvar nova senha</button>
+    <div class="msg" id="resetMsg"></div>
   </section>
 
   <!-- HOME -->
@@ -226,7 +240,7 @@ select:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px va
 </div>
 
 <div class="actionbar" id="actionbar"><div class="actionbar-inner">
-  <button class="flagbtn" id="flagBtn" aria-pressed="false" title="Marcar para revisão">
+  <button class="flagbtn" id="flagBtn" aria-pressed="false" title="Reportar erro">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V4h13l-2 4 2 4H4"/></svg></button>
   <button class="btn-action" id="actionBtn" disabled>Confirmar resposta</button>
 </div></div>
@@ -234,6 +248,13 @@ select:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px va
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 "use strict";
+
+/* ============================================================
+   CONFIGURAÇÃO DO BANCO — embutida (chave anon é pública, seguro)
+   ============================================================ */
+const SUPABASE_URL = "https://gcwrggcbjeucbhgvishi.supabase.co";
+const SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdjd3JnZ2NiamV1Y2JoZ3Zpc2hpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU4NTUwNjUsImV4cCI6MjEwMTQzMTA2NX0.StEQru8tj_heij_F9c2MZy75vee9ryPq5ecEFPujsj4";
+
 const { createClient } = window.supabase;
 const $ = id => document.getElementById(id);
 const show = s => { document.querySelectorAll(".screen").forEach(x=>x.classList.remove("active")); $(s).classList.add("active"); window.scrollTo(0,0); };
@@ -242,7 +263,7 @@ const LETTERS=["A","B","C","D"];
 function msg(el,t,k){ el.textContent=t; el.className="msg show "+(k||"info"); }
 function clearMsg(el){ el.className="msg"; }
 
-/* adaptador de schema — único ponto que conhece nomes de campo */
+/* adaptador de schema */
 const A={ enun:q=>q.enun, alts:q=>q.alts||[], gab:q=>q.gab, sistema:q=>q.sistema, disc:q=>q.area, esp:q=>q.esp,
   tema:q=>q.tema, subtema:q=>q.subtema, dif:q=>q.dif, exp:q=>q.exp, ref:q=>q.referencia,
   mech:q=>(q.uw&&q.uw.mech)||[], choices:q=>(q.uw&&q.uw.choices)||{}, obj:q=>(q.uw&&q.uw.obj)||"",
@@ -261,6 +282,7 @@ const DIFNAME={basica:"Básica",intermediaria:"Intermediária",avancada:"Avança
 
 let sb=null,user=null,BANK=[],answered=new Set(),session=null;
 let state={sys:null,disc:"ALL",qty:10,shuffle:true,skip:true};
+let recovering=false; /* true quando o usuário chegou pelo link de "esqueci a senha" */
 
 /* tema */
 const SUN='<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/>';
@@ -271,18 +293,7 @@ function applyTheme(t){ document.documentElement.setAttribute("data-theme",t);
 (function(){ let t; try{t=localStorage.getItem("protocolo_theme")}catch(e){}
   if(!t) t=(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light"; applyTheme(t); })();
 function toggleTheme(){ applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark"); }
-$("authTheme").onclick=toggleTheme; $("homeTheme").onclick=toggleTheme;
-
-/* config */
-function loadCfg(){ try{return JSON.parse(localStorage.getItem("protocolo_cfg"))}catch(e){return null} }
-$("cfgSave").onclick=()=>{
-  const url=$("cfgUrl").value.trim().replace(/\/+$/,""),anon=$("cfgKey").value.trim();
-  if(!/^https:\/\/.+\.supabase\.co$/.test(url)){ msg($("cfgMsg"),"A URL deve ser https://xxxxx.supabase.co","err"); return; }
-  if(anon.length<20){ msg($("cfgMsg"),"A chave anon parece incompleta.","err"); return; }
-  try{localStorage.setItem("protocolo_cfg",JSON.stringify({url,anon}))}catch(e){}
-  sb=createClient(url,anon); clearMsg($("cfgMsg")); routeAuth();
-};
-$("cfgReset").onclick=()=>{ try{localStorage.removeItem("protocolo_cfg")}catch(e){} location.reload(); };
+["authTheme","homeTheme","forgotTheme","resetTheme"].forEach(id=>{ const el=$(id); if(el) el.onclick=toggleTheme; });
 
 /* auth */
 let mode="signin";
@@ -303,20 +314,57 @@ $("authBtn").onclick=async()=>{
   }catch(err){ msg($("authMsg"),translate(err.message),"err"); }
   finally{ $("authBtn").disabled=false; }
 };
+
+/* esqueci minha senha — pedir e-mail */
+$("forgotBtn").onclick=()=>{ clearMsg($("forgotMsg")); $("forgotEmail").value=$("email").value.trim(); show("s-forgot"); };
+$("forgotBack").onclick=()=>{ clearMsg($("authMsg")); show("s-auth"); };
+$("forgotSend").onclick=async()=>{
+  const email=$("forgotEmail").value.trim();
+  if(!/.+@.+\..+/.test(email)){ msg($("forgotMsg"),"Informe um e-mail válido.","err"); return; }
+  $("forgotSend").disabled=true; clearMsg($("forgotMsg"));
+  try{
+    const {error}=await sb.auth.resetPasswordForEmail(email,{ redirectTo: window.location.origin });
+    if(error) throw error;
+    msg($("forgotMsg"),"Se este e-mail tiver conta, enviamos um link para redefinir a senha. Verifique sua caixa de entrada (e o spam).","ok");
+  }catch(err){ msg($("forgotMsg"),translate(err.message),"err"); }
+  finally{ $("forgotSend").disabled=false; }
+};
+
+/* definir nova senha (após clicar no link) */
+$("resetSave").onclick=async()=>{
+  const p1=$("newPass").value,p2=$("newPass2").value;
+  if(p1.length<6){ msg($("resetMsg"),"A senha deve ter no mínimo 6 caracteres.","err"); return; }
+  if(p1!==p2){ msg($("resetMsg"),"As senhas não coincidem.","err"); return; }
+  $("resetSave").disabled=true; clearMsg($("resetMsg"));
+  try{
+    const {error}=await sb.auth.updateUser({password:p1}); if(error) throw error;
+    recovering=false;
+    msg($("resetMsg"),"Senha alterada com sucesso! Entrando...","ok");
+    try{ history.replaceState(null,"",window.location.origin+window.location.pathname); }catch(e){}
+    setTimeout(()=>{ booted=false; sb.auth.getSession().then(({data})=>{ if(data.session) onLogin(data.session.user); else show("s-auth"); }); },800);
+  }catch(err){ msg($("resetMsg"),translate(err.message),"err"); $("resetSave").disabled=false; }
+};
+
 function translate(m){ m=m||"";
   if(/Invalid login/i.test(m)) return "E-mail ou senha incorretos.";
   if(/already registered/i.test(m)) return "Este e-mail já tem conta. Tente entrar.";
   if(/Email not confirmed/i.test(m)) return "E-mail ainda não confirmado. Verifique sua caixa de entrada.";
-  if(/Load failed|NetworkError|Failed to fetch|fetch/i.test(m)) return "Não consegui falar com o Supabase. Confira a URL/chave em 'Trocar de banco'.";
+  if(/Load failed|NetworkError|Failed to fetch|fetch/i.test(m)) return "Não consegui falar com o servidor. Verifique sua conexão e tente de novo.";
+  if(/same as the old|should be different/i.test(m)) return "A nova senha precisa ser diferente da anterior.";
   return m; }
 $("logoutBtn").onclick=async()=>{ await sb.auth.signOut(); };
 
-function routeAuth(){ show("s-auth");
-  sb.auth.getSession().then(({data})=>{ if(data.session) onLogin(data.session.user); });
-  sb.auth.onAuthStateChange((_e,s)=>{ if(s) onLogin(s.user); else show("s-auth"); }); }
+function routeAuth(){
+  sb.auth.onAuthStateChange((event,s)=>{
+    if(event==="PASSWORD_RECOVERY"){ recovering=true; show("s-reset"); return; }
+    if(recovering) return; /* não pula pra home enquanto define senha nova */
+    if(s) onLogin(s.user); else show("s-auth");
+  });
+  sb.auth.getSession().then(({data})=>{ if(recovering) return; if(data.session) onLogin(data.session.user); else show("s-auth"); });
+}
 
 let booted=false;
-async function onLogin(u){ user=u; if(booted) return; booted=true;
+async function onLogin(u){ if(recovering) return; user=u; if(booted) return; booted=true;
   $("homeHi").textContent="Olá, "+(u.email||"")+".";
   await loadBank(); await loadAnswered(); await refreshProgress(); buildHome(); show("s-home"); }
 
@@ -388,7 +436,7 @@ function renderQ(){ const s=session,q=s.items[s.i]; s.chosen=null; s.answered=fa
     b.innerHTML=`<span class="letter">${L}</span><span>${esc(txt)}</span>`; b.onclick=()=>choose(L); box.appendChild(b); });
   const ex=$("explain"); ex.classList.remove("show"); ex.innerHTML="";
   const act=$("actionBtn"); act.textContent="Confirmar resposta"; act.disabled=true; act.onclick=confirmA;
-  const fb=$("flagBtn"); fb.setAttribute("aria-pressed","false"); fb.title="Reportar erro"; fb.onclick=()=>openReport(q,fb); }
+  const fb=$("flagBtn"); fb.setAttribute("aria-pressed","false"); fb.title="Reportar erro"; fb.style.visibility="visible"; fb.onclick=()=>toggleReport(); }
 function choose(L){ const s=session; if(s.answered) return; s.chosen=L;
   document.querySelectorAll(".alt").forEach(a=>a.setAttribute("aria-pressed",a.dataset.letter===L)); $("actionBtn").disabled=false; }
 async function confirmA(){ const s=session; if(s.answered||!s.chosen) return; s.answered=true;
@@ -399,12 +447,11 @@ async function confirmA(){ const s=session; if(s.answered||!s.chosen) return; s.
   const act=$("actionBtn"); act.textContent=(s.i+1<s.items.length)?"Próxima questão":"Ver resultado"; act.onclick=next;
   $("progFill").style.width=`${(s.i+1)/s.items.length*100}%`;
   try{ await sb.from("question_attempts").insert({user_id:user.id,question_id:A.key(q),chosen:s.chosen,correct:ok,time_ms:secs*1000}); }catch(e){}
-  if(s.flagged){ try{ await sb.from("reviews").upsert({user_id:user.id,question_id:A.key(q),reason:"flagged"}); }catch(e){} }
 }
 function renderExplain(q,ok,secs){ const mech=A.mech(q),choices=A.choices(q),gab=A.gab(q);
   let h=`<div class="verdict ${ok?"ok":"no"}">${ok?"Correto":"Incorreto"} <span class="time mono">· ${secs}s</span></div>`;
   if(mech.length){ h+=`<div class="exp-block"><span class="eyebrow">Raciocínio</span>`; mech.forEach(p=>h+=`<p>${esc(p)}</p>`); h+=`</div>`; }
-  if(A.exp(q)){ h+=`<div class="exp-block"><span class="eyebrow">Por que a correta é correta</span><p>${esc(A.exp(q))}</p></div>`; }
+  else if(A.exp(q)){ h+=`<div class="exp-block"><span class="eyebrow">Explicação</span><p>${esc(A.exp(q))}</p></div>`; }
   h+=`<div class="exp-block"><span class="eyebrow">Análise das alternativas</span><ul class="why-list">`;
   LETTERS.forEach(L=>{ if(choices[L]) h+=`<li class="${L===gab?"correct":""}"><span class="wl">${L}</span>${esc(choices[L])}</li>`; }); h+=`</ul></div>`;
   if(A.obj(q)){ h+=`<div class="takehome"><span class="eyebrow">Take-home</span><p>${esc(A.obj(q))}</p></div>`; }
@@ -416,7 +463,36 @@ function renderExplain(q,ok,secs){ const mech=A.mech(q),choices=A.choices(q),gab
   if(A.integradora(q)) h+=`<span><span class="k">Integração</span> sim</span>`;
   if(A.ref(q)) h+=`<span><span class="k">Referência</span> ${esc(A.ref(q))}</span>`;
   h+=`</div>`;
-  const ex=$("explain"); ex.innerHTML=h; ex.classList.add("show"); }
+  /* reporte de erro */
+  h+=`<div class="report-wrap"><button class="report-btn" id="repToggle">Reportar erro nesta questão</button>
+      <div class="report-box" id="repBox">
+        <div class="report-opts" id="repOpts">
+          <button data-r="gabarito">Gabarito errado</button>
+          <button data-r="enunciado">Erro no enunciado</button>
+          <button data-r="explicacao">Erro na explicação</button>
+          <button data-r="outro">Outro</button>
+        </div>
+        <textarea id="repText" placeholder="Descreva o problema (opcional)"></textarea>
+        <button class="report-send" id="repSend" disabled>Enviar</button>
+        <div class="report-ok" id="repOk" style="display:none">Obrigado! Recebemos seu reporte.</div>
+      </div></div>`;
+  const ex=$("explain"); ex.innerHTML=h; ex.classList.add("show");
+  wireReport(q);
+}
+/* reporte */
+let repReason=null;
+function toggleReport(){ const b=$("repBox"); if(b) b.classList.toggle("show"); }
+function wireReport(q){ repReason=null;
+  const box=$("repBox"),tgl=$("repToggle"),opts=$("repOpts"),send=$("repSend"),okEl=$("repOk"),txt=$("repText");
+  if(!box) return;
+  tgl.onclick=()=>box.classList.toggle("show");
+  opts.querySelectorAll("button").forEach(b=>{ b.onclick=()=>{
+    opts.querySelectorAll("button").forEach(x=>x.classList.remove("sel")); b.classList.add("sel"); repReason=b.dataset.r; send.disabled=false; }; });
+  send.onclick=async()=>{ send.disabled=true;
+    try{ await sb.from("question_reports").insert({user_id:user.id,question_id:A.key(q),reason:repReason||"outro",detail:txt.value.trim()||null}); }catch(e){}
+    opts.style.display="none"; txt.style.display="none"; send.style.display="none"; okEl.style.display="block";
+  };
+}
 function next(){ const s=session; if(s.i+1<s.items.length){ s.i++; renderQ(); } else finish(); }
 async function finish(){ const s=session,total=s.items.length,pct=Math.round(s.correct/total*100);
   $("qbody").innerHTML=`<div class="center"><span class="eyebrow">Sessão concluída</span><p class="display" style="margin:12px 0">${s.correct}/${total}</p><p class="mono" style="font-size:14px;color:var(--ink-500)">${pct}% de acerto</p></div>`;
@@ -427,8 +503,10 @@ async function backHome(){ session=null; $("flagBtn").style.visibility="visible"
 $("exitBtn").onclick=async()=>{ if(session&&session.i>0&&!session.answered&&!confirm("Encerrar a sessão? O progresso das respondidas fica salvo.")) return; await backHome(); };
 
 /* boot */
-const cfg=loadCfg();
-if(cfg){ sb=createClient(cfg.url,cfg.anon); routeAuth(); } else { show("s-setup"); }
+sb=createClient(SUPABASE_URL,SUPABASE_ANON,{auth:{detectSessionInUrl:true,flowType:"pkce"}});
+/* se veio de link de recuperação (hash com type=recovery), força a tela de nova senha */
+if(/type=recovery/.test(window.location.hash) || /type=recovery/.test(window.location.search)){ recovering=true; show("s-reset"); }
+routeAuth();
 </script>
 </body>
 </html>
