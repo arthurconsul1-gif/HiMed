@@ -209,6 +209,11 @@ select:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px va
 
     <h1 class="display">Montar sessão</h1>
     <p class="sub" id="homeHi" style="margin-top:6px"></p>
+    <div id="assineBanner" style="display:none;border:1px solid var(--line,#2a2f3a);border-radius:14px;padding:14px 16px;margin:10px 0;">
+      <div style="font-weight:600;margin-bottom:2px;">Assine o HiMed — R$27/mês</div>
+      <div style="opacity:.8;font-size:.9rem;margin-bottom:10px;">7 dias grátis. Cancele quando quiser.</div>
+      <button class="btn-primary" id="assinarBannerBtn" style="width:100%;">Assinar agora</button>
+    </div>
 
     <div class="section"><span class="eyebrow">Seu progresso</span>
       <div class="stat"><div><div class="b" id="stTot">0</div><div class="l">respondidas</div></div>
@@ -228,6 +233,26 @@ select:focus-visible{outline:none;box-shadow:0 0 0 2px var(--paper),0 0 0 4px va
 
     <button class="btn-primary" id="startBtn">Começar sessão</button>
     <p class="live" id="liveCount"></p>
+  </section>
+
+  <!-- ASSINATURA / PAYWALL -->
+  <section id="s-pay" class="screen">
+    <div style="max-width:520px;margin:0 auto;padding:8px 4px;">
+      <h1 style="font-size:1.6rem;margin:.2em 0;">Assine o HiMed</h1>
+      <p class="live" id="payRestam" style="margin:.2em 0 1em;"></p>
+      <div style="border:1px solid var(--line,#2a2f3a);border-radius:14px;padding:18px;margin:10px 0;">
+        <div style="font-size:2rem;font-weight:700;">R$ 27<span style="font-size:1rem;font-weight:400;opacity:.7;">/mês</span></div>
+        <p style="opacity:.85;margin:.4em 0;">7 dias grátis. A cobrança começa só no 8º dia. Cancele quando quiser.</p>
+        <ul style="line-height:1.9;opacity:.9;padding-left:1.1em;margin:.6em 0;">
+          <li>1.034 questões do ciclo básico</li>
+          <li>Explicações completas e análise das alternativas</li>
+          <li>Acompanhamento do seu desempenho</li>
+        </ul>
+        <p style="font-size:.85rem;opacity:.7;margin:.4em 0;">Preço de fundador: quem assina agora mantém R$27/mês mesmo quando o valor subir.</p>
+      </div>
+      <button class="btn-primary" id="assinarBtn" style="width:100%;">Assinar — R$27/mês</button>
+      <button class="btn-ghost" id="voltarDegust" style="width:100%;margin-top:8px;background:none;border:1px solid var(--line,#2a2f3a);color:inherit;padding:12px;border-radius:12px;">Voltar</button>
+    </div>
   </section>
 
   <!-- QUIZ -->
@@ -366,7 +391,35 @@ function routeAuth(){
 let booted=false;
 async function onLogin(u){ if(recovering) return; user=u; if(booted) return; booted=true;
   $("homeHi").textContent="Olá, "+(u.email||"")+".";
-  await loadBank(); await loadAnswered(); await refreshProgress(); buildHome(); show("s-home"); }
+  await loadBank(); await loadAnswered(); await refreshProgress(); await checkSub(); buildHome(); show("s-home"); }
+
+// ===== ASSINATURA / DEGUSTAÇÃO (HiMed) =====
+const DEGUST_LIMITE=10; // questões grátis antes de assinar
+let SUB={status:"inativo"};
+function ativo(){ return SUB.status==="ativo"||SUB.status==="trial"; }
+async function checkSub(){
+  try{
+    const {data}=await sb.from("subscriptions").select("status,proxima_cobranca,valor").eq("user_id",user.id).maybeSingle();
+    SUB=data||{status:"inativo"};
+  }catch(e){ SUB={status:"inativo"}; }
+}
+function degustacaoAcabou(){ return !ativo() && answered.size>=DEGUST_LIMITE; }
+function paywall(){
+  const restam=Math.max(0,DEGUST_LIMITE-answered.size);
+  $("payRestam").textContent = ativo()? "" :
+    (restam>0? ("Você tem "+restam+" questões grátis restantes.") : "Suas questões grátis acabaram.");
+  show("s-pay");
+}
+async function assinar(){
+  const btn=$("assinarBtn"); btn.disabled=true; btn.textContent="Abrindo pagamento...";
+  try{
+    const r=await fetch("/api/criar-assinatura",{method:"POST",headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({user_id:user.id,email:user.email,nome:user.email})});
+    const j=await r.json();
+    if(j&&j.invoiceUrl){ location.href=j.invoiceUrl; }
+    else { alert("Não consegui abrir o pagamento agora. Tente de novo em instantes."); btn.disabled=false; btn.textContent="Assinar — R$27/mês"; }
+  }catch(e){ alert("Erro ao abrir o pagamento."); btn.disabled=false; btn.textContent="Assinar — R$27/mês"; }
+}
 
 async function loadBank(){
   // Pagina em blocos para contornar o limite padrão de 1000 linhas do Supabase
@@ -394,6 +447,7 @@ function available(){ let p=pool(); if(state.skip) p=p.filter(q=>!answered.has(A
 
 /* home */
 function buildHome(){
+  try{ var _b=document.getElementById("assineBanner"); if(_b) _b.style.display = (typeof ativo==="function" && ativo())? "none":"block"; }catch(e){}
   const box=$("sysChips"); box.innerHTML="";
   const counts={}; BANK.forEach(q=>counts[A.sistema(q)]=(counts[A.sistema(q)]||0)+1);
   const all=document.createElement("button"); all.className="chip"; all.setAttribute("aria-pressed",state.sys===null);
@@ -428,9 +482,12 @@ bindToggle("tgShuffle","shuffle"); bindToggle("tgSkip","skip");
 
 /* sessão */
 function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
-$("startBtn").onclick=()=>{ let items=available().slice(); if(state.shuffle) shuffle(items); items=items.slice(0,state.qty);
+$("startBtn").onclick=()=>{ if(degustacaoAcabou()){ paywall(); return; } let items=available().slice(); if(state.shuffle) shuffle(items); items=items.slice(0,state.qty);
   if(!items.length) return; session={items,i:0,chosen:null,answered:false,flagged:false,t0:0,correct:0};
   $("actionbar").classList.add("show"); show("s-quiz"); renderQ(); };
+$("assinarBtn").onclick=assinar;
+var _abb=document.getElementById("assinarBannerBtn"); if(_abb) _abb.onclick=()=>{ paywall(); };
+$("voltarDegust").onclick=()=>{ show("s-home"); };
 function renderQ(){ const s=session,q=s.items[s.i]; s.chosen=null; s.answered=false; s.flagged=false; s.t0=Date.now();
   $("counter").textContent=`${s.i+1}/${s.items.length}`; $("progFill").style.width=`${s.i/s.items.length*100}%`;
   let html=`<p class="enun">${esc(A.enun(q))}</p>`;
@@ -453,6 +510,7 @@ async function confirmA(){ const s=session; if(s.answered||!s.chosen) return; s.
   document.querySelectorAll(".alt").forEach(a=>{ const L=a.dataset.letter; a.disabled=true; a.classList.add("locked"); a.setAttribute("aria-pressed","false");
     if(L===gab) a.classList.add("correct"); else if(L===s.chosen) a.classList.add("wrong"); });
   answered.add(A.key(q)); renderExplain(q,ok,secs);
+  if(degustacaoAcabou()){ setTimeout(()=>{ paywall(); }, 1200); }
   const act=$("actionBtn"); act.textContent=(s.i+1<s.items.length)?"Próxima questão":"Ver resultado"; act.onclick=next;
   $("progFill").style.width=`${(s.i+1)/s.items.length*100}%`;
   try{ await sb.from("question_attempts").insert({user_id:user.id,question_id:A.key(q),chosen:s.chosen,correct:ok,time_ms:secs*1000}); }catch(e){}
