@@ -333,9 +333,11 @@ $("authBtn").onclick=async()=>{
   $("authBtn").disabled=true; clearMsg($("authMsg"));
   try{
     if(mode==="signup"){ const {error}=await sb.auth.signUp({email,password}); if(error) throw error;
-      const {error:e2}=await sb.auth.signInWithPassword({email,password});
+      const {data:d2,error:e2}=await sb.auth.signInWithPassword({email,password});
       if(e2){ msg($("authMsg"),"Conta criada. Se pedir confirmação por e-mail, verifique a caixa e depois entre.","ok"); mode="signin"; return; }
-    } else { const {error}=await sb.auth.signInWithPassword({email,password}); if(error) throw error; }
+      if(d2&&d2.user){ booted=false; await onLogin(d2.user); return; }
+    } else { const {data,error}=await sb.auth.signInWithPassword({email,password}); if(error) throw error;
+      if(data&&data.user){ booted=false; await onLogin(data.user); } }
   }catch(err){ msg($("authMsg"),translate(err.message),"err"); }
   finally{ $("authBtn").disabled=false; }
 };
@@ -570,9 +572,16 @@ async function backHome(){ session=null; $("flagBtn").style.visibility="visible"
 $("exitBtn").onclick=async()=>{ if(session&&session.i>0&&!session.answered&&!confirm("Encerrar a sessão? O progresso das respondidas fica salvo.")) return; await backHome(); };
 
 /* boot */
+/* Detecta cedo se o usuário chegou pelo link de "esqueci a senha".
+   Cobre os formatos: #...type=recovery..., ?type=recovery, ?code=... (pkce) e access_token no hash. */
+(function(){
+  var h=window.location.hash||"", q=window.location.search||"";
+  var ehRecovery = /type=recovery/.test(h) || /type=recovery/.test(q) ||
+                   /[?&]code=/.test(q) || /access_token=/.test(h);
+  if(ehRecovery){ recovering=true; }
+})();
 sb=createClient(SUPABASE_URL,SUPABASE_ANON,{auth:{detectSessionInUrl:true,flowType:"pkce"}});
-/* se veio de link de recuperação (hash com type=recovery), força a tela de nova senha */
-if(/type=recovery/.test(window.location.hash) || /type=recovery/.test(window.location.search)){ recovering=true; show("s-reset"); }
+if(recovering){ show("s-reset"); }
 routeAuth();
 </script>
 </body>
