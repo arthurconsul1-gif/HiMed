@@ -1,0 +1,4300 @@
+{
+  "schema_version": "1.0",
+  "lot_id": "LOTE-001",
+  "base_commit": "47d5ec837af1b89cf700d8f1887a0156a68186e7",
+  "base_blob": "c98cd16baa41578440a7c388f36a661ba8860ab7",
+  "review_role": "VERIFICADOR_DEDICADO_INDEPENDENTE",
+  "producer_report": "auditoria/lotes/lote-001-revisao-primaria.json",
+  "approval_status": "NAO_APROVADO_AGUARDANDO_ADJUDICACAO_E_FONTES",
+  "methodology": [
+    "Leitura independente de enunciado e quatro alternativas das 100 questões.",
+    "Reaplicação do teste de remoção para clínica/pura.",
+    "Recomputação e conferência das extensões de todas as alternativas.",
+    "Inspeção textual dos cinco SVGs e tentativa de abertura das duas imagens externas.",
+    "Fontes inacessíveis registradas como NÃO_VERIFICADO, sem validação por memória."
+  ],
+  "questions": [
+    {
+      "id": "CB-ANAT-033",
+      "verificacao_independente": {
+        "correlacao_clinica": "VINHETA_DECORATIVA",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "DIG",
+        "disciplina_validada": "ANAT",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 55,
+            "B": 91,
+            "C": 54,
+            "D": 59
+          },
+          "diferenca_percentual_sobre_menor": 68.52,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-ANAT-040",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "NERV",
+        "disciplina_validada": "ANAT",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 71,
+            "B": 52,
+            "C": 51,
+            "D": 57
+          },
+          "diferenca_percentual_sobre_menor": 39.22,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-ANAT-052",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TEG",
+        "disciplina_validada": "ANAT",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 48,
+            "B": 56,
+            "C": 41,
+            "D": 35
+          },
+          "diferenca_percentual_sobre_menor": 60.0,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": false,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-ANAT-057",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "NERV",
+        "disciplina_validada": "ANAT",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 88,
+            "B": 128,
+            "C": 91,
+            "D": 89
+          },
+          "diferenca_percentual_sobre_menor": 45.45,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "O caso é clinicamente aplicável, mas os distratores atribuem relações anatômicas/funções inexistentes e são elimináveis sem domínio fino."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-ANAT-100",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "ENDO",
+        "disciplina_validada": "ANAT",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 50,
+            "B": 80,
+            "C": 55,
+            "D": 296
+          },
+          "diferenca_percentual_sobre_menor": 492.0,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-ANAT-104",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "ENDO",
+        "disciplina_validada": "ANAT",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 52,
+            "B": 283,
+            "C": 57,
+            "D": 70
+          },
+          "diferenca_percentual_sobre_menor": 444.23,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-ANAT-134",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "DIG",
+        "disciplina_validada": "ANAT",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 59,
+            "B": 430,
+            "C": 50,
+            "D": 57
+          },
+          "diferenca_percentual_sobre_menor": 760.0,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BCM-016",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TEG",
+        "disciplina_validada": "BCM",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 96,
+            "B": 60,
+            "C": 48,
+            "D": 45
+          },
+          "diferenca_percentual_sobre_menor": 113.33,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BCM-024",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "ENDO",
+        "disciplina_validada": "BCM",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 166,
+            "B": 88,
+            "C": 78,
+            "D": 107
+          },
+          "diferenca_percentual_sobre_menor": 112.82,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BCM-025",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "IMUNO",
+        "disciplina_validada": "BCM",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 88,
+            "B": 96,
+            "C": 139,
+            "D": 78
+          },
+          "diferenca_percentual_sobre_menor": 78.21,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BCM-030",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "LOCO",
+        "disciplina_validada": "BCM",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 156,
+            "B": 72,
+            "C": 55,
+            "D": 63
+          },
+          "diferenca_percentual_sobre_menor": 183.64,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BCM-047",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TEG",
+        "disciplina_validada": "BCM",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 76,
+            "B": 71,
+            "C": 64,
+            "D": 341
+          },
+          "diferenca_percentual_sobre_menor": 432.81,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BCM-069",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "LOCO",
+        "disciplina_validada": "BCM",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 75,
+            "B": 71,
+            "C": 395,
+            "D": 75
+          },
+          "diferenca_percentual_sobre_menor": 456.34,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BIOQ-010",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "CARDIO",
+        "disciplina_validada": "BIOQ",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 68,
+            "B": 69,
+            "C": 67,
+            "D": 59
+          },
+          "diferenca_percentual_sobre_menor": 16.95,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "correlacao_clinica",
+          "produtor": "VINHETA_DECORATIVA",
+          "verificador": "CONCEITO_PURO",
+          "justificativa": "Aplicado novamente o teste de remoção: o cenário não é indispensável (ou, em SC-014, a situação concreta é indispensável) ao raciocínio."
+        },
+        {
+          "campo": "sistema",
+          "produtor": "ENDO",
+          "verificador": "CARDIO",
+          "justificativa": "O conteúdo é transversal sem pertencimento orgânico legítimo a um dos 11 sistemas, ou o objetivo principal corresponde melhor ao sistema indicado."
+        },
+        {
+          "campo": "gravidade_decisao",
+          "produtor": "G3_GRAVE/REESCRITA_NECESSARIA",
+          "verificador": "G2_MODERADA/REVISAO_NECESSARIA",
+          "justificativa": "Recalibração independente: referência pendente ou formulação ajustável, isoladamente, não obriga reescrita; vazamento/gabarito incorreto mantém bloqueio grave/crítico."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BIOQ-018",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "ENDO",
+        "disciplina_validada": "BIOQ",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 78,
+            "B": 86,
+            "C": 54,
+            "D": 61
+          },
+          "diferenca_percentual_sobre_menor": 59.26,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BIOQ-031",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "LOCO",
+        "disciplina_validada": "BIOQ",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 55,
+            "B": 52,
+            "C": 93,
+            "D": 50
+          },
+          "diferenca_percentual_sobre_menor": 86.0,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "VAZAMENTO_CONFIRMADO_POR_TEXTO_SVG",
+          "conclusao": "O SVG nomeia hiperuricemia e crise de gota, praticamente fornecendo a cadeia pedida."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar",
+        "presenca_tipo_imagem"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BIOQ-044",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "HEMATO",
+        "disciplina_validada": "BIOQ",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 129,
+            "B": 99,
+            "C": 67,
+            "D": 94
+          },
+          "diferenca_percentual_sobre_menor": 92.54,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BIOQ-059",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "HEMATO",
+        "disciplina_validada": "BIOQ",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 61,
+            "B": 74,
+            "C": 213,
+            "D": 61
+          },
+          "diferenca_percentual_sobre_menor": 249.18,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BIOQ-094",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "LOCO",
+        "disciplina_validada": "BIOQ",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 68,
+            "B": 58,
+            "C": 83,
+            "D": 311
+          },
+          "diferenca_percentual_sobre_menor": 436.21,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-BIOQ-096",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "HEMATO",
+        "disciplina_validada": "BIOQ",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 70,
+            "B": 295,
+            "C": 44,
+            "D": 64
+          },
+          "diferenca_percentual_sobre_menor": 570.45,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-EMBR-015",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "LOCO",
+        "disciplina_validada": "EMBR",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 98,
+            "B": 67,
+            "C": 41,
+            "D": 33
+          },
+          "diferenca_percentual_sobre_menor": 196.97,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "correlacao_clinica",
+          "produtor": "CLINICA_REAL",
+          "verificador": "CONCEITO_PURO",
+          "justificativa": "Aplicado novamente o teste de remoção: o cenário não é indispensável (ou, em SC-014, a situação concreta é indispensável) ao raciocínio."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-EMBR-023",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "CARDIO",
+        "disciplina_validada": "EMBR",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 74,
+            "B": 188,
+            "C": 74,
+            "D": 77
+          },
+          "diferenca_percentual_sobre_menor": 154.05,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-EMBR-024",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "REPRO",
+        "disciplina_validada": "EMBR",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 102,
+            "B": 243,
+            "C": 74,
+            "D": 86
+          },
+          "diferenca_percentual_sobre_menor": 228.38,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-EMBR-030",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "NERV",
+        "disciplina_validada": "EMBR",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 57,
+            "B": 150,
+            "C": 75,
+            "D": 62
+          },
+          "diferenca_percentual_sobre_menor": 163.16,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-EMBR-033",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "REPRO",
+        "disciplina_validada": "EMBR",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 82,
+            "B": 73,
+            "C": 74,
+            "D": 382
+          },
+          "diferenca_percentual_sobre_menor": 423.29,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-EMBR-038",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "REPRO",
+        "disciplina_validada": "EMBR",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 67,
+            "B": 59,
+            "C": 69,
+            "D": 367
+          },
+          "diferenca_percentual_sobre_menor": 522.03,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-EPI-007",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "CARDIO",
+        "disciplina_validada": "EPI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 61,
+            "B": 64,
+            "C": 85,
+            "D": 55
+          },
+          "diferenca_percentual_sobre_menor": 54.55,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-EPI-008",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "CARDIO",
+        "disciplina_validada": "EPI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 55,
+            "B": 68,
+            "C": 87,
+            "D": 63
+          },
+          "diferenca_percentual_sobre_menor": 58.18,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-EPI-010",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RESP",
+        "disciplina_validada": "EPI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 68,
+            "B": 76,
+            "C": 57,
+            "D": 82
+          },
+          "diferenca_percentual_sobre_menor": 43.86,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-EPI-021",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RESP",
+        "disciplina_validada": "EPI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 180,
+            "B": 80,
+            "C": 112,
+            "D": 76
+          },
+          "diferenca_percentual_sobre_menor": 136.84,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-EPI-027",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "ENDO",
+        "disciplina_validada": "EPI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 69,
+            "B": 79,
+            "C": 70,
+            "D": 407
+          },
+          "diferenca_percentual_sobre_menor": 489.86,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-EPI-033",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "ENDO",
+        "disciplina_validada": "EPI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 65,
+            "B": 83,
+            "C": 417,
+            "D": 78
+          },
+          "diferenca_percentual_sobre_menor": 541.54,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-ETICA-006",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RENAL",
+        "disciplina_validada": "ETICA",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 49,
+            "B": 53,
+            "C": 78,
+            "D": 110
+          },
+          "diferenca_percentual_sobre_menor": 124.49,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-ETICA-010",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TRANSVERSAL",
+        "disciplina_validada": "ETICA",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 80,
+            "B": 181,
+            "C": 87,
+            "D": 80
+          },
+          "diferenca_percentual_sobre_menor": 126.25,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "sistema",
+          "produtor": "NERV",
+          "verificador": "TRANSVERSAL",
+          "justificativa": "O conteúdo é transversal sem pertencimento orgânico legítimo a um dos 11 sistemas, ou o objetivo principal corresponde melhor ao sistema indicado."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-ETICA-011",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TRANSVERSAL",
+        "disciplina_validada": "ETICA",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 94,
+            "B": 212,
+            "C": 90,
+            "D": 86
+          },
+          "diferenca_percentual_sobre_menor": 146.51,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "sistema",
+          "produtor": "IMUNO",
+          "verificador": "TRANSVERSAL",
+          "justificativa": "O conteúdo é transversal sem pertencimento orgânico legítimo a um dos 11 sistemas, ou o objetivo principal corresponde melhor ao sistema indicado."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-ETICA-012",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TRANSVERSAL",
+        "disciplina_validada": "ETICA",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 206,
+            "B": 86,
+            "C": 80,
+            "D": 92
+          },
+          "diferenca_percentual_sobre_menor": 157.5,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "sistema",
+          "produtor": "LOCO",
+          "verificador": "TRANSVERSAL",
+          "justificativa": "O conteúdo é transversal sem pertencimento orgânico legítimo a um dos 11 sistemas, ou o objetivo principal corresponde melhor ao sistema indicado."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-ETICA-013",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TRANSVERSAL",
+        "disciplina_validada": "ETICA",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 86,
+            "B": 68,
+            "C": 76,
+            "D": 183
+          },
+          "diferenca_percentual_sobre_menor": 169.12,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "sistema",
+          "produtor": "NERV",
+          "verificador": "TRANSVERSAL",
+          "justificativa": "O conteúdo é transversal sem pertencimento orgânico legítimo a um dos 11 sistemas, ou o objetivo principal corresponde melhor ao sistema indicado."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-ETICA-017",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TRANSVERSAL",
+        "disciplina_validada": "ETICA",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 84,
+            "B": 85,
+            "C": 484,
+            "D": 67
+          },
+          "diferenca_percentual_sobre_menor": 622.39,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "sistema",
+          "produtor": "IMUNO",
+          "verificador": "TRANSVERSAL",
+          "justificativa": "O conteúdo é transversal sem pertencimento orgânico legítimo a um dos 11 sistemas, ou o objetivo principal corresponde melhor ao sistema indicado."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FARM-003",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RESP",
+        "disciplina_validada": "FARM",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 107,
+            "B": 90,
+            "C": 95,
+            "D": 71
+          },
+          "diferenca_percentual_sobre_menor": 50.7,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FARM-005",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RENAL",
+        "disciplina_validada": "FARM",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 62,
+            "B": 64,
+            "C": 51,
+            "D": 81
+          },
+          "diferenca_percentual_sobre_menor": 58.82,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "PISTA_DIRETA_MAS_NAO_GABARITO_COMPLETO",
+          "conclusao": "O SVG informa aumento da diurese/alívio do edema; não revela NKCC2, mas reduz o raciocínio e deve ser redesenhado para exigir interpretação."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar",
+        "presenca_tipo_imagem"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FARM-006",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "DIG",
+        "disciplina_validada": "FARM",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 67,
+            "B": 68,
+            "C": 119,
+            "D": 58
+          },
+          "diferenca_percentual_sobre_menor": 105.17,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_VERIFICADO_VISUALMENTE",
+          "conclusao": "SVG sem texto visível extraído; ausência de texto não prova ausência de pista por forma, seta ou destaque."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar",
+        "presenca_tipo_imagem"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FARM-028",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "DIG",
+        "disciplina_validada": "FARM",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 78,
+            "B": 79,
+            "C": 235,
+            "D": 69
+          },
+          "diferenca_percentual_sobre_menor": 240.58,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FARM-030",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RENAL",
+        "disciplina_validada": "FARM",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 83,
+            "B": 73,
+            "C": 71,
+            "D": 170
+          },
+          "diferenca_percentual_sobre_menor": 139.44,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FARM-050",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "REPRO",
+        "disciplina_validada": "FARM",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 75,
+            "B": 48,
+            "C": 47,
+            "D": 366
+          },
+          "diferenca_percentual_sobre_menor": 678.72,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FISI-007",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "HEMATO",
+        "disciplina_validada": "FISI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 115,
+            "B": 112,
+            "C": 96,
+            "D": 128
+          },
+          "diferenca_percentual_sobre_menor": 33.33,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FISI-039",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "NERV",
+        "disciplina_validada": "FISI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 56,
+            "B": 62,
+            "C": 77,
+            "D": 55
+          },
+          "diferenca_percentual_sobre_menor": 40.0,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "PISTA_FORTE_POTENCIAL",
+          "conclusao": "O rótulo Nós de Ranvier direciona diretamente para condução saltatória, núcleo da resposta."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar",
+        "presenca_tipo_imagem"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FISI-057",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "ENDO",
+        "disciplina_validada": "FISI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 44,
+            "B": 89,
+            "C": 61,
+            "D": 61
+          },
+          "diferenca_percentual_sobre_menor": 102.27,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "VAZAMENTO_CONFIRMADO_POR_TEXTO_SVG",
+          "conclusao": "O SVG declara que tireoide libera T3/T4 e que atuam em quase todas as células; estreita diretamente a alternativa correta."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar",
+        "presenca_tipo_imagem"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FISI-073",
+      "verificacao_independente": {
+        "correlacao_clinica": "VINHETA_DECORATIVA",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "NERV",
+        "disciplina_validada": "FISI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 165,
+            "B": 88,
+            "C": 80,
+            "D": 76
+          },
+          "diferenca_percentual_sobre_menor": 117.11,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FISI-085",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "NERV",
+        "disciplina_validada": "FISI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 94,
+            "B": 71,
+            "C": 224,
+            "D": 100
+          },
+          "diferenca_percentual_sobre_menor": 215.49,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FISI-103",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "REPRO",
+        "disciplina_validada": "FISI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 89,
+            "B": 80,
+            "C": 70,
+            "D": 223
+          },
+          "diferenca_percentual_sobre_menor": 218.57,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "gravidade_decisao",
+          "produtor": "G3_GRAVE/REESCRITA_NECESSARIA",
+          "verificador": "G2_MODERADA/REVISAO_NECESSARIA",
+          "justificativa": "Recalibração independente: referência pendente ou formulação ajustável, isoladamente, não obriga reescrita; vazamento/gabarito incorreto mantém bloqueio grave/crítico."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-FISI-135",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RENAL",
+        "disciplina_validada": "FISI",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 54,
+            "B": 63,
+            "C": 47,
+            "D": 360
+          },
+          "diferenca_percentual_sobre_menor": 665.96,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-GENE-001",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "HEMATO",
+        "disciplina_validada": "GENE",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 147,
+            "B": 101,
+            "C": 99,
+            "D": 92
+          },
+          "diferenca_percentual_sobre_menor": 59.78,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "A resposta pressupõe proporções condicionais ao sexo; deve explicitar que 50% dos filhos homens e 50% das filhas, não 50% de toda a prole em cada grupo."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-GENE-010",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "HEMATO",
+        "disciplina_validada": "GENE",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 140,
+            "B": 115,
+            "C": 102,
+            "D": 86
+          },
+          "diferenca_percentual_sobre_menor": 62.79,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-GENE-013",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "IMUNO",
+        "disciplina_validada": "GENE",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 95,
+            "B": 168,
+            "C": 84,
+            "D": 91
+          },
+          "diferenca_percentual_sobre_menor": 100.0,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-GENE-021",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "ENDO",
+        "disciplina_validada": "GENE",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 75,
+            "B": 67,
+            "C": 290,
+            "D": 85
+          },
+          "diferenca_percentual_sobre_menor": 332.84,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-GENE-029",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RENAL",
+        "disciplina_validada": "GENE",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 74,
+            "B": 55,
+            "C": 339,
+            "D": 63
+          },
+          "diferenca_percentual_sobre_menor": 516.36,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-GENE-031",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "HEMATO",
+        "disciplina_validada": "GENE",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 52,
+            "B": 49,
+            "C": 68,
+            "D": 342
+          },
+          "diferenca_percentual_sobre_menor": 597.96,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-HIST-010",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "LOCO",
+        "disciplina_validada": "HIST",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 86,
+            "B": 63,
+            "C": 61,
+            "D": 58
+          },
+          "diferenca_percentual_sobre_menor": 48.28,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-HIST-015",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "REPRO",
+        "disciplina_validada": "HIST",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 104,
+            "B": 76,
+            "C": 57,
+            "D": 60
+          },
+          "diferenca_percentual_sobre_menor": 82.46,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-HIST-017",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RENAL",
+        "disciplina_validada": "HIST",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 54,
+            "B": 63,
+            "C": 75,
+            "D": 53
+          },
+          "diferenca_percentual_sobre_menor": 41.51,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-HIST-030",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "LOCO",
+        "disciplina_validada": "HIST",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 86,
+            "B": 106,
+            "C": 91,
+            "D": 97
+          },
+          "diferenca_percentual_sobre_menor": 23.26,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-HIST-078",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TEG",
+        "disciplina_validada": "HIST",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 66,
+            "B": 414,
+            "C": 69,
+            "D": 64
+          },
+          "diferenca_percentual_sobre_menor": 546.88,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-HIST-079",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "REPRO",
+        "disciplina_validada": "HIST",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 67,
+            "B": 66,
+            "C": 456,
+            "D": 88
+          },
+          "diferenca_percentual_sobre_menor": 590.91,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-IMUN-002",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "IMUNO",
+        "disciplina_validada": "IMUN",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 92,
+            "B": 113,
+            "C": 102,
+            "D": 188
+          },
+          "diferenca_percentual_sobre_menor": 104.35,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-IMUN-022",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TEG",
+        "disciplina_validada": "IMUN",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 160,
+            "B": 78,
+            "C": 89,
+            "D": 95
+          },
+          "diferenca_percentual_sobre_menor": 105.13,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-IMUN-032",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RESP",
+        "disciplina_validada": "IMUN",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 218,
+            "B": 91,
+            "C": 68,
+            "D": 60
+          },
+          "diferenca_percentual_sobre_menor": 263.33,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-IMUN-037",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RENAL",
+        "disciplina_validada": "IMUN",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 85,
+            "B": 295,
+            "C": 98,
+            "D": 77
+          },
+          "diferenca_percentual_sobre_menor": 283.12,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-IMUN-040",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "IMUNO",
+        "disciplina_validada": "IMUN",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 335,
+            "B": 65,
+            "C": 56,
+            "D": 40
+          },
+          "diferenca_percentual_sobre_menor": 737.5,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-IMUN-043",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "IMUNO",
+        "disciplina_validada": "IMUN",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 351,
+            "B": 56,
+            "C": 58,
+            "D": 52
+          },
+          "diferenca_percentual_sobre_menor": 575.0,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-MICR-002",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "DIG",
+        "disciplina_validada": "MICR",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 87,
+            "B": 88,
+            "C": 151,
+            "D": 87
+          },
+          "diferenca_percentual_sobre_menor": 73.56,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-MICR-003",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TEG",
+        "disciplina_validada": "MICR",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 93,
+            "B": 109,
+            "C": 88,
+            "D": 152
+          },
+          "diferenca_percentual_sobre_menor": 72.73,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_VERIFICADO",
+          "conclusao": "URL externa não pôde ser aberta no ambiente (HTTP 401); conteúdo, licença e eventual vazamento não confirmados."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar",
+        "presenca_tipo_imagem"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-MICR-017",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "DIG",
+        "disciplina_validada": "MICR",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 71,
+            "B": 94,
+            "C": 54,
+            "D": 57
+          },
+          "diferenca_percentual_sobre_menor": 74.07,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "A alternativa correta agrupa hepatites B e C como transmissão por sangue e fluidos/sexual; para HCV a transmissão sexual é possível, mas bem menos eficiente. A redação precisa distinguir vias predominantes."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-MICR-024",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "IMUNO",
+        "disciplina_validada": "MICR",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 103,
+            "B": 133,
+            "C": 108,
+            "D": 85
+          },
+          "diferenca_percentual_sobre_menor": 56.47,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-MICR-036",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TEG",
+        "disciplina_validada": "MICR",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 64,
+            "B": 68,
+            "C": 251,
+            "D": 60
+          },
+          "diferenca_percentual_sobre_menor": 318.33,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-MICR-052",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "REPRO",
+        "disciplina_validada": "MICR",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 53,
+            "B": 54,
+            "C": 337,
+            "D": 74
+          },
+          "diferenca_percentual_sobre_menor": 535.85,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PARA-007",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TEG",
+        "disciplina_validada": "PARA",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 44,
+            "B": 55,
+            "C": 83,
+            "D": 49
+          },
+          "diferenca_percentual_sobre_menor": 88.64,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PARA-011",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "DIG",
+        "disciplina_validada": "PARA",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 35,
+            "B": 43,
+            "C": 68,
+            "D": 40
+          },
+          "diferenca_percentual_sobre_menor": 94.29,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_VERIFICADO_EXTERNAMENTE",
+          "conclusao": "O imgalt descreve morfologia típica sem nomear Giardia; parece pista diagnóstica legítima, mas arquivo/página/licença não foram acessíveis (HTTP 401)."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar",
+        "presenca_tipo_imagem"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PARA-015",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "CARDIO",
+        "disciplina_validada": "PARA",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 156,
+            "B": 75,
+            "C": 81,
+            "D": 82
+          },
+          "diferenca_percentual_sobre_menor": 108.0,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PARA-016",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "DIG",
+        "disciplina_validada": "PARA",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 173,
+            "B": 110,
+            "C": 76,
+            "D": 92
+          },
+          "diferenca_percentual_sobre_menor": 127.63,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PARA-020",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "DIG",
+        "disciplina_validada": "PARA",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 197,
+            "B": 98,
+            "C": 73,
+            "D": 60
+          },
+          "diferenca_percentual_sobre_menor": 228.33,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PARA-023",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "HEMATO",
+        "disciplina_validada": "PARA",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 66,
+            "B": 60,
+            "C": 64,
+            "D": 457
+          },
+          "diferenca_percentual_sobre_menor": 661.67,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PATO-015",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "REPRO",
+        "disciplina_validada": "PATO",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 63,
+            "B": 59,
+            "C": 54,
+            "D": 66
+          },
+          "diferenca_percentual_sobre_menor": 22.22,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": false,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "correlacao_clinica",
+          "produtor": "VINHETA_DECORATIVA",
+          "verificador": "CONCEITO_PURO",
+          "justificativa": "Aplicado novamente o teste de remoção: o cenário não é indispensável (ou, em SC-014, a situação concreta é indispensável) ao raciocínio."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PATO-044",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "CARDIO",
+        "disciplina_validada": "PATO",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 173,
+            "B": 79,
+            "C": 72,
+            "D": 94
+          },
+          "diferenca_percentual_sobre_menor": 140.28,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PATO-061",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "IMUNO",
+        "disciplina_validada": "PATO",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 255,
+            "B": 70,
+            "C": 71,
+            "D": 86
+          },
+          "diferenca_percentual_sobre_menor": 264.29,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PATO-068",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "LOCO",
+        "disciplina_validada": "PATO",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 60,
+            "B": 310,
+            "C": 59,
+            "D": 91
+          },
+          "diferenca_percentual_sobre_menor": 425.42,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PATO-071",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "NERV",
+        "disciplina_validada": "PATO",
+        "gabarito_segunda_resposta": "INCORRETO_CONFIRMADO",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 65,
+            "B": 85,
+            "C": 346,
+            "D": 78
+          },
+          "diferenca_percentual_sobre_menor": 432.31,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": false,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G4_CRITICA",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Gabarito confirmado como materialmente errado pela coerência interna: B inverte coagulação/liquefação; C é a única alternativa correta. Bloqueio crítico."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao"
+      ],
+      "divergencias": [
+        {
+          "campo": "gabarito",
+          "produtor": "INCORRETO_PRELIMINARMENTE",
+          "verificador": "INCORRETO_CONFIRMADO",
+          "justificativa": "B é falsa e C descreve corretamente os padrões; questão bloqueada."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PATO-092",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RENAL",
+        "disciplina_validada": "PATO",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 64,
+            "B": 47,
+            "C": 73,
+            "D": 388
+          },
+          "diferenca_percentual_sobre_menor": 725.53,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-PATO-095",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "HEMATO",
+        "disciplina_validada": "PATO",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 55,
+            "B": 448,
+            "C": 51,
+            "D": 75
+          },
+          "diferenca_percentual_sobre_menor": 778.43,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-SC-003",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TRANSVERSAL",
+        "disciplina_validada": "SC",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 55,
+            "B": 41,
+            "C": 52,
+            "D": 42
+          },
+          "diferenca_percentual_sobre_menor": 34.15,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": false,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "sistema",
+          "produtor": "CARDIO",
+          "verificador": "TRANSVERSAL",
+          "justificativa": "O conteúdo é transversal sem pertencimento orgânico legítimo a um dos 11 sistemas, ou o objetivo principal corresponde melhor ao sistema indicado."
+        },
+        {
+          "campo": "gravidade_decisao",
+          "produtor": "G3_GRAVE/REESCRITA_NECESSARIA",
+          "verificador": "G2_MODERADA/REVISAO_NECESSARIA",
+          "justificativa": "Recalibração independente: referência pendente ou formulação ajustável, isoladamente, não obriga reescrita; vazamento/gabarito incorreto mantém bloqueio grave/crítico."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-SC-004",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RESP",
+        "disciplina_validada": "SC",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 49,
+            "B": 59,
+            "C": 49,
+            "D": 78
+          },
+          "diferenca_percentual_sobre_menor": 59.18,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-SC-008",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RESP",
+        "disciplina_validada": "SC",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 60,
+            "B": 115,
+            "C": 78,
+            "D": 71
+          },
+          "diferenca_percentual_sobre_menor": 91.67,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-SC-009",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TRANSVERSAL",
+        "disciplina_validada": "SC",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 117,
+            "B": 103,
+            "C": 95,
+            "D": 168
+          },
+          "diferenca_percentual_sobre_menor": 76.84,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "sistema",
+          "produtor": "RESP",
+          "verificador": "TRANSVERSAL",
+          "justificativa": "O conteúdo é transversal sem pertencimento orgânico legítimo a um dos 11 sistemas, ou o objetivo principal corresponde melhor ao sistema indicado."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-SC-011",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TRANSVERSAL",
+        "disciplina_validada": "SC",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 85,
+            "B": 88,
+            "C": 75,
+            "D": 139
+          },
+          "diferenca_percentual_sobre_menor": 85.33,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "sistema",
+          "produtor": "CARDIO",
+          "verificador": "TRANSVERSAL",
+          "justificativa": "O conteúdo é transversal sem pertencimento orgânico legítimo a um dos 11 sistemas, ou o objetivo principal corresponde melhor ao sistema indicado."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-SC-014",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "TEG",
+        "disciplina_validada": "SC",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 93,
+            "B": 61,
+            "C": 235,
+            "D": 78
+          },
+          "diferenca_percentual_sobre_menor": 285.25,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [
+        {
+          "campo": "correlacao_clinica",
+          "produtor": "VINHETA_DECORATIVA",
+          "verificador": "CLINICA_REAL",
+          "justificativa": "Aplicado novamente o teste de remoção: o cenário não é indispensável (ou, em SC-014, a situação concreta é indispensável) ao raciocínio."
+        }
+      ],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-SEMIO-001",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "CARDIO",
+        "disciplina_validada": "SEMIO",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 76,
+            "B": 99,
+            "C": 63,
+            "D": 64
+          },
+          "diferenca_percentual_sobre_menor": 57.14,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-SEMIO-004",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RESP",
+        "disciplina_validada": "SEMIO",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 52,
+            "B": 56,
+            "C": 49,
+            "D": 81
+          },
+          "diferenca_percentual_sobre_menor": 65.31,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-SEMIO-007",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "CARDIO",
+        "disciplina_validada": "SEMIO",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 106,
+            "B": 82,
+            "C": 125,
+            "D": 92
+          },
+          "diferenca_percentual_sobre_menor": 52.44,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-SEMIO-010",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RESP",
+        "disciplina_validada": "SEMIO",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 69,
+            "B": 63,
+            "C": 129,
+            "D": 49
+          },
+          "diferenca_percentual_sobre_menor": 163.27,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-SEMIO-014",
+      "verificacao_independente": {
+        "correlacao_clinica": "CONCEITO_PURO",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RESP",
+        "disciplina_validada": "SEMIO",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 74,
+            "B": 55,
+            "C": 52,
+            "D": 186
+          },
+          "diferenca_percentual_sobre_menor": 257.69,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G2_MODERADA",
+        "decisao": "REVISAO_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    },
+    {
+      "id": "CB-SEMIO-025",
+      "verificacao_independente": {
+        "correlacao_clinica": "CLINICA_REAL",
+        "teste_de_remocao": "REAPLICADO_INDEPENDENTEMENTE",
+        "sistema_validado": "RENAL",
+        "disciplina_validada": "SEMIO",
+        "gabarito_segunda_resposta": "SEM_SEGUNDA_RESPOSTA_CONFIRMADA_MAS_FONTE_NAO_VERIFICADA",
+        "linguagem": "REVISAR_CLAREZA_PARA_CICLO_BASICO_E_PARALELISMO; conteúdo correto não compensa distratores absurdos ou resposta em formato de miniaula.",
+        "alternativas_extensao": {
+          "caracteres": {
+            "A": 49,
+            "B": 417,
+            "C": 44,
+            "D": 51
+          },
+          "diferenca_percentual_sobre_menor": 847.73,
+          "acima_de_15_porcento": true,
+          "correta_estritamente_mais_longa": true,
+          "conclusao": "ALERTA_CONFIRMADO; não inflar distratores mecanicamente."
+        },
+        "fonte": "NAO_VERIFICADO",
+        "imagem": {
+          "status": "NAO_APLICAVEL",
+          "conclusao": "Sem imagem."
+        },
+        "gravidade": "G3_GRAVE",
+        "decisao": "REESCRITA_NECESSARIA",
+        "observacao_medica_especifica": "Nenhuma nova inconsistência factual central confirmada sem acesso à fonte; isso não equivale a validação médica final."
+      },
+      "concordancias": [
+        "correlacao_clinica",
+        "sistema",
+        "gravidade_decisao",
+        "disciplina",
+        "metrica_extensao",
+        "gabarito_preliminar"
+      ],
+      "divergencias": [],
+      "status": "VERIFICADO_INDEPENDENTEMENTE_COM_FONTES_NAO_VERIFICADAS"
+    }
+  ],
+  "summary": {
+    "total": 100,
+    "clinical_classification": {
+      "VINHETA_DECORATIVA": 2,
+      "CONCEITO_PURO": 57,
+      "CLINICA_REAL": 41
+    },
+    "severity": {
+      "G2_MODERADA": 86,
+      "G3_GRAVE": 13,
+      "G4_CRITICA": 1
+    },
+    "decision": {
+      "REVISAO_NECESSARIA": 86,
+      "REESCRITA_NECESSARIA": 14
+    },
+    "questions_with_any_divergence": 14,
+    "classification_divergences": [
+      "CB-BIOQ-010",
+      "CB-EMBR-015",
+      "CB-PATO-015",
+      "CB-SC-014"
+    ],
+    "system_divergences": [
+      "CB-BIOQ-010",
+      "CB-ETICA-010",
+      "CB-ETICA-011",
+      "CB-ETICA-012",
+      "CB-ETICA-013",
+      "CB-ETICA-017",
+      "CB-SC-003",
+      "CB-SC-009",
+      "CB-SC-011"
+    ],
+    "severity_decision_divergences": [
+      "CB-BIOQ-010",
+      "CB-FISI-103",
+      "CB-SC-003"
+    ],
+    "confirmed_wrong_answer_keys": [
+      "CB-PATO-071"
+    ],
+    "alternative_length": {
+      "above_15_percent": 100,
+      "correct_strictly_longest": 96
+    },
+    "images": {
+      "total": 7,
+      "confirmed_text_leakage": [
+        "CB-BIOQ-031",
+        "CB-FISI-057"
+      ],
+      "strong_or_direct_clue": [
+        "CB-FARM-005",
+        "CB-FISI-039"
+      ],
+      "not_visually_or_externally_verified": [
+        "CB-FARM-006",
+        "CB-MICR-003",
+        "CB-PARA-011"
+      ]
+    },
+    "sources": {
+      "verified": 0,
+      "not_verified": 100,
+      "reason": "Acesso externo não disponível/HTTP 401; nenhuma referência foi promovida por confiança ou memória."
+    },
+    "release_blocked": true,
+    "blockers": [
+      "Gabarito incorreto em CB-PATO-071.",
+      "100/100 questões excedem o alerta de 15%; 96/100 têm a correta estritamente mais longa.",
+      "Fontes das 100 questões permanecem NÃO_VERIFICADAS.",
+      "Há vazamento confirmado por texto SVG em duas imagens e outras cinco sem liberação visual/licença completa.",
+      "Divergências curriculares e editoriais exigem adjudicação."
+    ]
+  }
+}

@@ -1,0 +1,1612 @@
+{
+  "lot_id": "LOTE-001",
+  "total": 100,
+  "method": "character_count_after_outer_whitespace_trim",
+  "warning": "A regra de 15% é alerta editorial; não autoriza inflação mecânica.",
+  "correct_strictly_longest": 96,
+  "within_15_percent": 0,
+  "with_image": 7,
+  "possible_svg_leakage": 0,
+  "questions": [
+    {
+      "question_id": "CB-ANAT-033",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 55,
+        "B": 91,
+        "C": 54,
+        "D": 59
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 68.52,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-ANAT-040",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 71,
+        "B": 52,
+        "C": 51,
+        "D": 57
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 39.22,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-ANAT-052",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 48,
+        "B": 56,
+        "C": 41,
+        "D": 35
+      },
+      "correct_is_strictly_longest": false,
+      "max_min_difference_percent_of_min": 60.0,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-ANAT-057",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 88,
+        "B": 128,
+        "C": 91,
+        "D": 89
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 45.45,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-ANAT-100",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 50,
+        "B": 80,
+        "C": 55,
+        "D": 296
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 492.0,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-ANAT-104",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 52,
+        "B": 283,
+        "C": 57,
+        "D": 70
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 444.23,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-ANAT-134",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 59,
+        "B": 430,
+        "C": 50,
+        "D": 57
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 760.0,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BCM-016",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 96,
+        "B": 60,
+        "C": 48,
+        "D": 45
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 113.33,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BCM-024",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 166,
+        "B": 88,
+        "C": 78,
+        "D": 107
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 112.82,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BCM-025",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 88,
+        "B": 96,
+        "C": 139,
+        "D": 78
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 78.21,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BCM-030",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 156,
+        "B": 72,
+        "C": 55,
+        "D": 63
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 183.64,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BCM-047",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 76,
+        "B": 71,
+        "C": 64,
+        "D": 341
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 432.81,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BCM-069",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 75,
+        "B": 71,
+        "C": 395,
+        "D": 75
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 456.34,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BIOQ-010",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 68,
+        "B": 69,
+        "C": 67,
+        "D": 59
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 16.95,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BIOQ-018",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 78,
+        "B": 86,
+        "C": 54,
+        "D": 61
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 59.26,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BIOQ-031",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 55,
+        "B": 52,
+        "C": 93,
+        "D": 50
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 86.0,
+      "within_15_percent": false,
+      "image_type": "embedded_svg",
+      "image_alt": "Esquema ilustrativo relacionado a metabolismo de purinas, apresentado para apoiar o raciocínio sobre o mecanismo envolvido.",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BIOQ-044",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 129,
+        "B": 99,
+        "C": 67,
+        "D": 94
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 92.54,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BIOQ-059",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 61,
+        "B": 74,
+        "C": 213,
+        "D": 61
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 249.18,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BIOQ-094",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 68,
+        "B": 58,
+        "C": 83,
+        "D": 311
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 436.21,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-BIOQ-096",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 70,
+        "B": 295,
+        "C": 44,
+        "D": 64
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 570.45,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-EMBR-015",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 98,
+        "B": 67,
+        "C": 41,
+        "D": 33
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 196.97,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-EMBR-023",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 74,
+        "B": 188,
+        "C": 74,
+        "D": 77
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 154.05,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-EMBR-024",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 102,
+        "B": 243,
+        "C": 74,
+        "D": 86
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 228.38,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-EMBR-030",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 57,
+        "B": 150,
+        "C": 75,
+        "D": 62
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 163.16,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-EMBR-033",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 82,
+        "B": 73,
+        "C": 74,
+        "D": 382
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 423.29,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-EMBR-038",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 67,
+        "B": 59,
+        "C": 69,
+        "D": 367
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 522.03,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-EPI-007",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 61,
+        "B": 64,
+        "C": 85,
+        "D": 55
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 54.55,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-EPI-008",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 55,
+        "B": 68,
+        "C": 87,
+        "D": 63
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 58.18,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-EPI-010",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 68,
+        "B": 76,
+        "C": 57,
+        "D": 82
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 43.86,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-EPI-021",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 180,
+        "B": 80,
+        "C": 112,
+        "D": 76
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 136.84,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-EPI-027",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 69,
+        "B": 79,
+        "C": 70,
+        "D": 407
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 489.86,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-EPI-033",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 65,
+        "B": 83,
+        "C": 417,
+        "D": 78
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 541.54,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-ETICA-006",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 49,
+        "B": 53,
+        "C": 78,
+        "D": 110
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 124.49,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-ETICA-010",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 80,
+        "B": 181,
+        "C": 87,
+        "D": 80
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 126.25,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-ETICA-011",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 94,
+        "B": 212,
+        "C": 90,
+        "D": 86
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 146.51,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-ETICA-012",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 206,
+        "B": 86,
+        "C": 80,
+        "D": 92
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 157.5,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-ETICA-013",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 86,
+        "B": 68,
+        "C": 76,
+        "D": 183
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 169.12,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-ETICA-017",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 84,
+        "B": 85,
+        "C": 484,
+        "D": 67
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 622.39,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FARM-003",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 107,
+        "B": 90,
+        "C": 95,
+        "D": 71
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 50.7,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FARM-005",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 62,
+        "B": 64,
+        "C": 51,
+        "D": 81
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 58.82,
+      "within_15_percent": false,
+      "image_type": "embedded_svg",
+      "image_alt": "Esquema ilustrativo relacionado a diureticos, apresentado para apoiar o raciocínio sobre o mecanismo envolvido.",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FARM-006",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 67,
+        "B": 68,
+        "C": 119,
+        "D": 58
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 105.17,
+      "within_15_percent": false,
+      "image_type": "embedded_svg",
+      "image_alt": "Esquema ilustrativo relacionado a farmacocinetica, apresentado para apoiar o raciocínio sobre o mecanismo envolvido.",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FARM-028",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 78,
+        "B": 79,
+        "C": 235,
+        "D": 69
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 240.58,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FARM-030",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 83,
+        "B": 73,
+        "C": 71,
+        "D": 170
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 139.44,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FARM-050",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 75,
+        "B": 48,
+        "C": 47,
+        "D": 366
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 678.72,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FISI-007",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 115,
+        "B": 112,
+        "C": 96,
+        "D": 128
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 33.33,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FISI-039",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 56,
+        "B": 62,
+        "C": 77,
+        "D": 55
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 40.0,
+      "within_15_percent": false,
+      "image_type": "embedded_svg",
+      "image_alt": "Esquema ilustrativo relacionado a condução do impulso, apresentado para apoiar o raciocínio sobre o mecanismo envolvido.",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FISI-057",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 44,
+        "B": 89,
+        "C": 61,
+        "D": 61
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 102.27,
+      "within_15_percent": false,
+      "image_type": "embedded_svg",
+      "image_alt": "Esquema ilustrativo relacionado a tireoide, apresentado para apoiar o raciocínio sobre o mecanismo envolvido.",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FISI-073",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 165,
+        "B": 88,
+        "C": 80,
+        "D": 76
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 117.11,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FISI-085",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 94,
+        "B": 71,
+        "C": 224,
+        "D": 100
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 215.49,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FISI-103",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 89,
+        "B": 80,
+        "C": 70,
+        "D": 223
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 218.57,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-FISI-135",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 54,
+        "B": 63,
+        "C": 47,
+        "D": 360
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 665.96,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-GENE-001",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 147,
+        "B": 101,
+        "C": 99,
+        "D": 92
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 59.78,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-GENE-010",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 140,
+        "B": 115,
+        "C": 102,
+        "D": 86
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 62.79,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-GENE-013",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 95,
+        "B": 168,
+        "C": 84,
+        "D": 91
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 100.0,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-GENE-021",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 75,
+        "B": 67,
+        "C": 290,
+        "D": 85
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 332.84,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-GENE-029",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 74,
+        "B": 55,
+        "C": 339,
+        "D": 63
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 516.36,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-GENE-031",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 52,
+        "B": 49,
+        "C": 68,
+        "D": 342
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 597.96,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-HIST-010",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 86,
+        "B": 63,
+        "C": 61,
+        "D": 58
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 48.28,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-HIST-015",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 104,
+        "B": 76,
+        "C": 57,
+        "D": 60
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 82.46,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-HIST-017",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 54,
+        "B": 63,
+        "C": 75,
+        "D": 53
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 41.51,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-HIST-030",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 86,
+        "B": 106,
+        "C": 91,
+        "D": 97
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 23.26,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-HIST-078",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 66,
+        "B": 414,
+        "C": 69,
+        "D": 64
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 546.88,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-HIST-079",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 67,
+        "B": 66,
+        "C": 456,
+        "D": 88
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 590.91,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-IMUN-002",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 92,
+        "B": 113,
+        "C": 102,
+        "D": 188
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 104.35,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-IMUN-022",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 160,
+        "B": 78,
+        "C": 89,
+        "D": 95
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 105.13,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-IMUN-032",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 218,
+        "B": 91,
+        "C": 68,
+        "D": 60
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 263.33,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-IMUN-037",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 85,
+        "B": 295,
+        "C": 98,
+        "D": 77
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 283.12,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-IMUN-040",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 335,
+        "B": 65,
+        "C": 56,
+        "D": 40
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 737.5,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-IMUN-043",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 351,
+        "B": 56,
+        "C": 58,
+        "D": 52
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 575.0,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-MICR-002",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 87,
+        "B": 88,
+        "C": 151,
+        "D": 87
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 73.56,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-MICR-003",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 93,
+        "B": 109,
+        "C": 88,
+        "D": 152
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 72.73,
+      "within_15_percent": false,
+      "image_type": "remote_url",
+      "image_alt": "Figura esquemática relacionada a estrutura bacteriana, apresentada como apoio visual ao raciocínio.",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-MICR-017",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 71,
+        "B": 94,
+        "C": 54,
+        "D": 57
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 74.07,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-MICR-024",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 103,
+        "B": 133,
+        "C": 108,
+        "D": 85
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 56.47,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-MICR-036",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 64,
+        "B": 68,
+        "C": 251,
+        "D": 60
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 318.33,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-MICR-052",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 53,
+        "B": 54,
+        "C": 337,
+        "D": 74
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 535.85,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PARA-007",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 44,
+        "B": 55,
+        "C": 83,
+        "D": 49
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 88.64,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PARA-011",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 35,
+        "B": 43,
+        "C": 68,
+        "D": 40
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 94.29,
+      "within_15_percent": false,
+      "image_type": "remote_url",
+      "image_alt": "Fotomicrografia de um protozoário em forma de pera, com dois núcleos simétricos que lembram um 'rosto', em amostra de fezes.",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PARA-015",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 156,
+        "B": 75,
+        "C": 81,
+        "D": 82
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 108.0,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PARA-016",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 173,
+        "B": 110,
+        "C": 76,
+        "D": 92
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 127.63,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PARA-020",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 197,
+        "B": 98,
+        "C": 73,
+        "D": 60
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 228.33,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PARA-023",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 66,
+        "B": 60,
+        "C": 64,
+        "D": 457
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 661.67,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PATO-015",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 63,
+        "B": 59,
+        "C": 54,
+        "D": 66
+      },
+      "correct_is_strictly_longest": false,
+      "max_min_difference_percent_of_min": 22.22,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PATO-044",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 173,
+        "B": 79,
+        "C": 72,
+        "D": 94
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 140.28,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PATO-061",
+      "answer": "A",
+      "alternative_lengths": {
+        "A": 255,
+        "B": 70,
+        "C": 71,
+        "D": 86
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 264.29,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PATO-068",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 60,
+        "B": 310,
+        "C": 59,
+        "D": 91
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 425.42,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PATO-071",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 65,
+        "B": 85,
+        "C": 346,
+        "D": 78
+      },
+      "correct_is_strictly_longest": false,
+      "max_min_difference_percent_of_min": 432.31,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PATO-092",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 64,
+        "B": 47,
+        "C": 73,
+        "D": 388
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 725.53,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-PATO-095",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 55,
+        "B": 448,
+        "C": 51,
+        "D": 75
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 778.43,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-SC-003",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 55,
+        "B": 41,
+        "C": 52,
+        "D": 42
+      },
+      "correct_is_strictly_longest": false,
+      "max_min_difference_percent_of_min": 34.15,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-SC-004",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 49,
+        "B": 59,
+        "C": 49,
+        "D": 78
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 59.18,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-SC-008",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 60,
+        "B": 115,
+        "C": 78,
+        "D": 71
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 91.67,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-SC-009",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 117,
+        "B": 103,
+        "C": 95,
+        "D": 168
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 76.84,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-SC-011",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 85,
+        "B": 88,
+        "C": 75,
+        "D": 139
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 85.33,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-SC-014",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 93,
+        "B": 61,
+        "C": 235,
+        "D": 78
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 285.25,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-SEMIO-001",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 76,
+        "B": 99,
+        "C": 63,
+        "D": 64
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 57.14,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-SEMIO-004",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 52,
+        "B": 56,
+        "C": 49,
+        "D": 81
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 65.31,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-SEMIO-007",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 106,
+        "B": 82,
+        "C": 125,
+        "D": 92
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 52.44,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-SEMIO-010",
+      "answer": "C",
+      "alternative_lengths": {
+        "A": 69,
+        "B": 63,
+        "C": 129,
+        "D": 49
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 163.27,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-SEMIO-014",
+      "answer": "D",
+      "alternative_lengths": {
+        "A": 74,
+        "B": 55,
+        "C": 52,
+        "D": 186
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 257.69,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    },
+    {
+      "question_id": "CB-SEMIO-025",
+      "answer": "B",
+      "alternative_lengths": {
+        "A": 49,
+        "B": 417,
+        "C": 44,
+        "D": 51
+      },
+      "correct_is_strictly_longest": true,
+      "max_min_difference_percent_of_min": 847.73,
+      "within_15_percent": false,
+      "image_type": "none",
+      "image_alt": "",
+      "possible_answer_terms_visible_in_svg": []
+    }
+  ]
+}

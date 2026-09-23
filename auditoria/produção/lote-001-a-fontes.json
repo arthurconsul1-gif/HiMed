@@ -1,0 +1,708 @@
+[
+  {
+    "id": "CB-ANAT-033",
+    "fontes_consultadas": [
+      "Moore, Dalley & Agur. Anatomia Orientada para a Clínica, 9ª ed., Guanabara Koogan, capítulos regionais correspondentes."
+    ],
+    "escopo_conferencia": "Vias biliares — Trajeto da bile",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Vias biliares — Trajeto da bile",
+    "afirmacoes_sustentadas": [
+      "Bile: fígado, ductos hepáticos, colédoco (com a vesícula pelo cístico), até o duodeno.",
+      "Gabarito B: Ductos hepáticos, ducto hepático comum, ducto cístico, colédoco e duodeno."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-ANAT-040",
+    "fontes_consultadas": [
+      "Moore, Dalley & Agur. Anatomia Orientada para a Clínica, 9ª ed., Guanabara Koogan, capítulos regionais correspondentes."
+    ],
+    "escopo_conferencia": "Nervos cranianos — Visão geral",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Nervos cranianos — Visão geral",
+    "afirmacoes_sustentadas": [
+      "São doze pares de nervos cranianos (sensitivos, motores ou mistos), que inervam sobretudo a cabeça e o pescoço.",
+      "Gabarito A: Há doze pares, com componentes sensitivos, motores ou ambos conforme cada nervo."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-ANAT-052",
+    "fontes_consultadas": [
+      "Moore, Dalley & Agur. Anatomia Orientada para a Clínica, 9ª ed., Guanabara Koogan, capítulos regionais correspondentes."
+    ],
+    "escopo_conferencia": "Pele — Camadas da pele",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Pele — Camadas da pele",
+    "afirmacoes_sustentadas": [
+      "Pele, da superfície ao fundo: epiderme (epitélio), derme (conjuntivo, vasos, anexos), hipoderme (gordura).",
+      "Gabarito A: Epiderme superficial, derme intermediária e hipoderme subcutânea mais profunda."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-ANAT-057",
+    "fontes_consultadas": [
+      "Moore, Dalley & Agur. Anatomia Orientada para a Clínica, 9ª ed., Guanabara Koogan, capítulos regionais correspondentes."
+    ],
+    "escopo_conferencia": "Nervos cranianos — Nervo laríngeo recorrente",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Nervos cranianos — Nervo laríngeo recorrente",
+    "afirmacoes_sustentadas": [
+      "Reconhecer a relação anatômica do nervo laríngeo recorrente com a tireoide e a consequência de sua lesão.",
+      "Gabarito B: Nervo laríngeo recorrente, que ascende no sulco traqueoesofágico junto à tireoide."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-ANAT-100",
+    "fontes_consultadas": [
+      "Moore, Dalley & Agur. Anatomia Orientada para a Clínica, 9ª ed., Guanabara Koogan, capítulos regionais correspondentes."
+    ],
+    "escopo_conferencia": "Glândulas endócrinas — Glândulas suprarrenais",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Glândulas endócrinas — Glândulas suprarrenais",
+    "afirmacoes_sustentadas": [
+      "Reconhecer a localização e a divisão córtex-medula das glândulas suprarrenais.",
+      "Gabarito D: Sobre os rins, com córtex produtor de esteroides e medula produtora de catecolaminas."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-ANAT-104",
+    "fontes_consultadas": [
+      "Moore, Dalley & Agur. Anatomia Orientada para a Clínica, 9ª ed., Guanabara Koogan, capítulos regionais correspondentes."
+    ],
+    "escopo_conferencia": "Glândulas endócrinas — Hipófise",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Glândulas endócrinas — Hipófise",
+    "afirmacoes_sustentadas": [
+      "Reconhecer a localização (sela túrcica), a divisão e o papel central da hipófise.",
+      "Gabarito B: Na sela túrcica, ligada ao hipotálamo pelo infundíbulo e dividida em dois lobos."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-ANAT-134",
+    "fontes_consultadas": [
+      "Moore, Dalley & Agur. Anatomia Orientada para a Clínica, 9ª ed., Guanabara Koogan, capítulos regionais correspondentes."
+    ],
+    "escopo_conferencia": "Sistema digestivo — Fígado e vias biliares",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Sistema digestivo — Fígado e vias biliares",
+    "afirmacoes_sustentadas": [
+      "Reconhecer a anatomia do fígado e das vias biliares e a conexão com o intestino.",
+      "Gabarito B: No hipocôndrio direito; sua bile alcança o duodeno pelo sistema de ductos biliares."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BCM-016",
+    "fontes_consultadas": [
+      "Alberts et al. Biologia Molecular da Célula, 7ª ed., Artmed, capítulos sobre sinalização, ciclo celular e citoesqueleto."
+    ],
+    "escopo_conferencia": "Reparo do DNA — Xeroderma pigmentoso",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Reparo do DNA — Xeroderma pigmentoso",
+    "afirmacoes_sustentadas": [
+      "Reparo do DNA corrige lesões (ex.: por UV); sua falha (xeroderma) acumula mutações e causa câncer de pele.",
+      "Gabarito A: A falha da excisão de nucleotídeos permite acumular mutações induzidas por radiação UV."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BCM-024",
+    "fontes_consultadas": [
+      "Alberts et al. Biologia Molecular da Célula, 7ª ed., Artmed, capítulos sobre sinalização, ciclo celular e citoesqueleto."
+    ],
+    "escopo_conferencia": "Comunicação celular — Receptores de membrana",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Comunicação celular — Receptores de membrana",
+    "afirmacoes_sustentadas": [
+      "Compreender transdução de sinal por receptor de membrana e segundo mensageiro, com amplificação.",
+      "Gabarito A: O receptor ativa uma cascata intracelular e gera segundos mensageiros que amplificam o sinal."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BCM-025",
+    "fontes_consultadas": [
+      "Alberts et al. Biologia Molecular da Célula, 7ª ed., Artmed, capítulos sobre sinalização, ciclo celular e citoesqueleto."
+    ],
+    "escopo_conferencia": "Ciclo celular — Pontos de checagem",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Ciclo celular — Pontos de checagem",
+    "afirmacoes_sustentadas": [
+      "Compreender os checkpoints como controle de qualidade que impede a divisão de células danificadas.",
+      "Gabarito C: Checkpoints pausam o ciclo para reparo e podem induzir apoptose se o dano persistir."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BCM-030",
+    "fontes_consultadas": [
+      "Alberts et al. Biologia Molecular da Célula, 7ª ed., Artmed, capítulos sobre sinalização, ciclo celular e citoesqueleto."
+    ],
+    "escopo_conferencia": "Citoesqueleto — Funções do citoesqueleto",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Citoesqueleto — Funções do citoesqueleto",
+    "afirmacoes_sustentadas": [
+      "Reconhecer as múltiplas funções do citoesqueleto além da sustentação.",
+      "Gabarito A: Organiza forma, motilidade, transporte intracelular e segregação cromossômica na divisão."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BCM-047",
+    "fontes_consultadas": [
+      "Alberts et al. Biologia Molecular da Célula, 7ª ed., Artmed, capítulos sobre sinalização, ciclo celular e citoesqueleto."
+    ],
+    "escopo_conferencia": "Ciclo celular — Pontos de checagem e câncer",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Ciclo celular — Pontos de checagem e câncer",
+    "afirmacoes_sustentadas": [
+      "Compreender o papel dos pontos de checagem do ciclo celular e sua relação com a carcinogênese.",
+      "Gabarito D: Checkpoints interrompem o ciclo; sua falha permite proliferar células com DNA danificado."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BCM-069",
+    "fontes_consultadas": [
+      "Alberts et al. Biologia Molecular da Célula, 7ª ed., Artmed, capítulos sobre sinalização, ciclo celular e citoesqueleto."
+    ],
+    "escopo_conferencia": "Citoesqueleto — Proteínas estruturais do músculo",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Citoesqueleto — Proteínas estruturais do músculo",
+    "afirmacoes_sustentadas": [
+      "Compreender o papel das proteínas estruturais (distrofina) na integridade da fibra e a distrofia muscular.",
+      "Gabarito C: Distrofina conecta o citoesqueleto à membrana; sua ausência favorece lesão das fibras."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BIOQ-010",
+    "fontes_consultadas": [
+      "Nelson & Cox. Princípios de Bioquímica de Lehninger, 8ª ed., Artmed, capítulos de metabolismo e bioquímica clínica."
+    ],
+    "escopo_conferencia": "Metabolismo lipidico — LDL e HDL",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Metabolismo lipidico — LDL e HDL",
+    "afirmacoes_sustentadas": [
+      "LDL leva colesterol aos tecidos (aterogenico); HDL o remove de volta ao figado (protetor).",
+      "Gabarito B: LDL entrega colesterol aos tecidos; HDL participa do transporte reverso ao fígado."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BIOQ-018",
+    "fontes_consultadas": [
+      "Nelson & Cox. Princípios de Bioquímica de Lehninger, 8ª ed., Artmed, capítulos de metabolismo e bioquímica clínica."
+    ],
+    "escopo_conferencia": "Metabolismo integrado — Alimentado e jejum",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Metabolismo integrado — Alimentado e jejum",
+    "afirmacoes_sustentadas": [
+      "Alimentado: insulina (armazena); jejum: glucagon (mobiliza). Eles se opoem e coordenam o metabolismo.",
+      "Gabarito B: Insulina predomina após a refeição; glucagon predomina no jejum e mobiliza reservas."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BIOQ-031",
+    "fontes_consultadas": [
+      "Nelson & Cox. Princípios de Bioquímica de Lehninger, 8ª ed., Artmed, capítulos de metabolismo e bioquímica clínica."
+    ],
+    "escopo_conferencia": "Metabolismo de purinas — Ácido úrico e gota",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Metabolismo de purinas — Ácido úrico e gota",
+    "afirmacoes_sustentadas": [
+      "Gota: acúmulo de ácido úrico (metabolismo das purinas) forma cristais de urato nas articulações, causando inflamação.",
+      "Gabarito C: A hiperuricemia favorece cristais de urato monossódico nas articulações."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BIOQ-044",
+    "fontes_consultadas": [
+      "Nelson & Cox. Princípios de Bioquímica de Lehninger, 8ª ed., Artmed, capítulos de metabolismo e bioquímica clínica."
+    ],
+    "escopo_conferencia": "Vitaminas e cofatores — Ácido fólico e B12",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Vitaminas e cofatores — Ácido fólico e B12",
+    "afirmacoes_sustentadas": [
+      "Relacionar folato/B12 à síntese de DNA e à gênese da anemia macrocítica.",
+      "Gabarito A: A síntese deficiente de DNA causa assincronia entre maturação nuclear e citoplasmática."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BIOQ-059",
+    "fontes_consultadas": [
+      "Nelson & Cox. Princípios de Bioquímica de Lehninger, 8ª ed., Artmed, capítulos de metabolismo e bioquímica clínica."
+    ],
+    "escopo_conferencia": "Vitaminas e cofatores — Vitamina B12 e ácido fólico",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Vitaminas e cofatores — Vitamina B12 e ácido fólico",
+    "afirmacoes_sustentadas": [
+      "Associar deficiência de B12/folato à anemia megaloblástica (macrocítica) por prejuízo na síntese de DNA.",
+      "Gabarito C: Anemia megaloblástica por prejuízo da síntese de DNA e da maturação nuclear."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BIOQ-094",
+    "fontes_consultadas": [
+      "Nelson & Cox. Princípios de Bioquímica de Lehninger, 8ª ed., Artmed, capítulos de metabolismo e bioquímica clínica."
+    ],
+    "escopo_conferencia": "Metabolismo integrado — Ciclo de Cori e lactato",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Metabolismo integrado — Ciclo de Cori e lactato",
+    "afirmacoes_sustentadas": [
+      "Compreender o ciclo de Cori (lactato do músculo → glicose no fígado) na integração metabólica.",
+      "Gabarito D: É levado ao fígado, convertido em glicose e devolvido ao músculo pelo ciclo de Cori."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-BIOQ-096",
+    "fontes_consultadas": [
+      "Nelson & Cox. Princípios de Bioquímica de Lehninger, 8ª ed., Artmed, capítulos de metabolismo e bioquímica clínica."
+    ],
+    "escopo_conferencia": "Hemoglobina — Fetal e adulta",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Hemoglobina — Fetal e adulta",
+    "afirmacoes_sustentadas": [
+      "Compreender a maior afinidade da hemoglobina fetal e sua vantagem na captação de oxigênio na placenta.",
+      "Gabarito B: HbF possui maior afinidade por oxigênio e favorece sua captação a partir do sangue materno."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-EMBR-015",
+    "fontes_consultadas": [
+      "Moore, Persaud & Torchia. Embriologia Clínica, 11ª ed., Elsevier, capítulos correspondentes ao desenvolvimento inicial e sistêmico."
+    ],
+    "escopo_conferencia": "Desenvolvimento dos membros — Brotos e malformações",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Desenvolvimento dos membros — Brotos e malformações",
+    "afirmacoes_sustentadas": [
+      "Membros formam-se de brotos; teratógenos em períodos críticos causam malformações (amelia, focomelia — ex.: talidomida).",
+      "Gabarito A: Teratógenos podem interromper o desenvolvimento e causar redução ou ausência de segmentos dos membros."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-EMBR-023",
+    "fontes_consultadas": [
+      "Moore, Persaud & Torchia. Embriologia Clínica, 11ª ed., Elsevier, capítulos correspondentes ao desenvolvimento inicial e sistêmico."
+    ],
+    "escopo_conferencia": "Desenvolvimento cardiovascular — Circulação fetal",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Desenvolvimento cardiovascular — Circulação fetal",
+    "afirmacoes_sustentadas": [
+      "Reconhecer o forame oval e o canal arterial como shunts fetais que se fecham após o nascimento.",
+      "Gabarito B: Forame oval e ducto arterial, que normalmente sofrem fechamento após o nascimento."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-EMBR-024",
+    "fontes_consultadas": [
+      "Moore, Persaud & Torchia. Embriologia Clínica, 11ª ed., Elsevier, capítulos correspondentes ao desenvolvimento inicial e sistêmico."
+    ],
+    "escopo_conferencia": "Fertilização — Fecundação e formação do zigoto",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Fertilização — Fecundação e formação do zigoto",
+    "afirmacoes_sustentadas": [
+      "Compreender o local (tuba uterina) e o processo da fertilização (zigoto, bloqueio à poliespermia).",
+      "Gabarito B: Ocorre geralmente na ampola tubária e desencadeia mecanismos que bloqueiam a poliespermia."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-EMBR-030",
+    "fontes_consultadas": [
+      "Moore, Persaud & Torchia. Embriologia Clínica, 11ª ed., Elsevier, capítulos correspondentes ao desenvolvimento inicial e sistêmico."
+    ],
+    "escopo_conferencia": "Folhetos germinativos — Derivados do ectoderma",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Folhetos germinativos — Derivados do ectoderma",
+    "afirmacoes_sustentadas": [
+      "Reconhecer o ectoderma como origem do sistema nervoso e da epiderme.",
+      "Gabarito B: Ectoderma, que também origina estruturas neurais, epiderme e seus anexos cutâneos."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-EMBR-033",
+    "fontes_consultadas": [
+      "Moore, Persaud & Torchia. Embriologia Clínica, 11ª ed., Elsevier, capítulos correspondentes ao desenvolvimento inicial e sistêmico."
+    ],
+    "escopo_conferencia": "Anexos embrionários — Âmnio, saco vitelino e alantoide",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Anexos embrionários — Âmnio, saco vitelino e alantoide",
+    "afirmacoes_sustentadas": [
+      "Conhecer as funções dos anexos embrionários (âmnio, saco vitelino, alantoide, cório).",
+      "Gabarito A: O âmnio delimita a cavidade líquida que protege o embrião e permite movimentos."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-EMBR-038",
+    "fontes_consultadas": [
+      "Moore, Persaud & Torchia. Embriologia Clínica, 11ª ed., Elsevier, capítulos correspondentes ao desenvolvimento inicial e sistêmico."
+    ],
+    "escopo_conferencia": "Desenvolvimento inicial — Implantação",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Desenvolvimento inicial — Implantação",
+    "afirmacoes_sustentadas": [
+      "Compreender a formação do blastocisto e a implantação no endométrio preparado pelos hormônios.",
+      "Gabarito D: O blastocisto adere ao endométrio e inicia sua invasão cerca de uma semana após a fecundação."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-EPI-007",
+    "fontes_consultadas": [
+      "Fletcher, Fletcher & Fletcher. Epidemiologia Clínica: Elementos Essenciais, 6ª ed., Artmed, capítulos de delineamentos e testes diagnósticos."
+    ],
+    "escopo_conferencia": "Ensaio clinico — Randomizacao e cegamento",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Ensaio clinico — Randomizacao e cegamento",
+    "afirmacoes_sustentadas": [
+      "Randomizacao equilibra os grupos (reduz confundimento); cegamento reduz o vies de paciente e avaliador.",
+      "Gabarito C: Randomização aumenta prevalência; mascaramento torna os grupos biologicamente idênticos."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-EPI-008",
+    "fontes_consultadas": [
+      "Fletcher, Fletcher & Fletcher. Epidemiologia Clínica: Elementos Essenciais, 6ª ed., Artmed, capítulos de delineamentos e testes diagnósticos."
+    ],
+    "escopo_conferencia": "Rastreamento — Sensibilidade no rastreio",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Rastreamento — Sensibilidade no rastreio",
+    "afirmacoes_sustentadas": [
+      "Rastreamento: teste em assintomaticos, prioriza alta sensibilidade (poucos falsos-negativos); confirma-se depois.",
+      "Gabarito C: Alta sensibilidade, para minimizar falsos-negativos na população submetida ao rastreamento."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-EPI-010",
+    "fontes_consultadas": [
+      "Fletcher, Fletcher & Fletcher. Epidemiologia Clínica: Elementos Essenciais, 6ª ed., Artmed, capítulos de delineamentos e testes diagnósticos."
+    ],
+    "escopo_conferencia": "Tipos de estudo — Coorte versus caso-controle",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Tipos de estudo — Coorte versus caso-controle",
+    "afirmacoes_sustentadas": [
+      "Coorte: parte da exposição e segue o desfecho (risco relativo). Caso-controle: parte do desfecho e olha a exposição (odds ratio).",
+      "Gabarito D: Ambos partem do desfecho, mas só a coorte investiga retrospectivamente exposições."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-EPI-021",
+    "fontes_consultadas": [
+      "Fletcher, Fletcher & Fletcher. Epidemiologia Clínica: Elementos Essenciais, 6ª ed., Artmed, capítulos de delineamentos e testes diagnósticos."
+    ],
+    "escopo_conferencia": "Testes diagnósticos — Sensibilidade x especificidade",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Testes diagnósticos — Sensibilidade x especificidade",
+    "afirmacoes_sustentadas": [
+      "Distinguir sensibilidade (detecta doentes) de especificidade (identifica sadios).",
+      "Gabarito A: Sensibilidade identifica corretamente doentes; especificidade identifica corretamente não doentes."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-EPI-027",
+    "fontes_consultadas": [
+      "Fletcher, Fletcher & Fletcher. Epidemiologia Clínica: Elementos Essenciais, 6ª ed., Artmed, capítulos de delineamentos e testes diagnósticos."
+    ],
+    "escopo_conferencia": "Desenhos de estudo — Tipos de estudo epidemiológico",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Desenhos de estudo — Tipos de estudo epidemiológico",
+    "afirmacoes_sustentadas": [
+      "Distinguir os principais desenhos de estudo (transversal, coorte, caso-controle, ensaio clínico).",
+      "Gabarito D: Ensaio clínico apenas observa exposições espontâneas, sem atribuir qualquer intervenção."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-EPI-033",
+    "fontes_consultadas": [
+      "Fletcher, Fletcher & Fletcher. Epidemiologia Clínica: Elementos Essenciais, 6ª ed., Artmed, capítulos de delineamentos e testes diagnósticos."
+    ],
+    "escopo_conferencia": "Tipos de estudo — Coorte e caso-controle",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Tipos de estudo — Coorte e caso-controle",
+    "afirmacoes_sustentadas": [
+      "Diferenciar coorte (exposição → desfecho) de caso-controle (desfecho → exposição).",
+      "Gabarito C: Coorte parte da exposição; caso-controle parte do desfecho e busca exposições anteriores."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-ETICA-006",
+    "fontes_consultadas": [
+      "Conselho Federal de Medicina. Resolução CFM nº 2.217/2018, Código de Ética Médica, modificada pelas Resoluções CFM nº 2.222/2018 e nº 2.226/2019.",
+      "Beauchamp & Childress. Principles of Biomedical Ethics, 8th ed., Oxford University Press."
+    ],
+    "escopo_conferencia": "Princípios — Justiça e alocação de recursos",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Princípios — Justiça e alocação de recursos",
+    "afirmacoes_sustentadas": [
+      "Justiça (bioética): distribuir recursos escassos de forma equitativa, por critérios técnicos e transparentes, sem discriminação.",
+      "Gabarito D: Justiça, porque a alocação exige critérios técnicos, transparentes e não discriminatórios."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-ETICA-010",
+    "fontes_consultadas": [
+      "Conselho Federal de Medicina. Resolução CFM nº 2.217/2018, Código de Ética Médica, modificada pelas Resoluções CFM nº 2.222/2018 e nº 2.226/2019.",
+      "Beauchamp & Childress. Principles of Biomedical Ethics, 8th ed., Oxford University Press."
+    ],
+    "escopo_conferencia": "Relação médico-paciente — Consentimento informado",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Relação médico-paciente — Consentimento informado",
+    "afirmacoes_sustentadas": [
+      "Reconhecer o consentimento informado como expressão do respeito à autonomia.",
+      "Gabarito B: Consentimento informado, que concretiza autonomia mediante informação e decisão voluntária."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-ETICA-011",
+    "fontes_consultadas": [
+      "Conselho Federal de Medicina. Resolução CFM nº 2.217/2018, Código de Ética Médica, modificada pelas Resoluções CFM nº 2.222/2018 e nº 2.226/2019.",
+      "Beauchamp & Childress. Principles of Biomedical Ethics, 8th ed., Oxford University Press."
+    ],
+    "escopo_conferencia": "Confidencialidade — Sigilo médico e limites",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Confidencialidade — Sigilo médico e limites",
+    "afirmacoes_sustentadas": [
+      "Reconhecer o sigilo e suas exceções legítimas (risco a terceiros, exigência legal).",
+      "Gabarito B: Confidencialidade; exceções éticas ou legais exigem revelar somente o estritamente necessário."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-ETICA-012",
+    "fontes_consultadas": [
+      "Conselho Federal de Medicina. Resolução CFM nº 2.217/2018, Código de Ética Médica, modificada pelas Resoluções CFM nº 2.222/2018 e nº 2.226/2019.",
+      "Beauchamp & Childress. Principles of Biomedical Ethics, 8th ed., Oxford University Press."
+    ],
+    "escopo_conferencia": "Princípios da bioética — Beneficência e não maleficência",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Princípios da bioética — Beneficência e não maleficência",
+    "afirmacoes_sustentadas": [
+      "Distinguir beneficência (fazer o bem) de não maleficência (não causar dano).",
+      "Gabarito A: Beneficência promove benefícios; não maleficência impõe evitar danos injustificados."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-ETICA-013",
+    "fontes_consultadas": [
+      "Conselho Federal de Medicina. Resolução CFM nº 2.217/2018, Código de Ética Médica, modificada pelas Resoluções CFM nº 2.222/2018 e nº 2.226/2019.",
+      "Beauchamp & Childress. Principles of Biomedical Ethics, 8th ed., Oxford University Press."
+    ],
+    "escopo_conferencia": "Autonomia — Consentimento informado",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Autonomia — Consentimento informado",
+    "afirmacoes_sustentadas": [
+      "Associar o consentimento informado ao princípio da autonomia.",
+      "Gabarito D: Consentimento informado, que concretiza a autonomia por decisão esclarecida e voluntária."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-ETICA-017",
+    "fontes_consultadas": [
+      "Conselho Federal de Medicina. Resolução CFM nº 2.217/2018, Código de Ética Médica, modificada pelas Resoluções CFM nº 2.222/2018 e nº 2.226/2019.",
+      "Beauchamp & Childress. Principles of Biomedical Ethics, 8th ed., Oxford University Press."
+    ],
+    "escopo_conferencia": "Ética médica — Sigilo profissional",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Ética médica — Sigilo profissional",
+    "afirmacoes_sustentadas": [
+      "Compreender o sigilo profissional, sua importância e suas exceções.",
+      "Gabarito C: Confidencialidade protege informações assistenciais, salvo justificativa ética ou legal reconhecida."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-FARM-003",
+    "fontes_consultadas": [
+      "Katzung & Trevor. Farmacologia Básica e Clínica, 15ª ed., McGraw Hill, capítulos de farmacocinética e farmacologia de sistemas."
+    ],
+    "escopo_conferencia": "Fármacos respiratórios — Beta-2 agonista",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Fármacos respiratórios — Beta-2 agonista",
+    "afirmacoes_sustentadas": [
+      "Salbutamol é agonista beta-2: relaxa a musculatura brônquica e broncodilata na crise de asma.",
+      "Gabarito A: Agonismo beta-2 aumenta AMPc e relaxa a musculatura lisa das vias respiratórias."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-FARM-005",
+    "fontes_consultadas": [
+      "Katzung & Trevor. Farmacologia Básica e Clínica, 15ª ed., McGraw Hill, capítulos de farmacocinética e farmacologia de sistemas."
+    ],
+    "escopo_conferencia": "Diureticos — Diuretico de alca",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Diureticos — Diuretico de alca",
+    "afirmacoes_sustentadas": [
+      "Furosemida (diuretico de alca) inibe o cotransportador Na-K-2Cl na alca de Henle, aumentando a excrecao de agua.",
+      "Gabarito D: Inibe NKCC2 no ramo ascendente espesso, elevando a excreção de sódio e água."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-FARM-006",
+    "fontes_consultadas": [
+      "Katzung & Trevor. Farmacologia Básica e Clínica, 15ª ed., McGraw Hill, capítulos de farmacocinética e farmacologia de sistemas."
+    ],
+    "escopo_conferencia": "Farmacocinetica — Primeira passagem",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Farmacocinetica — Primeira passagem",
+    "afirmacoes_sustentadas": [
+      "Primeira passagem: o farmaco oral e metabolizado no figado antes da circulacao, reduzindo a biodisponibilidade.",
+      "Gabarito C: Metabolismo intestinal ou hepático pré-sistêmico reduz a biodisponibilidade oral."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-FARM-028",
+    "fontes_consultadas": [
+      "Katzung & Trevor. Farmacologia Básica e Clínica, 15ª ed., McGraw Hill, capítulos de farmacocinética e farmacologia de sistemas."
+    ],
+    "escopo_conferencia": "Farmacocinética — Efeito de primeira passagem",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Farmacocinética — Efeito de primeira passagem",
+    "afirmacoes_sustentadas": [
+      "Compreender o efeito de primeira passagem e sua consequência sobre a dose oral.",
+      "Gabarito C: Primeira passagem: metabolismo pré-sistêmico reduz a fração oral que alcança a circulação."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-FARM-030",
+    "fontes_consultadas": [
+      "Katzung & Trevor. Farmacologia Básica e Clínica, 15ª ed., McGraw Hill, capítulos de farmacocinética e farmacologia de sistemas."
+    ],
+    "escopo_conferencia": "Farmacocinética — Excreção renal e meia-vida",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Farmacocinética — Excreção renal e meia-vida",
+    "afirmacoes_sustentadas": [
+      "Compreender a meia-vida e sua utilidade para definir intervalos de dose.",
+      "Gabarito D: Meia-vida: tempo para a concentração cair à metade e orientar intervalos de administração."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-FARM-050",
+    "fontes_consultadas": [
+      "Katzung & Trevor. Farmacologia Básica e Clínica, 15ª ed., McGraw Hill, capítulos de farmacocinética e farmacologia de sistemas."
+    ],
+    "escopo_conferencia": "Hormônios — Contraceptivos hormonais",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Hormônios — Contraceptivos hormonais",
+    "afirmacoes_sustentadas": [
+      "Compreender o mecanismo dos contraceptivos hormonais (inibição de FSH/LH, supressão da ovulação).",
+      "Gabarito D: Retroalimentação hormonal suprime ovulação; progestagênio espessa o muco cervical."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-FISI-007",
+    "fontes_consultadas": [
+      "Hall & Hall. Guyton & Hall Tratado de Fisiologia Médica, 14ª ed., Elsevier, capítulos correspondentes."
+    ],
+    "escopo_conferencia": "Eritropoiese — Eritropoetina e hipóxia",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Eritropoiese — Eritropoetina e hipóxia",
+    "afirmacoes_sustentadas": [
+      "Hipóxia leva o rim a liberar eritropoetina, que estimula a medula a produzir mais hemácias. É a adaptação à altitude.",
+      "Gabarito D: A hipóxia medular reduz apoptose de hemácias maduras, sem aumentar a eritropoiese renal."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-FISI-039",
+    "fontes_consultadas": [
+      "Hall & Hall. Guyton & Hall Tratado de Fisiologia Médica, 14ª ed., Elsevier, capítulos correspondentes."
+    ],
+    "escopo_conferencia": "Condução do impulso — Mielina e condução saltatória",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Condução do impulso — Mielina e condução saltatória",
+    "afirmacoes_sustentadas": [
+      "A mielina isola o axônio e permite a condução saltatória (nós de Ranvier), acelerando o impulso.",
+      "Gabarito C: Isola eletricamente o axônio e favorece condução saltatória entre nódulos de Ranvier."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-FISI-057",
+    "fontes_consultadas": [
+      "Hall & Hall. Guyton & Hall Tratado de Fisiologia Médica, 14ª ed., Elsevier, capítulos correspondentes."
+    ],
+    "escopo_conferencia": "Tireoide — Efeitos dos hormônios tireoidianos",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Tireoide — Efeitos dos hormônios tireoidianos",
+    "afirmacoes_sustentadas": [
+      "T3/T4 aumentam o metabolismo basal e a atividade dos órgãos; o excesso causa perda de peso, taquicardia e calor.",
+      "Gabarito B: Elevam o metabolismo basal e potêncializam respostas cardiovasculares às catecolaminas."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-FISI-073",
+    "fontes_consultadas": [
+      "Hall & Hall. Guyton & Hall Tratado de Fisiologia Médica, 14ª ed., Elsevier, capítulos correspondentes."
+    ],
+    "escopo_conferencia": "Sistema nervoso autônomo — Simpático x parassimpático",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Sistema nervoso autônomo — Simpático x parassimpático",
+    "afirmacoes_sustentadas": [
+      "Reconhecer o padrão simpático de 'luta ou fuga' e seu sentido funcional.",
+      "Gabarito A: Simpático: coordena taquicardia, midríase, broncodilatação e redução da atividade digestiva."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-FISI-085",
+    "fontes_consultadas": [
+      "Hall & Hall. Guyton & Hall Tratado de Fisiologia Médica, 14ª ed., Elsevier, capítulos correspondentes."
+    ],
+    "escopo_conferencia": "Sinapse — Neurotransmissão química",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Sinapse — Neurotransmissão química",
+    "afirmacoes_sustentadas": [
+      "Compreender a sinapse química e o papel dos neurotransmissores na transmissão do sinal.",
+      "Gabarito C: Junção neuromuscular: enzimas digestivas cruzam a fenda e ativam o núcleo pós-sináptico."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  },
+  {
+    "id": "CB-FISI-103",
+    "fontes_consultadas": [
+      "Hall & Hall. Guyton & Hall Tratado de Fisiologia Médica, 14ª ed., Elsevier, capítulos correspondentes."
+    ],
+    "escopo_conferencia": "Fisiologia da gestação — Adaptações maternas",
+    "observacao": "Fonte bibliográfica de referência para conferência semântica; validar edição/paginação na revisão independente antes da publicação.",
+    "secao_localizadora": "Capítulo/seção temática: Fisiologia da gestação — Adaptações maternas",
+    "afirmacoes_sustentadas": [
+      "Reconhecer as adaptações normais da gravidez: anemia dilucional, aumento do débito cardíaco e da ventilação.",
+      "Gabarito D: Volume plasmático cresce mais que massa eritrocitária, causando anemia dilucional fisiológica."
+    ],
+    "uso_na_revisao": "Conferência de conceito central, melhor resposta, mecanismo explicativo e distinção dos distratores."
+  }
+]

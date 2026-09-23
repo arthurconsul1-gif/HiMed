@@ -1,0 +1,43 @@
+{
+  "lot_id": "LOTE-PILOTO-000",
+  "base_commit": "47d5ec837af1b89cf700d8f1887a0156a68186e7",
+  "base_blob": "c98cd16baa41578440a7c388f36a661ba8860ab7",
+  "purpose": "calibração histórica da rubrica; não é lote produtivo",
+  "state": "DIAGNOSTICO_PRIMARIO_PROVISORIO_NAO_VERIFICADO",
+  "question_ids": [
+    "CB-BCM-029",
+    "CB-PATO-053",
+    "CB-ANAT-008",
+    "CB-BIOQ-005",
+    "CB-EMBR-012",
+    "CB-EPI-033",
+    "CB-ETICA-001",
+    "CB-FARM-005",
+    "CB-FISI-002",
+    "CB-GENE-009",
+    "CB-HIST-009",
+    "CB-IMUN-017",
+    "CB-MICR-003",
+    "CB-PARA-009",
+    "CB-SC-001",
+    "CB-SEMIO-002",
+    "CB-BIOQ-020",
+    "CB-FISI-119",
+    "CB-FISI-139",
+    "CB-ANAT-003"
+  ],
+  "completed_stages": [
+    "structural_validation",
+    "primary_medical_pedagogical_review"
+  ],
+  "next_stages": [
+    "clinical_70_30_classification",
+    "curricular_concept_mapping",
+    "source_and_image_verification",
+    "independent_critical_review",
+    "adjudication"
+  ],
+  "write_lock": null,
+  "questions_modified": false,
+  "verification_status": "PENDING_DEDICATED_INDEPENDENT_VERIFIER"
+}

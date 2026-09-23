@@ -1,0 +1,3071 @@
+{
+  "schema_version": 1,
+  "lot_id": "LOTE-001",
+  "base_commit": "47d5ec837af1b89cf700d8f1887a0156a68186e7",
+  "producer": "agente_corrigir_lote001",
+  "status": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+  "questions": [
+    {
+      "id": "CB-ANAT-033",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 192,
+          "B": 208,
+          "C": 196,
+          "D": 196
+        },
+        "diferenca_sobre_menor": 0.0833,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-ANAT-040",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 190,
+          "B": 173,
+          "C": 188,
+          "D": 170
+        },
+        "diferenca_sobre_menor": 0.1176,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-ANAT-052",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 215,
+          "B": 192,
+          "C": 199,
+          "D": 199
+        },
+        "diferenca_sobre_menor": 0.1198,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-ANAT-057",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 225,
+          "B": 250,
+          "C": 228,
+          "D": 232
+        },
+        "diferenca_sobre_menor": 0.1111,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-ANAT-100",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 258,
+          "B": 267,
+          "C": 262,
+          "D": 291
+        },
+        "diferenca_sobre_menor": 0.1279,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-ANAT-104",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 239,
+          "B": 273,
+          "C": 239,
+          "D": 257
+        },
+        "diferenca_sobre_menor": 0.1423,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-ANAT-134",
+      "mudancas": [
+        {
+          "field": "img",
+          "from": "IMAGEM_LEGADA_PRESERVADA_NO_ORIGINAL",
+          "to": null,
+          "reason": "fase inicial V2 autossuficiente e sem imagens"
+        },
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 202,
+          "B": 212,
+          "C": 190,
+          "D": 199
+        },
+        "diferenca_sobre_menor": 0.1158,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-BCM-016",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 218,
+          "B": 200,
+          "C": 190,
+          "D": 206
+        },
+        "diferenca_sobre_menor": 0.1474,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-BCM-024",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 281,
+          "B": 257,
+          "C": 265,
+          "D": 273
+        },
+        "diferenca_sobre_menor": 0.0934,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-BCM-025",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 185,
+          "B": 183,
+          "C": 189,
+          "D": 173
+        },
+        "diferenca_sobre_menor": 0.0925,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-BCM-030",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 275,
+          "B": 253,
+          "C": 242,
+          "D": 247
+        },
+        "diferenca_sobre_menor": 0.1364,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-BCM-047",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 212,
+          "B": 211,
+          "C": 201,
+          "D": 224
+        },
+        "diferenca_sobre_menor": 0.1144,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-BCM-069",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 262,
+          "B": 255,
+          "C": 265,
+          "D": 262
+        },
+        "diferenca_sobre_menor": 0.0392,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-BIOQ-010",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 114,
+          "B": 116,
+          "C": 112,
+          "D": 106
+        },
+        "diferenca_sobre_menor": 0.0943,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-BIOQ-018",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 198,
+          "B": 207,
+          "C": 196,
+          "D": 198
+        },
+        "diferenca_sobre_menor": 0.0561,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-BIOQ-031",
+      "mudancas": [
+        {
+          "field": "img",
+          "from": "IMAGEM_LEGADA_PRESERVADA_NO_ORIGINAL",
+          "to": null,
+          "reason": "fase inicial V2 autossuficiente e sem imagens"
+        },
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 195,
+          "B": 194,
+          "C": 211,
+          "D": 186
+        },
+        "diferenca_sobre_menor": 0.1344,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-BIOQ-044",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 247,
+          "B": 236,
+          "C": 227,
+          "D": 231
+        },
+        "diferenca_sobre_menor": 0.0881,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-BIOQ-059",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 248,
+          "B": 255,
+          "C": 257,
+          "D": 245
+        },
+        "diferenca_sobre_menor": 0.049,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-BIOQ-094",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 208,
+          "B": 194,
+          "C": 220,
+          "D": 222
+        },
+        "diferenca_sobre_menor": 0.1443,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-BIOQ-096",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 257,
+          "B": 259,
+          "C": 227,
+          "D": 251
+        },
+        "diferenca_sobre_menor": 0.141,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-EMBR-015",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 206,
+          "B": 204,
+          "C": 183,
+          "D": 201
+        },
+        "diferenca_sobre_menor": 0.1257,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-EMBR-023",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 256,
+          "B": 285,
+          "C": 262,
+          "D": 264
+        },
+        "diferenca_sobre_menor": 0.1133,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-EMBR-024",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 268,
+          "B": 296,
+          "C": 261,
+          "D": 267
+        },
+        "diferenca_sobre_menor": 0.1341,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-EMBR-030",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 245,
+          "B": 263,
+          "C": 237,
+          "D": 249
+        },
+        "diferenca_sobre_menor": 0.1097,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-EMBR-033",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 169,
+          "B": 168,
+          "C": 169,
+          "D": 179
+        },
+        "diferenca_sobre_menor": 0.0655,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": true
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-EMBR-038",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 212,
+          "B": 201,
+          "C": 206,
+          "D": 195
+        },
+        "diferenca_sobre_menor": 0.0872,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-EPI-007",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 221,
+          "B": 207,
+          "C": 203,
+          "D": 195
+        },
+        "diferenca_sobre_menor": 0.1333,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-EPI-008",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 221,
+          "B": 205,
+          "C": 208,
+          "D": 205
+        },
+        "diferenca_sobre_menor": 0.078,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-EPI-010",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 223,
+          "B": 221,
+          "C": 199,
+          "D": 218
+        },
+        "diferenca_sobre_menor": 0.1206,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-EPI-021",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 207,
+          "B": 223,
+          "C": 199,
+          "D": 216
+        },
+        "diferenca_sobre_menor": 0.1206,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-EPI-027",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 236,
+          "B": 216,
+          "C": 206,
+          "D": 231
+        },
+        "diferenca_sobre_menor": 0.1456,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-EPI-033",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 286,
+          "B": 271,
+          "C": 261,
+          "D": 262
+        },
+        "diferenca_sobre_menor": 0.0958,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-ETICA-006",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 261,
+          "B": 240,
+          "C": 245,
+          "D": 251
+        },
+        "diferenca_sobre_menor": 0.0875,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-ETICA-010",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 292,
+          "B": 262,
+          "C": 269,
+          "D": 267
+        },
+        "diferenca_sobre_menor": 0.1145,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-ETICA-011",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 230,
+          "B": 214,
+          "C": 227,
+          "D": 229
+        },
+        "diferenca_sobre_menor": 0.0748,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-ETICA-012",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 236,
+          "B": 244,
+          "C": 222,
+          "D": 229
+        },
+        "diferenca_sobre_menor": 0.0991,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-ETICA-013",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 224,
+          "B": 211,
+          "C": 213,
+          "D": 214
+        },
+        "diferenca_sobre_menor": 0.0616,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-ETICA-017",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 227,
+          "B": 222,
+          "C": 206,
+          "D": 209
+        },
+        "diferenca_sobre_menor": 0.1019,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-FARM-003",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 243,
+          "B": 270,
+          "C": 254,
+          "D": 240
+        },
+        "diferenca_sobre_menor": 0.125,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-FARM-005",
+      "mudancas": [
+        {
+          "field": "img",
+          "from": "IMAGEM_LEGADA_PRESERVADA_NO_ORIGINAL",
+          "to": null,
+          "reason": "fase inicial V2 autossuficiente e sem imagens"
+        },
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 237,
+          "B": 223,
+          "C": 220,
+          "D": 222
+        },
+        "diferenca_sobre_menor": 0.0773,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-FARM-006",
+      "mudancas": [
+        {
+          "field": "img",
+          "from": "IMAGEM_LEGADA_PRESERVADA_NO_ORIGINAL",
+          "to": null,
+          "reason": "fase inicial V2 autossuficiente e sem imagens"
+        },
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 270,
+          "B": 261,
+          "C": 260,
+          "D": 245
+        },
+        "diferenca_sobre_menor": 0.102,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-FARM-028",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 281,
+          "B": 261,
+          "C": 259,
+          "D": 257
+        },
+        "diferenca_sobre_menor": 0.0934,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-FARM-030",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 216,
+          "B": 210,
+          "C": 214,
+          "D": 211
+        },
+        "diferenca_sobre_menor": 0.0286,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-FARM-050",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 260,
+          "B": 236,
+          "C": 229,
+          "D": 228
+        },
+        "diferenca_sobre_menor": 0.1404,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-FISI-007",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 233,
+          "B": 208,
+          "C": 211,
+          "D": 220
+        },
+        "diferenca_sobre_menor": 0.1202,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-FISI-039",
+      "mudancas": [
+        {
+          "field": "img",
+          "from": "IMAGEM_LEGADA_PRESERVADA_NO_ORIGINAL",
+          "to": null,
+          "reason": "fase inicial V2 autossuficiente e sem imagens"
+        },
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 223,
+          "B": 198,
+          "C": 215,
+          "D": 198
+        },
+        "diferenca_sobre_menor": 0.1263,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-FISI-057",
+      "mudancas": [
+        {
+          "field": "img",
+          "from": "IMAGEM_LEGADA_PRESERVADA_NO_ORIGINAL",
+          "to": null,
+          "reason": "fase inicial V2 autossuficiente e sem imagens"
+        },
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 213,
+          "B": 211,
+          "C": 204,
+          "D": 198
+        },
+        "diferenca_sobre_menor": 0.0758,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-FISI-073",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 212,
+          "B": 224,
+          "C": 216,
+          "D": 213
+        },
+        "diferenca_sobre_menor": 0.0566,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-FISI-085",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 271,
+          "B": 253,
+          "C": 264,
+          "D": 243
+        },
+        "diferenca_sobre_menor": 0.1152,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-FISI-103",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 177,
+          "B": 170,
+          "C": 167,
+          "D": 164
+        },
+        "diferenca_sobre_menor": 0.0793,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-FISI-135",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 309,
+          "B": 292,
+          "C": 279,
+          "D": 282
+        },
+        "diferenca_sobre_menor": 0.1075,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-GENE-001",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 242,
+          "B": 260,
+          "C": 235,
+          "D": 229
+        },
+        "diferenca_sobre_menor": 0.1354,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-GENE-010",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 276,
+          "B": 291,
+          "C": 263,
+          "D": 262
+        },
+        "diferenca_sobre_menor": 0.1107,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-GENE-013",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 240,
+          "B": 215,
+          "C": 221,
+          "D": 227
+        },
+        "diferenca_sobre_menor": 0.1163,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-GENE-021",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 285,
+          "B": 251,
+          "C": 264,
+          "D": 272
+        },
+        "diferenca_sobre_menor": 0.1355,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-GENE-029",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 210,
+          "B": 191,
+          "C": 193,
+          "D": 206
+        },
+        "diferenca_sobre_menor": 0.0995,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-GENE-031",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 252,
+          "B": 239,
+          "C": 234,
+          "D": 240
+        },
+        "diferenca_sobre_menor": 0.0769,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-HIST-010",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 181,
+          "B": 207,
+          "C": 198,
+          "D": 194
+        },
+        "diferenca_sobre_menor": 0.1436,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-HIST-015",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 154,
+          "B": 167,
+          "C": 152,
+          "D": 152
+        },
+        "diferenca_sobre_menor": 0.0987,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-HIST-017",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 225,
+          "B": 199,
+          "C": 213,
+          "D": 196
+        },
+        "diferenca_sobre_menor": 0.148,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-HIST-030",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 253,
+          "B": 244,
+          "C": 234,
+          "D": 238
+        },
+        "diferenca_sobre_menor": 0.0812,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-HIST-078",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 278,
+          "B": 263,
+          "C": 251,
+          "D": 251
+        },
+        "diferenca_sobre_menor": 0.1076,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-HIST-079",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 268,
+          "B": 245,
+          "C": 236,
+          "D": 252
+        },
+        "diferenca_sobre_menor": 0.1356,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-IMUN-002",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 270,
+          "B": 253,
+          "C": 245,
+          "D": 261
+        },
+        "diferenca_sobre_menor": 0.102,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-IMUN-022",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 277,
+          "B": 294,
+          "C": 276,
+          "D": 267
+        },
+        "diferenca_sobre_menor": 0.1011,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-IMUN-032",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 260,
+          "B": 278,
+          "C": 249,
+          "D": 248
+        },
+        "diferenca_sobre_menor": 0.121,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-IMUN-037",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 250,
+          "B": 231,
+          "C": 235,
+          "D": 241
+        },
+        "diferenca_sobre_menor": 0.0823,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-IMUN-040",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 214,
+          "B": 246,
+          "C": 239,
+          "D": 223
+        },
+        "diferenca_sobre_menor": 0.1495,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-IMUN-043",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 283,
+          "B": 313,
+          "C": 287,
+          "D": 285
+        },
+        "diferenca_sobre_menor": 0.106,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-MICR-002",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 296,
+          "B": 270,
+          "C": 276,
+          "D": 275
+        },
+        "diferenca_sobre_menor": 0.0963,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-MICR-003",
+      "mudancas": [
+        {
+          "field": "img",
+          "from": "IMAGEM_LEGADA_PRESERVADA_NO_ORIGINAL",
+          "to": null,
+          "reason": "fase inicial V2 autossuficiente e sem imagens"
+        },
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 295,
+          "B": 279,
+          "C": 276,
+          "D": 264
+        },
+        "diferenca_sobre_menor": 0.1174,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-MICR-017",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 209,
+          "B": 189,
+          "C": 186,
+          "D": 193
+        },
+        "diferenca_sobre_menor": 0.1237,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-MICR-024",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 246,
+          "B": 219,
+          "C": 244,
+          "D": 222
+        },
+        "diferenca_sobre_menor": 0.1233,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-MICR-036",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 281,
+          "B": 249,
+          "C": 262,
+          "D": 265
+        },
+        "diferenca_sobre_menor": 0.1285,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-MICR-052",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 293,
+          "B": 282,
+          "C": 264,
+          "D": 255
+        },
+        "diferenca_sobre_menor": 0.149,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-PARA-007",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 210,
+          "B": 198,
+          "C": 205,
+          "D": 189
+        },
+        "diferenca_sobre_menor": 0.1111,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-PARA-011",
+      "mudancas": [
+        {
+          "field": "img",
+          "from": "IMAGEM_LEGADA_PRESERVADA_NO_ORIGINAL",
+          "to": null,
+          "reason": "fase inicial V2 autossuficiente e sem imagens"
+        },
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 193,
+          "B": 180,
+          "C": 187,
+          "D": 182
+        },
+        "diferenca_sobre_menor": 0.0722,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-PARA-015",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 252,
+          "B": 282,
+          "C": 269,
+          "D": 269
+        },
+        "diferenca_sobre_menor": 0.119,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-PARA-016",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 268,
+          "B": 284,
+          "C": 263,
+          "D": 254
+        },
+        "diferenca_sobre_menor": 0.1181,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-PARA-020",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 262,
+          "B": 285,
+          "C": 254,
+          "D": 248
+        },
+        "diferenca_sobre_menor": 0.1492,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-PARA-023",
+      "mudancas": [
+        {
+          "field": "img",
+          "from": "IMAGEM_LEGADA_PRESERVADA_NO_ORIGINAL",
+          "to": null,
+          "reason": "fase inicial V2 autossuficiente e sem imagens"
+        },
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 279,
+          "B": 243,
+          "C": 251,
+          "D": 265
+        },
+        "diferenca_sobre_menor": 0.1481,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-PATO-015",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 184,
+          "B": 175,
+          "C": 181,
+          "D": 162
+        },
+        "diferenca_sobre_menor": 0.1358,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-PATO-044",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 265,
+          "B": 295,
+          "C": 276,
+          "D": 281
+        },
+        "diferenca_sobre_menor": 0.1132,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-PATO-061",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 268,
+          "B": 291,
+          "C": 258,
+          "D": 274
+        },
+        "diferenca_sobre_menor": 0.1279,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-PATO-068",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 215,
+          "B": 205,
+          "C": 201,
+          "D": 187
+        },
+        "diferenca_sobre_menor": 0.1497,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-PATO-071",
+      "mudancas": [
+        {
+          "field": "gab/uw.correct",
+          "from": "B",
+          "to": "C",
+          "reason": "inversão conceitual confirmada na dupla revisão do LOTE-001"
+        },
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 276,
+          "B": 247,
+          "C": 253,
+          "D": 266
+        },
+        "diferenca_sobre_menor": 0.1174,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-PATO-092",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 277,
+          "B": 268,
+          "C": 254,
+          "D": 252
+        },
+        "diferenca_sobre_menor": 0.0992,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-PATO-095",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 276,
+          "B": 252,
+          "C": 258,
+          "D": 259
+        },
+        "diferenca_sobre_menor": 0.0952,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-SC-003",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 213,
+          "B": 204,
+          "C": 195,
+          "D": 209
+        },
+        "diferenca_sobre_menor": 0.0923,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CONCEITO_PURO"
+    },
+    {
+      "id": "CB-SC-004",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 211,
+          "B": 202,
+          "C": 186,
+          "D": 195
+        },
+        "diferenca_sobre_menor": 0.1344,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-SC-008",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 220,
+          "B": 211,
+          "C": 218,
+          "D": 213
+        },
+        "diferenca_sobre_menor": 0.0427,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-SC-009",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 280,
+          "B": 245,
+          "C": 259,
+          "D": 259
+        },
+        "diferenca_sobre_menor": 0.1429,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-SC-011",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 245,
+          "B": 230,
+          "C": 221,
+          "D": 225
+        },
+        "diferenca_sobre_menor": 0.1086,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-SC-014",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 308,
+          "B": 293,
+          "C": 283,
+          "D": 287
+        },
+        "diferenca_sobre_menor": 0.0883,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-SEMIO-001",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 217,
+          "B": 191,
+          "C": 200,
+          "D": 207
+        },
+        "diferenca_sobre_menor": 0.1361,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-SEMIO-004",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 197,
+          "B": 193,
+          "C": 192,
+          "D": 176
+        },
+        "diferenca_sobre_menor": 0.1193,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-SEMIO-007",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 192,
+          "B": 178,
+          "C": 175,
+          "D": 182
+        },
+        "diferenca_sobre_menor": 0.0971,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-SEMIO-010",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 231,
+          "B": 219,
+          "C": 224,
+          "D": 214
+        },
+        "diferenca_sobre_menor": 0.0794,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-SEMIO-014",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 276,
+          "B": 243,
+          "C": 262,
+          "D": 260
+        },
+        "diferenca_sobre_menor": 0.1358,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    },
+    {
+      "id": "CB-SEMIO-025",
+      "mudancas": [
+        {
+          "field": "exp",
+          "reason": "explicação canônica consolidada de princípio, mecanismo, aplicação, diferenciação e síntese"
+        },
+        {
+          "field": "alts",
+          "reason": "reescrita e paralelização editorial para remover a pista de extensão, preservando a proposição médica de cada alternativa"
+        },
+        {
+          "field": "clinical_classification",
+          "reason": "classificação semântica do item como correlação clínica real ou conceito puro"
+        }
+      ],
+      "metricas_alternativas": {
+        "caracteres": {
+          "A": 234,
+          "B": 213,
+          "C": 231,
+          "D": 232
+        },
+        "diferenca_sobre_menor": 0.0986,
+        "conforme_15_percent": true,
+        "correta_estritamente_mais_longa": false
+      },
+      "estado": "REJEITADO_NA_VERIFICACAO_INDEPENDENTE",
+      "classificacao_clinica": "CLINICA_REAL"
+    }
+  ],
+  "verification_report": "auditoria/lotes/lote-001-verificacao-correcao.md",
+  "blocking_reason": "padding editorial generalizado, truncamentos, incoerência interna, referências não verificadas e ausência de revisão material das explicações"
+}

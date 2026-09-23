@@ -1,0 +1,456 @@
+{
+  "lote": "LOTE-001-B",
+  "total": 50,
+  "fontes_por_questao": [
+    {
+      "question_id": "CB-FISI-135",
+      "fonte_id": "FONTE-FISI",
+      "referencia_bibliografica": "Hall. Guyton and Hall Textbook of Medical Physiology, 14th ed., capítulo “Urine Concentration and Dilution; Regulation of Extracellular Fluid Osmolarity and Sodium Concentration”, seção sobre enchimento vesical e reflexo da micção.",
+      "escopo_conferido": "Fisiologia do trato urinário e controle neural da micção.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-GENE-001",
+      "fonte_id": "FONTE-GENE",
+      "referencia_bibliografica": "Nussbaum, McInnes & Willard. Thompson & Thompson Genetics in Medicine, 8th ed., capítulo sobre padrões de herança monogênica, seção “X-linked inheritance”.",
+      "escopo_conferido": "Padrões mendelianos, genética de populações, epigenética e doenças monogênicas.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-GENE-010",
+      "fonte_id": "FONTE-GENE",
+      "referencia_bibliografica": "Nussbaum, McInnes & Willard. Thompson & Thompson Genetics in Medicine, 8th ed., capítulo sobre padrões de herança monogênica, seção “Autosomal recessive inheritance”.",
+      "escopo_conferido": "Padrões mendelianos, genética de populações, epigenética e doenças monogênicas.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-GENE-013",
+      "fonte_id": "FONTE-GENE",
+      "referencia_bibliografica": "Nussbaum, McInnes & Willard. Thompson & Thompson Genetics in Medicine, 8th ed., capítulo de genética de populações, seção sobre seleção e vantagem heterozigótica.",
+      "escopo_conferido": "Padrões mendelianos, genética de populações, epigenética e doenças monogênicas.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-GENE-021",
+      "fonte_id": "FONTE-GENE",
+      "referencia_bibliografica": "Nussbaum, McInnes & Willard. Thompson & Thompson Genetics in Medicine, 8th ed., capítulo sobre regulação da expressão gênica e epigenética.",
+      "escopo_conferido": "Padrões mendelianos, genética de populações, epigenética e doenças monogênicas.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-GENE-029",
+      "fonte_id": "FONTE-GENE",
+      "referencia_bibliografica": "Nussbaum, McInnes & Willard. Thompson & Thompson Genetics in Medicine, 8th ed., capítulo sobre doenças monogênicas; seção de doença renal policística autossômica dominante.",
+      "escopo_conferido": "Padrões mendelianos, genética de populações, epigenética e doenças monogênicas.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-GENE-031",
+      "fonte_id": "FONTE-GENE",
+      "referencia_bibliografica": "Nussbaum, McInnes & Willard. Thompson & Thompson Genetics in Medicine, 8th ed., capítulo sobre padrões de herança monogênica, seção “X-linked inheritance”.",
+      "escopo_conferido": "Padrões mendelianos, genética de populações, epigenética e doenças monogênicas.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-HIST-010",
+      "fonte_id": "FONTE-HIST",
+      "referencia_bibliografica": "Mescher. Junqueira’s Basic Histology, 16th ed., capítulo “Bone”, seções sobre osteoblastos, osteócitos, osteoclastos e remodelação.",
+      "escopo_conferido": "Histologia dos epitélios, osso, pele e sistema reprodutor masculino.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-HIST-015",
+      "fonte_id": "FONTE-HIST",
+      "referencia_bibliografica": "Mescher. Junqueira’s Basic Histology, 16th ed., capítulo “The Male Reproductive System”, seção sobre túbulos seminíferos e tecido intersticial.",
+      "escopo_conferido": "Histologia dos epitélios, osso, pele e sistema reprodutor masculino.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-HIST-017",
+      "fonte_id": "FONTE-HIST",
+      "referencia_bibliografica": "Mescher. Junqueira’s Basic Histology, 16th ed., capítulo “The Urinary System”, seção sobre ureteres, bexiga e epitélio de transição.",
+      "escopo_conferido": "Histologia dos epitélios, osso, pele e sistema reprodutor masculino.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-HIST-030",
+      "fonte_id": "FONTE-HIST",
+      "referencia_bibliografica": "Mescher. Junqueira’s Basic Histology, 16th ed., capítulo “Bone”, seção sobre osteócitos, lacunas, canalículos e mecanotransdução.",
+      "escopo_conferido": "Histologia dos epitélios, osso, pele e sistema reprodutor masculino.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-HIST-078",
+      "fonte_id": "FONTE-HIST",
+      "referencia_bibliografica": "Mescher. Junqueira’s Basic Histology, 16th ed., capítulo “Skin”, seção sobre camadas e renovação da epiderme.",
+      "escopo_conferido": "Histologia dos epitélios, osso, pele e sistema reprodutor masculino.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-HIST-079",
+      "fonte_id": "FONTE-HIST",
+      "referencia_bibliografica": "Mescher. Junqueira’s Basic Histology, 16th ed., capítulo “The Male Reproductive System”, seção sobre epitélio seminífero.",
+      "escopo_conferido": "Histologia dos epitélios, osso, pele e sistema reprodutor masculino.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-IMUN-002",
+      "fonte_id": "FONTE-IMUN",
+      "referencia_bibliografica": "Abbas, Lichtman & Pillai. Cellular and Molecular Immunology, 10th ed., capítulo “Immediate Hypersensitivity”, seção sobre anafilaxia sistêmica.",
+      "escopo_conferido": "Complemento, órgãos linfoides e mecanismos de hipersensibilidade.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-IMUN-022",
+      "fonte_id": "FONTE-IMUN",
+      "referencia_bibliografica": "Abbas, Lichtman & Pillai. Cellular and Molecular Immunology, 10th ed., capítulo “T Cell-Mediated Immune Diseases”, seção sobre dermatite de contato.",
+      "escopo_conferido": "Complemento, órgãos linfoides e mecanismos de hipersensibilidade.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-IMUN-032",
+      "fonte_id": "FONTE-IMUN",
+      "referencia_bibliografica": "Abbas, Lichtman & Pillai. Cellular and Molecular Immunology, 10th ed., capítulo “Immediate Hypersensitivity”, seção sobre IgE e mastócitos.",
+      "escopo_conferido": "Complemento, órgãos linfoides e mecanismos de hipersensibilidade.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-IMUN-037",
+      "fonte_id": "FONTE-IMUN",
+      "referencia_bibliografica": "Abbas, Lichtman & Pillai. Cellular and Molecular Immunology, 10th ed., capítulo sobre doenças mediadas por anticorpos e imunocomplexos.",
+      "escopo_conferido": "Complemento, órgãos linfoides e mecanismos de hipersensibilidade.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-IMUN-040",
+      "fonte_id": "FONTE-IMUN",
+      "referencia_bibliografica": "Abbas, Lichtman & Pillai. Cellular and Molecular Immunology, 10th ed., capítulo “Cells and Tissues of the Immune System”.",
+      "escopo_conferido": "Complemento, órgãos linfoides e mecanismos de hipersensibilidade.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-IMUN-043",
+      "fonte_id": "FONTE-IMUN",
+      "referencia_bibliografica": "Abbas, Lichtman & Pillai. Cellular and Molecular Immunology, 10th ed., capítulo “Antibodies and Antigens”, seção “The Complement System”.",
+      "escopo_conferido": "Complemento, órgãos linfoides e mecanismos de hipersensibilidade.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-MICR-002",
+      "fonte_id": "FONTE-MICR",
+      "referencia_bibliografica": "Murray, Rosenthal & Pfaller. Medical Microbiology, 9th ed., capítulo “Vibrio and Related Bacteria”, seção sobre toxina colérica.",
+      "escopo_conferido": "Estrutura bacteriana, toxinas, resistência, hepatites, HPV e micoses.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-MICR-003",
+      "fonte_id": "FONTE-MICR",
+      "referencia_bibliografica": "Murray, Rosenthal & Pfaller. Medical Microbiology, 9th ed., capítulo sobre estrutura bacteriana, seções de parede celular e coloração de Gram.",
+      "escopo_conferido": "Estrutura bacteriana, toxinas, resistência, hepatites, HPV e micoses.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-MICR-017",
+      "fonte_id": "FONTE-MICR",
+      "referencia_bibliografica": "Murray, Rosenthal & Pfaller. Medical Microbiology, 9th ed., capítulos sobre vírus das hepatites A, B e C, seções de epidemiologia e transmissão.",
+      "escopo_conferido": "Estrutura bacteriana, toxinas, resistência, hepatites, HPV e micoses.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-MICR-024",
+      "fonte_id": "FONTE-MICR",
+      "referencia_bibliografica": "Murray, Rosenthal & Pfaller. Medical Microbiology, 9th ed., capítulo sobre agentes antibacterianos, seção de mecanismos de resistência.",
+      "escopo_conferido": "Estrutura bacteriana, toxinas, resistência, hepatites, HPV e micoses.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-MICR-036",
+      "fonte_id": "FONTE-MICR",
+      "referencia_bibliografica": "Murray, Rosenthal & Pfaller. Medical Microbiology, 9th ed., introdução à micologia médica, classificação das micoses por profundidade.",
+      "escopo_conferido": "Estrutura bacteriana, toxinas, resistência, hepatites, HPV e micoses.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-MICR-052",
+      "fonte_id": "FONTE-MICR",
+      "referencia_bibliografica": "Murray, Rosenthal & Pfaller. Medical Microbiology, 9th ed., capítulo “Papillomaviruses and Polyomaviruses”, seção sobre oncogênese cervical.",
+      "escopo_conferido": "Estrutura bacteriana, toxinas, resistência, hepatites, HPV e micoses.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PARA-007",
+      "fonte_id": "FONTE-PARA",
+      "referencia_bibliografica": "Neves. Parasitologia Humana, 13ª ed., capítulo “Leishmaniose Tegumentar Americana”, seções de agente, vetor e transmissão.",
+      "escopo_conferido": "Agentes, ciclos, formas infectantes e mecanismos de transmissão.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PARA-011",
+      "fonte_id": "FONTE-PARA",
+      "referencia_bibliografica": "Neves. Parasitologia Humana, 13ª ed., capítulo “Giardia duodenalis”, seções de ciclo, transmissão e manifestações.",
+      "escopo_conferido": "Agentes, ciclos, formas infectantes e mecanismos de transmissão.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PARA-015",
+      "fonte_id": "FONTE-PARA",
+      "referencia_bibliografica": "Neves. Parasitologia Humana, 13ª ed., capítulo “Trypanosoma cruzi e doença de Chagas”, seção de transmissão vetorial.",
+      "escopo_conferido": "Agentes, ciclos, formas infectantes e mecanismos de transmissão.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PARA-016",
+      "fonte_id": "FONTE-PARA",
+      "referencia_bibliografica": "Neves. Parasitologia Humana, 13ª ed., capítulo “Schistosoma mansoni”, seções de hospedeiro intermediário e ciclo.",
+      "escopo_conferido": "Agentes, ciclos, formas infectantes e mecanismos de transmissão.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PARA-020",
+      "fonte_id": "FONTE-PARA",
+      "referencia_bibliografica": "Neves. Parasitologia Humana, 13ª ed., capítulo “Entamoeba histolytica”, seções de ciclo e patogenia intestinal.",
+      "escopo_conferido": "Agentes, ciclos, formas infectantes e mecanismos de transmissão.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PARA-023",
+      "fonte_id": "FONTE-PARA",
+      "referencia_bibliografica": "Neves. Parasitologia Humana, 13ª ed., capítulo “Plasmodium e malária”, seções de ciclo eritrocítico e transmissão.",
+      "escopo_conferido": "Agentes, ciclos, formas infectantes e mecanismos de transmissão.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PATO-015",
+      "fonte_id": "FONTE-PATO",
+      "referencia_bibliografica": "Kumar, Abbas & Aster. Robbins & Cotran Pathologic Basis of Disease, 10th ed., capítulo “Cellular Responses to Stress and Toxic Insults”, seção de hipertrofia e hiperplasia.",
+      "escopo_conferido": "Adaptação e morte celular, distúrbios hemodinâmicos, neoplasia e doença renal.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PATO-044",
+      "fonte_id": "FONTE-PATO",
+      "referencia_bibliografica": "Kumar, Abbas & Aster. Robbins & Cotran Pathologic Basis of Disease, 10th ed., capítulo “Cell Injury, Cell Death, and Adaptations”, seção de irreversibilidade.",
+      "escopo_conferido": "Adaptação e morte celular, distúrbios hemodinâmicos, neoplasia e doença renal.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PATO-061",
+      "fonte_id": "FONTE-PATO",
+      "referencia_bibliografica": "Kumar, Abbas & Aster. Robbins & Cotran Pathologic Basis of Disease, 10th ed., capítulo “Neoplasia”, seção de invasão e metástase.",
+      "escopo_conferido": "Adaptação e morte celular, distúrbios hemodinâmicos, neoplasia e doença renal.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PATO-068",
+      "fonte_id": "FONTE-PATO",
+      "referencia_bibliografica": "Kumar, Abbas & Aster. Robbins & Cotran Pathologic Basis of Disease, 10th ed., capítulo “Hemodynamic Disorders”, seção “Fat Embolism”.",
+      "escopo_conferido": "Adaptação e morte celular, distúrbios hemodinâmicos, neoplasia e doença renal.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PATO-071",
+      "fonte_id": "FONTE-PATO",
+      "referencia_bibliografica": "Kumar, Abbas & Aster. Robbins & Cotran Pathologic Basis of Disease, 10th ed., capítulo “Cell Injury, Cell Death, and Adaptations”, seção de padrões de necrose.",
+      "escopo_conferido": "Adaptação e morte celular, distúrbios hemodinâmicos, neoplasia e doença renal.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PATO-092",
+      "fonte_id": "FONTE-PATO",
+      "referencia_bibliografica": "Kumar, Abbas & Aster. Robbins & Cotran Pathologic Basis of Disease, 10th ed., capítulo “The Kidney”, seção de síndromes glomerulares.",
+      "escopo_conferido": "Adaptação e morte celular, distúrbios hemodinâmicos, neoplasia e doença renal.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-PATO-095",
+      "fonte_id": "FONTE-PATO",
+      "referencia_bibliografica": "Kumar, Abbas & Aster. Robbins & Cotran Pathologic Basis of Disease, 10th ed., capítulo “Hemodynamic Disorders”, seção “Thrombosis”.",
+      "escopo_conferido": "Adaptação e morte celular, distúrbios hemodinâmicos, neoplasia e doença renal.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-SC-003",
+      "fonte_id": "FONTE-SC",
+      "referencia_bibliografica": "Brasil. Lei nº 8.080/1990, art. 7º, incisos I, II e IV; Constituição Federal de 1988, arts. 196–198.",
+      "escopo_conferido": "Princípios e organização do SUS, atenção primária, prevenção e notificação compulsória.",
+      "tipo": "norma oficial e política pública",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-SC-004",
+      "fonte_id": "FONTE-SC",
+      "referencia_bibliografica": "Brasil. Lei nº 6.259/1975, arts. 7º e 8º; Ministério da Saúde, Portaria de Consolidação GM/MS nº 4/2017, Anexo V.",
+      "escopo_conferido": "Princípios e organização do SUS, atenção primária, prevenção e notificação compulsória.",
+      "tipo": "norma oficial e política pública",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-SC-008",
+      "fonte_id": "FONTE-SC",
+      "referencia_bibliografica": "Brasil. Lei nº 6.259/1975, arts. 7º e 8º; Ministério da Saúde, Guia de Vigilância em Saúde, seção sobre tuberculose.",
+      "escopo_conferido": "Princípios e organização do SUS, atenção primária, prevenção e notificação compulsória.",
+      "tipo": "norma oficial e política pública",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-SC-009",
+      "fonte_id": "FONTE-SC",
+      "referencia_bibliografica": "Brasil. Ministério da Saúde. Portaria de Consolidação GM/MS nº 2/2017, Anexo XXII — Política Nacional de Atenção Básica.",
+      "escopo_conferido": "Princípios e organização do SUS, atenção primária, prevenção e notificação compulsória.",
+      "tipo": "norma oficial e política pública",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-SC-011",
+      "fonte_id": "FONTE-SC",
+      "referencia_bibliografica": "Leavell & Clark. Preventive Medicine for the Doctor in His Community, capítulo sobre níveis de aplicação das medidas preventivas.",
+      "escopo_conferido": "Princípios e organização do SUS, atenção primária, prevenção e notificação compulsória.",
+      "tipo": "norma oficial e política pública",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-SC-014",
+      "fonte_id": "FONTE-SC",
+      "referencia_bibliografica": "Brasil. Constituição Federal de 1988, art. 196; Lei nº 8.080/1990, art. 7º, inciso I.",
+      "escopo_conferido": "Princípios e organização do SUS, atenção primária, prevenção e notificação compulsória.",
+      "tipo": "norma oficial e política pública",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-SEMIO-001",
+      "fonte_id": "FONTE-SEMIO",
+      "referencia_bibliografica": "Porto & Porto. Semiologia Médica, 8ª ed., capítulo de exame do coração, seção de bulhas cardíacas.",
+      "escopo_conferido": "Técnicas de exame físico, sinais vitais e interpretação semiológica básica.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-SEMIO-004",
+      "fonte_id": "FONTE-SEMIO",
+      "referencia_bibliografica": "Porto & Porto. Semiologia Médica, 8ª ed., capítulo de exame dos pulmões, seção de ruídos adventícios contínuos.",
+      "escopo_conferido": "Técnicas de exame físico, sinais vitais e interpretação semiológica básica.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-SEMIO-007",
+      "fonte_id": "FONTE-SEMIO",
+      "referencia_bibliografica": "Porto & Porto. Semiologia Médica, 8ª ed., capítulo de sinais vitais, seção de medida auscultatória da pressão arterial.",
+      "escopo_conferido": "Técnicas de exame físico, sinais vitais e interpretação semiológica básica.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-SEMIO-010",
+      "fonte_id": "FONTE-SEMIO",
+      "referencia_bibliografica": "Porto & Porto. Semiologia Médica, 8ª ed., capítulo de sinais vitais, seção de frequência respiratória.",
+      "escopo_conferido": "Técnicas de exame físico, sinais vitais e interpretação semiológica básica.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-SEMIO-014",
+      "fonte_id": "FONTE-SEMIO",
+      "referencia_bibliografica": "Porto & Porto. Semiologia Médica, 8ª ed., capítulo de princípios gerais do exame físico, seção de percussão.",
+      "escopo_conferido": "Técnicas de exame físico, sinais vitais e interpretação semiológica básica.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    },
+    {
+      "question_id": "CB-SEMIO-025",
+      "fonte_id": "FONTE-SEMIO",
+      "referencia_bibliografica": "Porto & Porto. Semiologia Médica, 8ª ed., capítulo de exame do abdome e aparelho urinário, seção de punho-percussão lombar.",
+      "escopo_conferido": "Técnicas de exame físico, sinais vitais e interpretação semiológica básica.",
+      "tipo": "livro-texto consagrado",
+      "uso_na_revisao": "Conferência do conceito central, da melhor resposta, dos três erros mecanísticos e da explicação final.",
+      "observacao": "Referência bibliográfica indicada para conferência independente; paginação varia conforme edição/tradução."
+    }
+  ]
+}

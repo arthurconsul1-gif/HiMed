@@ -1,0 +1,347 @@
+{
+  "source": "banco_completo.json",
+  "total_questions": 1034,
+  "mapping_status": "automatic_inventory_only",
+  "warning": "Tema, subtema e objetivo foram preservados do legado. Eles ainda não equivalem a classificação curricular validada.",
+  "systems": {
+    "RESP": 95,
+    "CARDIO": 94,
+    "DIG": 94,
+    "ENDO": 94,
+    "HEMATO": 94,
+    "IMUNO": 94,
+    "LOCO": 94,
+    "NERV": 94,
+    "RENAL": 94,
+    "REPRO": 94,
+    "TEG": 93
+  },
+  "disciplines": {
+    "FISI": 162,
+    "ANAT": 134,
+    "BIOQ": 114,
+    "PATO": 99,
+    "HIST": 81,
+    "BCM": 79,
+    "MICR": 67,
+    "FARM": 53,
+    "IMUN": 47,
+    "EMBR": 43,
+    "GENE": 37,
+    "EPI": 35,
+    "SEMIO": 25,
+    "PARA": 23,
+    "SC": 18,
+    "ETICA": 17
+  },
+  "difficulties": {
+    "intermediaria": 562,
+    "basica": 237,
+    "avancada": 235
+  },
+  "unique_declared_topics": 508,
+  "unique_declared_subtopics": 886,
+  "unique_system_discipline_topic_combinations": 721,
+  "most_common_system_discipline_topics": [
+    {
+      "system": "ENDO",
+      "discipline": "ANAT",
+      "topic": "Glândulas endócrinas",
+      "count": 7
+    },
+    {
+      "system": "ENDO",
+      "discipline": "BIOQ",
+      "topic": "Metabolismo integrado",
+      "count": 7
+    },
+    {
+      "system": "IMUNO",
+      "discipline": "EPI",
+      "topic": "Testes diagnósticos",
+      "count": 7
+    },
+    {
+      "system": "RESP",
+      "discipline": "FISI",
+      "topic": "Transporte de gases",
+      "count": 7
+    },
+    {
+      "system": "LOCO",
+      "discipline": "FISI",
+      "topic": "Contração muscular",
+      "count": 7
+    },
+    {
+      "system": "HEMATO",
+      "discipline": "FISI",
+      "topic": "Hemostasia",
+      "count": 7
+    },
+    {
+      "system": "RENAL",
+      "discipline": "BCM",
+      "topic": "Transporte de membrana",
+      "count": 6
+    },
+    {
+      "system": "ENDO",
+      "discipline": "FISI",
+      "topic": "Eixos hormonais",
+      "count": 6
+    },
+    {
+      "system": "RENAL",
+      "discipline": "FISI",
+      "topic": "Regulação hidroeletrolítica",
+      "count": 6
+    },
+    {
+      "system": "DIG",
+      "discipline": "PARA",
+      "topic": "Helmintos",
+      "count": 6
+    },
+    {
+      "system": "LOCO",
+      "discipline": "ANAT",
+      "topic": "Articulações",
+      "count": 5
+    },
+    {
+      "system": "TEG",
+      "discipline": "BIOQ",
+      "topic": "Vitaminas",
+      "count": 5
+    },
+    {
+      "system": "RENAL",
+      "discipline": "FARM",
+      "topic": "Farmacocinética",
+      "count": 5
+    },
+    {
+      "system": "LOCO",
+      "discipline": "HIST",
+      "topic": "Tecido muscular",
+      "count": 5
+    },
+    {
+      "system": "TEG",
+      "discipline": "PATO",
+      "topic": "Reparo tecidual",
+      "count": 5
+    },
+    {
+      "system": "NERV",
+      "discipline": "ANAT",
+      "topic": "Nervos cranianos",
+      "count": 4
+    },
+    {
+      "system": "IMUNO",
+      "discipline": "ANAT",
+      "topic": "Órgãos linfoides",
+      "count": 4
+    },
+    {
+      "system": "LOCO",
+      "discipline": "ANAT",
+      "topic": "Sistema muscular",
+      "count": 4
+    },
+    {
+      "system": "REPRO",
+      "discipline": "BCM",
+      "topic": "Divisão celular",
+      "count": 4
+    },
+    {
+      "system": "IMUNO",
+      "discipline": "BCM",
+      "topic": "Morte celular",
+      "count": 4
+    },
+    {
+      "system": "LOCO",
+      "discipline": "BIOQ",
+      "topic": "Metabolismo energético",
+      "count": 4
+    },
+    {
+      "system": "HEMATO",
+      "discipline": "BIOQ",
+      "topic": "Metabolismo do ferro",
+      "count": 4
+    },
+    {
+      "system": "ENDO",
+      "discipline": "BIOQ",
+      "topic": "Hormônios",
+      "count": 4
+    },
+    {
+      "system": "REPRO",
+      "discipline": "EMBR",
+      "topic": "Anexos embrionários",
+      "count": 4
+    },
+    {
+      "system": "NERV",
+      "discipline": "FARM",
+      "topic": "Farmacodinâmica",
+      "count": 4
+    },
+    {
+      "system": "REPRO",
+      "discipline": "FISI",
+      "topic": "Ciclo menstrual",
+      "count": 4
+    },
+    {
+      "system": "TEG",
+      "discipline": "FISI",
+      "topic": "Termorregulação",
+      "count": 4
+    },
+    {
+      "system": "HEMATO",
+      "discipline": "GENE",
+      "topic": "Padrões de herança",
+      "count": 4
+    },
+    {
+      "system": "NERV",
+      "discipline": "HIST",
+      "topic": "Tecido nervoso",
+      "count": 4
+    },
+    {
+      "system": "LOCO",
+      "discipline": "HIST",
+      "topic": "Tecido conjuntivo",
+      "count": 4
+    },
+    {
+      "system": "TEG",
+      "discipline": "HIST",
+      "topic": "Pele",
+      "count": 4
+    },
+    {
+      "system": "IMUNO",
+      "discipline": "HIST",
+      "topic": "Órgãos linfoides",
+      "count": 4
+    },
+    {
+      "system": "TEG",
+      "discipline": "IMUN",
+      "topic": "Imunidade inata",
+      "count": 4
+    },
+    {
+      "system": "TEG",
+      "discipline": "MICR",
+      "topic": "Estrutura bacteriana",
+      "count": 4
+    },
+    {
+      "system": "RESP",
+      "discipline": "MICR",
+      "topic": "Virologia",
+      "count": 4
+    },
+    {
+      "system": "DIG",
+      "discipline": "PARA",
+      "topic": "Protozoários",
+      "count": 4
+    },
+    {
+      "system": "CARDIO",
+      "discipline": "PATO",
+      "topic": "Distúrbios hemodinâmicos",
+      "count": 4
+    },
+    {
+      "system": "CARDIO",
+      "discipline": "SEMIO",
+      "topic": "Sinais vitais",
+      "count": 4
+    },
+    {
+      "system": "RESP",
+      "discipline": "ANAT",
+      "topic": "Vias aéreas",
+      "count": 3
+    },
+    {
+      "system": "NERV",
+      "discipline": "ANAT",
+      "topic": "Sistema nervoso central",
+      "count": 3
+    },
+    {
+      "system": "TEG",
+      "discipline": "BCM",
+      "topic": "Reparo do DNA",
+      "count": 3
+    },
+    {
+      "system": "ENDO",
+      "discipline": "BCM",
+      "topic": "Sinalização celular",
+      "count": 3
+    },
+    {
+      "system": "ENDO",
+      "discipline": "BCM",
+      "topic": "Comunicação celular",
+      "count": 3
+    },
+    {
+      "system": "DIG",
+      "discipline": "BCM",
+      "topic": "Organelas",
+      "count": 3
+    },
+    {
+      "system": "TEG",
+      "discipline": "BCM",
+      "topic": "Junções celulares",
+      "count": 3
+    },
+    {
+      "system": "ENDO",
+      "discipline": "BIOQ",
+      "topic": "Metabolismo de carboidratos",
+      "count": 3
+    },
+    {
+      "system": "DIG",
+      "discipline": "BIOQ",
+      "topic": "Enzimas",
+      "count": 3
+    },
+    {
+      "system": "CARDIO",
+      "discipline": "BIOQ",
+      "topic": "Metabolismo de lipídios",
+      "count": 3
+    },
+    {
+      "system": "NERV",
+      "discipline": "EMBR",
+      "topic": "Folhetos germinativos",
+      "count": 3
+    },
+    {
+      "system": "DIG",
+      "discipline": "FARM",
+      "topic": "Farmacocinética",
+      "count": 3
+    }
+  ]
+}
